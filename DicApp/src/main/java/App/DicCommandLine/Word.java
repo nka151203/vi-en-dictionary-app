@@ -1,12 +1,14 @@
 package App.DicCommandLine;
 
 public class Word {
+
     /**
-     * Từ vựng Tiếng Anh.
+     * English vocab.
      */
     private String wordTarget;
+
     /**
-     * Giải nghĩa Tiếng Việt.
+     * Vietnamese interpretation.
      */
     private String wordExplain;
 
