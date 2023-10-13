@@ -3,7 +3,6 @@ package App.DicCommandLine;
 import java.util.Comparator;
 import java.util.Collections;
 import java.util.List;
-import java.util.ArrayList;
 import java.util.Scanner;
 public class DictionaryCommandline {
     private DictionaryManagement dictionaryManagement;
@@ -38,21 +37,6 @@ public class DictionaryCommandline {
     }
 
     /**
-     * Look up word.
-     */
-    public void dictionaryLookup(String word) {
-        List<Word> result = dictionaryManagement.dictionaryLookup(word);
-        if (result.isEmpty()) {
-            System.out.println("No matching words found.");
-        } else {
-            System.out.println("Matching words:");
-            for (Word w : result) {
-                System.out.println(w.getWordTarget() + " - " + w.getWordExplain());
-            }
-        }
-    }
-
-    /**
      * Advanced dictionary.
      */
     public void dictionaryAdvanced() {
@@ -80,24 +64,35 @@ public class DictionaryCommandline {
 
                 switch (choice) {
                     case 0:
+                        System.out.println("Goodbye!");
                         exit = true;
                         break;
                     case 1:
-                        addWord();
+                        dictionaryManagement.addWord();
                         break;
                     case 2:
-                        removeWord();
+                        dictionaryManagement.removeWord();
                         break;
                     case 3:
-                        updateWord();
+                        dictionaryManagement.updateWord();
                         break;
                     case 4:
-                        showAllWords();
+                        dictionaryManagement.displayAllWords();
                         break;
                     case 5:
-                        System.out.print("Enter a word to lookup: ");
-                        String word = scanner.nextLine();
-                        dictionaryLookup(word);
+                        dictionaryManagement.dictionaryLookup();
+                        break;
+                    case 6:
+                        dictionaryManagement.dictionarySearcher();
+                        break;
+                    case 7:
+                        // Game functionality
+                        break;
+                    case 8:
+                        dictionaryManagement.insertFromFile();
+                        break;
+                    case 9:
+                        dictionaryManagement.dictionaryExportToFile();
                         break;
                     default:
                         System.out.println("Action not supported.");
@@ -110,26 +105,4 @@ public class DictionaryCommandline {
         }
     }
 
-    public void addWord() {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter the English word: ");
-        String wordTarget = scanner.nextLine();
-        System.out.print("Enter the Vietnamese meaning: ");
-        String wordExplain = scanner.nextLine();
-
-        dictionaryManagement.addWord(wordTarget, wordExplain);
-        System.out.println("Word added successfully.");
-    }
-
-    public void removeWord() {
-        Scanner scanner = new Scanner(System.in);
-    }
-
-    public void updateWord() {
-        Scanner scanner = new Scanner(System.in);
-    }
-
 }
-
-

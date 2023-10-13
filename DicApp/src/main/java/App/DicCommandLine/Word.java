@@ -12,6 +12,11 @@ public class Word {
      */
     private String wordExplain;
 
+    /**
+     * Pronunciation of word.
+     */
+    private String pronunciation;
+
     public Word() {
         this.wordExplain = "";
         this.wordTarget = "";
@@ -22,19 +27,25 @@ public class Word {
         this.wordExplain = wordExplain;
     }
 
-    public void setWordExplain(String wordExplain) {
+    public Word(String wordTarget, String wordExplain, String pronunciation) {
+        this.wordTarget = wordTarget;
         this.wordExplain = wordExplain;
+        this.pronunciation = pronunciation;
     }
 
     public String getWordExplain() {
         return wordExplain;
     }
 
-    public void setWordTarget(String wordTarget) {
-        this.wordTarget = wordTarget;
-    }
-
     public String getWordTarget() {
         return wordTarget;
+    }
+
+    public String getPronunciation() {
+        return pronunciation;
+    }
+
+    public String getWord() {
+        return getWordTarget() + " - " + getWordExplain();
     }
 }
