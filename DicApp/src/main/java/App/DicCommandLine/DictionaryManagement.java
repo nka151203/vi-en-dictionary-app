@@ -1,12 +1,15 @@
 package App.DicCommandLine;
-
+//src\\main\\dictionaries.txt
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileWriter;
 import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
 
 public class DictionaryManagement {
     private Dictionary dictionary;
@@ -41,29 +44,30 @@ public class DictionaryManagement {
      * Add new words from file.
      */
     public void insertFromFile() {
-        try {
-            File file = new File("src/main/dictionaries.txt");
-            Scanner scanner = new Scanner(file);
-
-            while (scanner.hasNextLine()) {
-                String line = scanner.nextLine();
-                if (line.startsWith("@")) {
-                    String[] parts = line.split("/");
-                    if (parts.length >= 3) {
-                        String wordTarget = parts[0].substring(1).trim();
-                        String pronunciation = parts[1].trim();
-                        String wordExplain = line.substring(line.indexOf(parts[2])).trim();
-
-                        Word word = new Word(wordTarget, wordExplain, pronunciation);
-                        dictionary.addWord(word);
+        try (BufferedReader reader = new BufferedReader(new FileReader("DicApp\\src\\main\\dictionaries.txt"))) {
+            String line;
+            String word = "" ;
+            String pronunciation= "" ;
+            String meaning= "" ;
+            while ((line = reader.readLine()) != null) {
+                if (line.startsWith("@") && line.contains("/")) {
+                    word = line.substring(1,line.indexOf('/'));
+                    pronunciation = line.substring(line.indexOf('/'));
+                } else if (!word.isEmpty()) {
+                    meaning += line;
+                    meaning += '\n';
+                    while ((line = reader.readLine()) != null && !line.isEmpty()) {
+                        meaning += line;
+                        meaning += '\n';
                     }
+                    dictionary.addWord(new Word(word, meaning, pronunciation));
+                    meaning = "";
                 }
             }
-
-            scanner.close();
-        } catch (FileNotFoundException e) {
-            System.out.println("File not found.");
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+
     }
 
     /**
@@ -161,11 +165,13 @@ public class DictionaryManagement {
      */
     public void displayAllWords() {
         List<Word> words = dictionary.getWords();
+        int index = 1;
         for (Word word : words) {
-            System.out.println("Word: " + word.getWordTarget());
-            System.out.println("Pronunciation: " + word.getPronunciation());
-            System.out.println("Meaning: " + word.getWordExplain());
+            System.out.println(index + ". " + word.getWordTarget());
+            System.out.println(word.getPronunciation());
+            System.out.println(word.getWordExplain());
             System.out.println();
+            index ++;
         }
     }
 
