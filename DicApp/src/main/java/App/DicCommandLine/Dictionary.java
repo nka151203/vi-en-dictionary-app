@@ -3,8 +3,11 @@ package App.DicCommandLine;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Dictionary  extends ArrayList<Word>{
-    private List<Word> words = new ArrayList<>();
+public class Dictionary {
+    private List<Word> words;
+    public Dictionary() {
+        words = new ArrayList<>();
+    }
 
     public void addWord(Word word) {
         words.add(word);

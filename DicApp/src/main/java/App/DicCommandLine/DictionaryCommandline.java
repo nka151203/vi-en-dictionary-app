@@ -4,26 +4,23 @@ import java.util.Comparator;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
-public class DictionaryCommandline {
-    private DictionaryManagement dictionaryManagement;
+import Game.Hangman;
 
-    public DictionaryCommandline() {
-        dictionaryManagement = new DictionaryManagement();
-    }
+public class DictionaryCommandline extends DictionaryManagement {
 
     /**
      * Show all words in dictionary.
      */
 
     public void showAllWords() {
-        List<Word> dictionary = dictionaryManagement.getDictionary();
+        List<Word> words = getWords();
 
         // Sort the dictionary alphabetically by English word
-        Collections.sort(dictionary, Comparator.comparing(Word::getWordTarget));
+        Collections.sort(words, Comparator.comparing(Word::getWordTarget));
 
         System.out.println("No | English | Vietnamese");
-        for (int i = 0; i < dictionary.size(); i++) {
-            Word word = dictionary.get(i);
+        for (int i = 0; i < words.size(); i++) {
+            Word word = words.get(i);
             System.out.printf("%-3d| %-7s| %s%n", i + 1, word.getWordTarget(), word.getWordExplain());
         }
     }
@@ -32,7 +29,7 @@ public class DictionaryCommandline {
      * Call function.
      */
     public void dictionaryBasic() {
-        dictionaryManagement.insertFromCommandline();
+        insertFromCommandline();
         showAllWords();
     }
 
@@ -40,7 +37,9 @@ public class DictionaryCommandline {
      * Advanced dictionary.
      */
     public void dictionaryAdvanced() {
+        //dictionaryManagement.insertFromFile();
         Scanner scanner = new Scanner(System.in);
+        DictionaryManagement dictionary = new DictionaryManagement();
         int choice;
         boolean exit = false;
 
@@ -68,31 +67,31 @@ public class DictionaryCommandline {
                         exit = true;
                         break;
                     case 1:
-                        dictionaryManagement.addWord();
+                        addWord();
                         break;
                     case 2:
-                        dictionaryManagement.removeWord();
+                        removeWord();
                         break;
                     case 3:
-                        dictionaryManagement.updateWord();
+                        updateWord();
                         break;
                     case 4:
-                        dictionaryManagement.displayAllWords();
+                        displayAllWords();
                         break;
                     case 5:
-                        dictionaryManagement.dictionaryLookup();
+                        dictionaryLookup();
                         break;
                     case 6:
-                        dictionaryManagement.dictionarySearcher();
+                        dictionarySearcher();
                         break;
                     case 7:
-                        // Game functionality
+                        Hangman hangman = new Hangman();
+                        hangman.playHangmanGame();
                         break;
                     case 8:
-                        dictionaryManagement.insertFromFile();
                         break;
                     case 9:
-                        dictionaryManagement.dictionaryExportToFile();
+                        dictionaryExportToFile();
                         break;
                     default:
                         System.out.println("Action not supported.");

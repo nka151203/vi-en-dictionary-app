@@ -1,22 +1,14 @@
 package App.DicCommandLine;
-//src\\main\\dictionaries.txt
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 
-public class DictionaryManagement {
-    private Dictionary dictionary;
-
-    public DictionaryManagement() {
-        dictionary = new Dictionary();
-    }
+public class DictionaryManagement extends Dictionary {
 
     /**
      * Add new words from cmd.
@@ -36,7 +28,7 @@ public class DictionaryManagement {
             String vietnameseMeaning = scanner.nextLine();
 
             Word word = new Word(englishWord, vietnameseMeaning);
-            dictionary.add(word);
+            addWord(word);
         }
     }
 
@@ -44,7 +36,7 @@ public class DictionaryManagement {
      * Add new words from file.
      */
     public void insertFromFile() {
-        try (BufferedReader reader = new BufferedReader(new FileReader("DicApp\\src\\main\\dictionaries.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("DicApp\\src\\main\\java\\App\\DicCommandLine\\dictionaries.txt"))) {
             String line;
             String word = "" ;
             String pronunciation= "" ;
@@ -60,7 +52,7 @@ public class DictionaryManagement {
                         meaning += line;
                         meaning += '\n';
                     }
-                    dictionary.addWord(new Word(word, meaning, pronunciation));
+                    addWord(new Word(word, pronunciation, meaning));
                     meaning = "";
                 }
             }
@@ -74,21 +66,30 @@ public class DictionaryManagement {
      * Export current dictionary data to file.
      */
     public void dictionaryExportToFile() {
-        try {
-            File file = new File("output.txt");
-            FileWriter writer = new FileWriter(file);
+        Scanner sc = new Scanner(System.in);
 
-            List<Word> words = dictionary.getWords();
+        //listWord myList = new listWord();
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("DicApp\\src\\main\\java\\App\\DicCommandLine\\dictionaries.txt",true))) {
+            writer.write("\n");
 
-            for (Word word : words) {
-                writer.write("@ " + word.getWordTarget() + " /" + word.getPronunciation() + "/\n");
-                writer.write(word.getWordExplain() + "\n");
-            }
+            System.out.print("Enter English word: ");
+            String wordTarget = sc.nextLine();
 
-            writer.close();
+            System.out.print("Enter pronunciation: ");
+            String pronun = sc.nextLine();
+
+            System.out.print("Enter Vietnamese meaning: ");
+            String meaning = sc.nextLine();
+            writer.write("@" + wordTarget + " /" + pronun + "/\n");
+            writer.write(meaning + "\n");
+
+            Word word = new Word(wordTarget, pronun, meaning);
+            addWord(word);
+
             System.out.println("Dictionary exported successfully.");
-        } catch (IOException e) {
+        } catch (Exception e) {
             System.out.println("Error exporting dictionary.");
+            e.printStackTrace();
         }
     }
 
@@ -100,13 +101,13 @@ public class DictionaryManagement {
 
         System.out.print("Enter English word: ");
         String wordTarget = scanner.nextLine();
-        System.out.print("Enter Vietnamese meaning: ");
-        String wordExplain = scanner.nextLine();
         System.out.print("Enter pronunciation: ");
         String pronunciation = scanner.nextLine();
+        System.out.print("Enter Vietnamese meaning: ");
+        String wordExplain = scanner.nextLine();
 
-        Word word = new Word(wordTarget, wordExplain, pronunciation);
-        dictionary.addWord(word);
+        Word word = new Word(wordTarget, pronunciation, wordExplain);
+        addWord(word);
 
         System.out.println("Word added successfully.");
     }
@@ -119,11 +120,11 @@ public class DictionaryManagement {
         System.out.print("Enter the word to remove: ");
         String wordTarget = scanner.nextLine();
 
-        List<Word> words = dictionary.getWords();
+        List<Word> words = getWords();
 
         for (Word word : words) {
             if (word.getWordTarget().equalsIgnoreCase(wordTarget)) {
-                dictionary.removeWord(word);
+                removeWord(word);
                 System.out.println("Word removed successfully.");
                 return;
             }
@@ -140,7 +141,7 @@ public class DictionaryManagement {
         System.out.print("Enter the word to update: ");
         String wordTarget = scanner.nextLine();
 
-        List<Word> words = dictionary.getWords();
+        List<Word> words = getWords();
 
         for (Word word : words) {
             if (word.getWordTarget().equalsIgnoreCase(wordTarget)) {
@@ -151,7 +152,7 @@ public class DictionaryManagement {
                 System.out.print("Enter new pronunciation: ");
                 String newPronunciation = scanner.nextLine();
 
-                word = new Word(newWordTarget, newWordExplain, newPronunciation);
+                word = new Word(newWordTarget, newPronunciation, newWordExplain);
                 System.out.println("Word updated successfully.");
                 return;
             }
@@ -164,7 +165,7 @@ public class DictionaryManagement {
      * Display a list of words.
      */
     public void displayAllWords() {
-        List<Word> words = dictionary.getWords();
+        List<Word> words = getWords();
         int index = 1;
         for (Word word : words) {
             System.out.println(index + ". " + word.getWordTarget());
@@ -183,7 +184,7 @@ public class DictionaryManagement {
         System.out.print("Enter a word to lookup: ");
         String lookupWord = scanner.nextLine();
 
-        List<Word> words = dictionary.getWords();
+        List<Word> words = getWords();
 
         for (Word word : words) {
             if (word.getWordTarget().equalsIgnoreCase(lookupWord)) {
@@ -205,7 +206,7 @@ public class DictionaryManagement {
         System.out.print("Enter a prefix to search: ");
         String prefix = scanner.nextLine();
 
-        List<Word> words = dictionary.getWords();
+        List<Word> words = getWords();
         List<String> matchedWords = new ArrayList<>();
 
         for (Word word : words) {
@@ -222,13 +223,6 @@ public class DictionaryManagement {
                 System.out.println(word);
             }
         }
-    }
-
-    /**
-     * Get the word list.
-     */
-    public List<Word> getDictionary() {
-        return dictionary;
     }
 }
 

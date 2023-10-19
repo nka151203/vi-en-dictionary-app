@@ -27,10 +27,10 @@ public class Word {
         this.wordExplain = wordExplain;
     }
 
-    public Word(String wordTarget, String wordExplain, String pronunciation) {
+    public Word(String wordTarget, String pronunciation, String wordExplain) {
         this.wordTarget = wordTarget;
-        this.wordExplain = wordExplain;
         this.pronunciation = pronunciation;
+        this.wordExplain = wordExplain;
     }
 
     public String getWordExplain() {
