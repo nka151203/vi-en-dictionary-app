@@ -92,6 +92,7 @@ public class DictionaryCommandline extends DictionaryManagement {
                         break;
                     case 9:
                         dictionaryExportToFile();
+                        System.out.println("Dictionary exported successfully.");
                         break;
                     default:
                         System.out.println("Action not supported.");

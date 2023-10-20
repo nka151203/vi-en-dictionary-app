@@ -117,6 +117,9 @@ public class Hangman {
 
             if (elapsedTime >= GAME_DURATION) {
                 System.out.println("Time's up! You didn't guess the word in time.");
+                System.out.println("Game over! The word was: " + targetWord);
+                System.out.println(randomWord.getPronunciation());
+                System.out.println(randomWord.getWordExplain());
                 break;
             }
 
@@ -168,7 +171,6 @@ public class Hangman {
                 numAttempts--;
                 System.out.println("Incorrect guess. You have " + numAttempts + " attempts remaining.");
                 System.out.println(hangmanParts[7-numAttempts]);
-
             }
         }
 
@@ -176,16 +178,17 @@ public class Hangman {
             System.out.println("Game over! The word was: " + targetWord);
             System.out.println(randomWord.getPronunciation());
             System.out.println(randomWord.getWordExplain());
-            System.out.println(hangmanParts[7-numAttempts]);
         }
 
         System.out.println("Score: " + score);
 
-        System.out.print("Do you want to play again? (Y/N): ");
+        System.out.println("Do you want to play again? (Y/N): ");
         String playAgain = scanner.nextLine();
 
         if (playAgain.equalsIgnoreCase("Y")) {
             playHangmanGame();
+        } else {
+            System.out.println("Your Score: " + score);
         }
     }
 

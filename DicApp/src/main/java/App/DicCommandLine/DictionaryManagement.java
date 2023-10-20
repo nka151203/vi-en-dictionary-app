@@ -1,14 +1,22 @@
 package App.DicCommandLine;
 
 import java.util.List;
-import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.util.Collections;
+import Trie.Trie;
 
 public class DictionaryManagement extends Dictionary {
+    private Trie trie;
+
+    public DictionaryManagement() {
+        trie = new Trie();
+    }
+
+    private int indexSepate = 33;
 
     /**
      * Add new words from cmd.
@@ -36,6 +44,7 @@ public class DictionaryManagement extends Dictionary {
      * Add new words from file.
      */
     public void insertFromFile() {
+
         try (BufferedReader reader = new BufferedReader(new FileReader("DicApp\\src\\main\\java\\App\\DicCommandLine\\dictionaries.txt"))) {
             String line;
             String word = "" ;
@@ -43,7 +52,7 @@ public class DictionaryManagement extends Dictionary {
             String meaning= "" ;
             while ((line = reader.readLine()) != null) {
                 if (line.startsWith("@") && line.contains("/")) {
-                    word = line.substring(1,line.indexOf('/'));
+                    word = line.substring(1,line.indexOf('/')-1);
                     pronunciation = line.substring(line.indexOf('/'));
                 } else if (!word.isEmpty()) {
                     meaning += line;
@@ -52,6 +61,7 @@ public class DictionaryManagement extends Dictionary {
                         meaning += line;
                         meaning += '\n';
                     }
+
                     addWord(new Word(word, pronunciation, meaning));
                     meaning = "";
                 }
@@ -69,24 +79,12 @@ public class DictionaryManagement extends Dictionary {
         Scanner sc = new Scanner(System.in);
 
         //listWord myList = new listWord();
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("DicApp\\src\\main\\java\\App\\DicCommandLine\\dictionaries.txt",true))) {
-            writer.write("\n");
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("DicApp\\src\\main\\java\\App\\DicCommandLine\\dictionaries.txt",false))) {
+            List<Word> words = getWords();
+            writer.write("-----" + "\n");
+            for (Word word : words)
+                writer.write("@" + word.getWordTarget() + " " + word.getPronunciation() + "\n" + word.getWordExplain() + "\n");
 
-            System.out.print("Enter English word: ");
-            String wordTarget = sc.nextLine();
-
-            System.out.print("Enter pronunciation: ");
-            String pronun = sc.nextLine();
-
-            System.out.print("Enter Vietnamese meaning: ");
-            String meaning = sc.nextLine();
-            writer.write("@" + wordTarget + " /" + pronun + "/\n");
-            writer.write(meaning + "\n");
-
-            Word word = new Word(wordTarget, pronun, meaning);
-            addWord(word);
-
-            System.out.println("Dictionary exported successfully.");
         } catch (Exception e) {
             System.out.println("Error exporting dictionary.");
             e.printStackTrace();
@@ -109,6 +107,7 @@ public class DictionaryManagement extends Dictionary {
         Word word = new Word(wordTarget, pronunciation, wordExplain);
         addWord(word);
 
+        dictionaryExportToFile();
         System.out.println("Word added successfully.");
     }
 
@@ -116,49 +115,67 @@ public class DictionaryManagement extends Dictionary {
      * Remove word.
      */
     public void removeWord() {
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the word to remove: ");
         String wordTarget = scanner.nextLine();
 
         List<Word> words = getWords();
 
-        for (Word word : words) {
-            if (word.getWordTarget().equalsIgnoreCase(wordTarget)) {
-                removeWord(word);
-                System.out.println("Word removed successfully.");
-                return;
-            }
+        Word neededWord = binarySearchWord(words.subList(0, indexSepate), wordTarget);
+
+        if (neededWord == null) {
+            neededWord = binarySearchWord(words.subList(indexSepate, words.size()), wordTarget);
         }
 
-        System.out.println("Word not found in the dictionary.");
+        if (neededWord != null) {
+            removeWord(neededWord);
+            dictionaryExportToFile();
+            System.out.println("Word removed successfully.");
+            return;
+        }
+
+        System.out.println("Word \"" + wordTarget + "\" not found in the dictionary.");
+
     }
 
     /**
      * Update word.
      */
     public void updateWord() {
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the word to update: ");
         String wordTarget = scanner.nextLine();
 
         List<Word> words = getWords();
 
-        for (Word word : words) {
-            if (word.getWordTarget().equalsIgnoreCase(wordTarget)) {
-                System.out.print("Enter new English word: ");
-                String newWordTarget = scanner.nextLine();
-                System.out.print("Enter new Vietnamese meaning: ");
-                String newWordExplain = scanner.nextLine();
-                System.out.print("Enter new pronunciation: ");
-                String newPronunciation = scanner.nextLine();
+        Word neededWord = binarySearchWord(words.subList(0, indexSepate), wordTarget);
 
-                word = new Word(newWordTarget, newPronunciation, newWordExplain);
-                System.out.println("Word updated successfully.");
-                return;
-            }
+        if (neededWord == null) {
+            neededWord = binarySearchWord(words.subList(indexSepate, words.size()), wordTarget);
         }
 
-        System.out.println("Word not found in the dictionary.");
+        if (neededWord != null) {
+
+            System.out.print("Enter new English word: ");
+            String newWordTarget = scanner.nextLine();
+            System.out.print("Enter new pronunciation: ");
+            String newPronunciation = scanner.nextLine();
+            System.out.print("Enter new Vietnamese meaning: ");
+            String newWordExplain = scanner.nextLine();
+
+            neededWord.setWordTarget(newWordTarget);
+            neededWord.setPronunciation(newPronunciation);
+            neededWord.setWordExplain(newWordExplain);
+
+            dictionaryExportToFile();
+            System.out.println("Word updated successfully.");
+            return;
+        }
+
+        System.out.println("Word \"" + wordTarget + "\" not found in the dictionary.");
+
     }
 
     /**
@@ -171,7 +188,6 @@ public class DictionaryManagement extends Dictionary {
             System.out.println(index + ". " + word.getWordTarget());
             System.out.println(word.getPronunciation());
             System.out.println(word.getWordExplain());
-            System.out.println();
             index ++;
         }
     }
@@ -181,49 +197,83 @@ public class DictionaryManagement extends Dictionary {
      */
     public void dictionaryLookup() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a word to lookup: ");
-        String lookupWord = scanner.nextLine();
+        System.out.print("Enter a word to look up: ");
+        String wordTarget = scanner.nextLine();
 
         List<Word> words = getWords();
 
-        for (Word word : words) {
-            if (word.getWordTarget().equalsIgnoreCase(lookupWord)) {
-                System.out.println("Word: " + word.getWordTarget());
-                System.out.println("Pronunciation: " + word.getPronunciation());
-                System.out.println("Meaning: " + word.getWordExplain());
-                return;
-            }
+        Word neededWord = binarySearchWord(words.subList(0, indexSepate), wordTarget);
+
+        if (neededWord == null) {
+            neededWord = binarySearchWord(words.subList(indexSepate, words.size()), wordTarget);
         }
 
-        System.out.println("Word not found in the dictionary.");
+        if (neededWord != null) {
+                System.out.println("Word: " + neededWord.getWordTarget());
+                System.out.println("Pronunciation: " + neededWord.getPronunciation());
+                System.out.println("Meaning: " + neededWord.getWordExplain());
+                return;
+        }
+
+        System.out.println("Word \"" + wordTarget + "\" not found in the dictionary.");
     }
 
     /**
      * Search words with prefix.
      */
     public void dictionarySearcher() {
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a prefix to search: ");
-        String prefix = scanner.nextLine();
+        String prefix = scanner.nextLine().toLowerCase();
 
         List<Word> words = getWords();
-        List<String> matchedWords = new ArrayList<>();
-
         for (Word word : words) {
-            if (word.getWordTarget().toLowerCase().startsWith(prefix.toLowerCase())) {
-                matchedWords.add(word.getWordTarget());
-            }
+            trie.insertWord(word.getWordTarget());
         }
+
+        List<String> matchedWords = trie.searchWordsWithPrefix(prefix);
+        Collections.sort(matchedWords);
+
+        int count = 0;
 
         if (matchedWords.isEmpty()) {
             System.out.println("No words found.");
         } else {
             System.out.println("Words starting with \"" + prefix + "\":");
             for (String word : matchedWords) {
-                System.out.println(word);
+                System.out.println(count + ". " + word);
+                count ++;
+                if (count == 20 && count > matchedWords.size()) break;
             }
         }
     }
+
+    private Word binarySearchWord(List<Word> words, String target) {
+        int left = 0;
+        int right = words.size() - 1;
+        int cnt = 1;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            Word word = words.get(mid);
+            String wordTarget = word.getWordTarget();
+            System.out.println(cnt + ". " + wordTarget);
+            cnt ++;
+
+            int compareResult = wordTarget.compareToIgnoreCase(target);
+            if (compareResult == 0) {
+                return word;
+            } else if (compareResult < 0) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+
+        return null;
+    }
+
 }
 
 

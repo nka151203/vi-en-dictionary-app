@@ -33,17 +33,30 @@ public class Word {
         this.wordExplain = wordExplain;
     }
 
-    public String getWordExplain() {
-        return wordExplain;
+    public void setWordTarget(String wordTarget) {
+        this.wordTarget = wordTarget;
     }
 
     public String getWordTarget() {
         return wordTarget;
     }
 
+    public void setPronunciation(String pronunciation) {
+        this.pronunciation = pronunciation;
+    }
+
     public String getPronunciation() {
         return pronunciation;
     }
+
+    public void setWordExplain(String wordExplain) {
+        this.wordExplain = wordExplain;
+    }
+
+    public String getWordExplain() {
+        return wordExplain;
+    }
+
 
     public String getWord() {
         return getWordTarget() + " - " + getWordExplain();
