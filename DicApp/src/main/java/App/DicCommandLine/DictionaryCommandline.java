@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
-import Game.Hangman;
+import DicGame.Hangman;
 
 public class DictionaryCommandline extends DictionaryManagement {
 
@@ -67,22 +67,48 @@ public class DictionaryCommandline extends DictionaryManagement {
                         exit = true;
                         break;
                     case 1:
-                        addWord();
+                        System.out.print("Enter English word: ");
+                        String wordTarget = scanner.nextLine();
+                        System.out.print("Enter pronunciation: ");
+                        String pronunciation = scanner.nextLine();
+                        System.out.print("Enter Vietnamese meaning: ");
+                        String wordExplain = scanner.nextLine();
+
+                        addWord(wordTarget,pronunciation,wordExplain);
                         break;
                     case 2:
-                        removeWord();
+                        System.out.print("Enter the word to remove: ");
+                        String wordRemove = scanner.nextLine();
+
+                        removeWord(wordRemove);
                         break;
                     case 3:
-                        updateWord();
+                        System.out.print("Enter the word to update: ");
+                        String wordUpdate = scanner.nextLine();
+
+                        System.out.print("Enter new English word: ");
+                        String newWordTarget = scanner.nextLine();
+                        System.out.print("Enter new pronunciation: ");
+                        String newPronunciation = scanner.nextLine();
+                        System.out.print("Enter new Vietnamese meaning: ");
+                        String newWordExplain = scanner.nextLine();
+
+                        updateWord(wordUpdate, newWordTarget, newPronunciation, newWordExplain);
                         break;
                     case 4:
                         displayAllWords();
                         break;
                     case 5:
-                        dictionaryLookup();
+                        System.out.print("Enter a word to look up: ");
+                        String wordLookup = scanner.nextLine();
+
+                        dictionaryLookup(wordLookup);
                         break;
                     case 6:
-                        dictionarySearcher();
+                        System.out.print("Enter a prefix to search: ");
+                        String prefix = scanner.nextLine().toLowerCase();
+
+                        dictionarySearcher(prefix);
                         break;
                     case 7:
                         Hangman hangman = new Hangman();

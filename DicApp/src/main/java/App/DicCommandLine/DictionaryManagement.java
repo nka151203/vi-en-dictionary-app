@@ -61,8 +61,8 @@ public class DictionaryManagement extends Dictionary {
                         meaning += line;
                         meaning += '\n';
                     }
-
                     addWord(new Word(word, pronunciation, meaning));
+                    trie.insertWord(word);
                     meaning = "";
                 }
             }
@@ -94,15 +94,7 @@ public class DictionaryManagement extends Dictionary {
     /**
      * Add new word.
      */
-    public void addWord() {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter English word: ");
-        String wordTarget = scanner.nextLine();
-        System.out.print("Enter pronunciation: ");
-        String pronunciation = scanner.nextLine();
-        System.out.print("Enter Vietnamese meaning: ");
-        String wordExplain = scanner.nextLine();
+    public void addWord(String wordTarget, String pronunciation, String wordExplain) {
 
         Word word = new Word(wordTarget, pronunciation, wordExplain);
         addWord(word);
@@ -114,12 +106,7 @@ public class DictionaryManagement extends Dictionary {
     /**
      * Remove word.
      */
-    public void removeWord() {
-
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the word to remove: ");
-        String wordTarget = scanner.nextLine();
-
+    public void removeWord(String wordTarget) {
         List<Word> words = getWords();
 
         Word neededWord = binarySearchWord(words.subList(0, indexSepate), wordTarget);
@@ -142,12 +129,7 @@ public class DictionaryManagement extends Dictionary {
     /**
      * Update word.
      */
-    public void updateWord() {
-
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the word to update: ");
-        String wordTarget = scanner.nextLine();
-
+    public void updateWord(String wordTarget, String newWordTarget, String newPronunciation, String newWordExplain) {
         List<Word> words = getWords();
 
         Word neededWord = binarySearchWord(words.subList(0, indexSepate), wordTarget);
@@ -157,13 +139,6 @@ public class DictionaryManagement extends Dictionary {
         }
 
         if (neededWord != null) {
-
-            System.out.print("Enter new English word: ");
-            String newWordTarget = scanner.nextLine();
-            System.out.print("Enter new pronunciation: ");
-            String newPronunciation = scanner.nextLine();
-            System.out.print("Enter new Vietnamese meaning: ");
-            String newWordExplain = scanner.nextLine();
 
             neededWord.setWordTarget(newWordTarget);
             neededWord.setPronunciation(newPronunciation);
@@ -195,11 +170,7 @@ public class DictionaryManagement extends Dictionary {
     /**
      * Find English word.
      */
-    public void dictionaryLookup() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a word to look up: ");
-        String wordTarget = scanner.nextLine();
-
+    public void dictionaryLookup(String wordTarget) {
         List<Word> words = getWords();
 
         Word neededWord = binarySearchWord(words.subList(0, indexSepate), wordTarget);
@@ -221,17 +192,7 @@ public class DictionaryManagement extends Dictionary {
     /**
      * Search words with prefix.
      */
-    public void dictionarySearcher() {
-
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a prefix to search: ");
-        String prefix = scanner.nextLine().toLowerCase();
-
-        List<Word> words = getWords();
-        for (Word word : words) {
-            trie.insertWord(word.getWordTarget());
-        }
-
+    public void dictionarySearcher(String prefix) {
         List<String> matchedWords = trie.searchWordsWithPrefix(prefix);
         Collections.sort(matchedWords);
 

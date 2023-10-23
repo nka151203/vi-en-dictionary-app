@@ -1,4 +1,4 @@
-package Game;
+package DicGame;
 
 import App.DicCommandLine.Word;
 import App.DicCommandLine.DictionaryManagement;

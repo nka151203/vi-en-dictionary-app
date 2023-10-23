@@ -1,7 +1,6 @@
 package DicAPI;
 
 import org.apache.commons.text.StringEscapeUtils;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -25,8 +24,8 @@ public class TranslateGoogleAPI {
     }
 
     /* Test. */
-    public static void main(String[] args) throws IOException {
-        String text = "Tôi là An";
-        System.out.println("Translated text: " + translate("vi", "en", text));
-    }
+//    public static void main(String[] args) throws IOException {
+//        String text = "Tôi là An";
+//        System.out.println("Translated text: " + translate("vi", "en", text));
+//    }
 }
