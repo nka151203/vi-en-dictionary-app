@@ -16,7 +16,8 @@ public class DictionaryManagement extends Dictionary {
         trie = new Trie();
     }
 
-    private int indexSepate = 33;
+    private final int indexSepate = 33;
+    //private final int indexSepate = 58169;
 
     /**
      * Add new words from cmd.
@@ -26,7 +27,7 @@ public class DictionaryManagement extends Dictionary {
 
         System.out.print("Enter the number of words: ");
         int numWords = scanner.nextInt();
-        scanner.nextLine(); // Consume the newline character
+        scanner.nextLine();
 
         for (int i = 0; i < numWords; i++) {
             System.out.println("Word #" + (i + 1));
@@ -46,6 +47,7 @@ public class DictionaryManagement extends Dictionary {
     public void insertFromFile() {
 
         try (BufferedReader reader = new BufferedReader(new FileReader("DicApp\\src\\main\\java\\App\\DicCommandLine\\dictionaries.txt"))) {
+        //try (BufferedReader reader = new BufferedReader(new FileReader("DicApp\\src\\main\\resources\\Database\\dictionary.txt"))) {
             String line;
             String word = "" ;
             String pronunciation= "" ;
@@ -61,6 +63,7 @@ public class DictionaryManagement extends Dictionary {
                         meaning += line;
                         meaning += '\n';
                     }
+
                     addWord(new Word(word, pronunciation, meaning));
                     trie.insertWord(word);
                     meaning = "";
@@ -78,7 +81,6 @@ public class DictionaryManagement extends Dictionary {
     public void dictionaryExportToFile() {
         Scanner sc = new Scanner(System.in);
 
-        //listWord myList = new listWord();
         try (BufferedWriter writer = new BufferedWriter(new FileWriter("DicApp\\src\\main\\java\\App\\DicCommandLine\\dictionaries.txt",false))) {
             List<Word> words = getWords();
             writer.write("-----" + "\n");
@@ -98,6 +100,7 @@ public class DictionaryManagement extends Dictionary {
 
         Word word = new Word(wordTarget, pronunciation, wordExplain);
         addWord(word);
+        trie.insertWord(wordTarget);
 
         dictionaryExportToFile();
         System.out.println("Word added successfully.");
@@ -117,6 +120,8 @@ public class DictionaryManagement extends Dictionary {
 
         if (neededWord != null) {
             removeWord(neededWord);
+            trie.deleteWord(wordTarget);
+
             dictionaryExportToFile();
             System.out.println("Word removed successfully.");
             return;
@@ -143,6 +148,9 @@ public class DictionaryManagement extends Dictionary {
             neededWord.setWordTarget(newWordTarget);
             neededWord.setPronunciation(newPronunciation);
             neededWord.setWordExplain(newWordExplain);
+
+            trie.insertWord(newWordTarget);
+            trie.deleteWord(wordTarget);
 
             dictionaryExportToFile();
             System.out.println("Word updated successfully.");
@@ -205,7 +213,7 @@ public class DictionaryManagement extends Dictionary {
             for (String word : matchedWords) {
                 System.out.println(count + ". " + word);
                 count ++;
-                if (count == 20 && count > matchedWords.size()) break;
+                if (count == 20 || count > matchedWords.size()) break;
             }
         }
     }
@@ -213,14 +221,11 @@ public class DictionaryManagement extends Dictionary {
     private Word binarySearchWord(List<Word> words, String target) {
         int left = 0;
         int right = words.size() - 1;
-        int cnt = 1;
 
         while (left <= right) {
             int mid = left + (right - left) / 2;
             Word word = words.get(mid);
             String wordTarget = word.getWordTarget();
-            System.out.println(cnt + ". " + wordTarget);
-            cnt ++;
 
             int compareResult = wordTarget.compareToIgnoreCase(target);
             if (compareResult == 0) {

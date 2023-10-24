@@ -1,0 +1,3 @@
+hangman - 1500
+hangman - 40
+hangman - 120

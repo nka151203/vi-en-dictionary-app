@@ -15,7 +15,6 @@ public class DictionaryCommandline extends DictionaryManagement {
     public void showAllWords() {
         List<Word> words = getWords();
 
-        // Sort the dictionary alphabetically by English word
         Collections.sort(words, Comparator.comparing(Word::getWordTarget));
 
         System.out.println("No | English | Vietnamese");
@@ -37,7 +36,7 @@ public class DictionaryCommandline extends DictionaryManagement {
      * Advanced dictionary.
      */
     public void dictionaryAdvanced() {
-        //dictionaryManagement.insertFromFile();
+
         Scanner scanner = new Scanner(System.in);
         DictionaryManagement dictionary = new DictionaryManagement();
         int choice;
@@ -59,8 +58,7 @@ public class DictionaryCommandline extends DictionaryManagement {
 
             try {
                 choice = scanner.nextInt();
-                scanner.nextLine(); // Consume the newline character
-
+                scanner.nextLine();
                 switch (choice) {
                     case 0:
                         System.out.println("Goodbye!");
@@ -126,7 +124,7 @@ public class DictionaryCommandline extends DictionaryManagement {
                 }
             } catch (Exception e) {
                 System.out.println("Action not supported.");
-                scanner.nextLine(); // Consume the invalid input
+                scanner.nextLine();
             }
         }
     }
