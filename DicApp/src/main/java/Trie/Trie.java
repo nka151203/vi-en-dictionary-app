@@ -121,5 +121,6 @@ public class Trie {
     }
 
     private static class TrieNodeMap extends HashMap<Character, TrieNode> {
+
     }
 }

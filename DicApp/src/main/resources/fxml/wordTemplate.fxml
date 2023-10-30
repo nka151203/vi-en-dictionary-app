@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import io.github.palexdev.mfxresources.fonts.MFXFontIcon?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="930.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DicController.worldController">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <JFXButton layoutX="645.0" layoutY="76.0" prefHeight="20.0" prefWidth="70.0" styleClass="outlineEdit" stylesheets="@../css/buttonCollections.css">
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icon/edit.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton layoutX="739.0" layoutY="75.0" prefHeight="25.0" prefWidth="70.0" styleClass="outlineRemove" stylesheets="@../css/buttonCollections.css">
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icon/remove.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton layoutX="555.0" layoutY="75.0" prefHeight="50.0" prefWidth="54.0" styleClass="outline" stylesheets="@../css/buttonCollections.css">
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icon/bluesound.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXToggleButton layoutX="825.0" layoutY="72.0" prefWidth="59.0" toggleColor="RED" toggleLineColor="#ff00006e" />
+                  <Text fill="#0877ff" layoutX="79.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello">
+                     <font>
+                        <Font size="65.0" />
+                     </font>
+                  </Text>
+                  <Text fill="RED" layoutX="79.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="/hə'lou/">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Text>
+                  <MFXFontIcon layoutX="261.0" layoutY="107.0">
+                     <color>
+                        <Color red="0.7763158082962036" green="0.07906919717788696" blue="0.07906919717788696" />
+                     </color>
+                  </MFXFontIcon>
+               </children>
+            </Pane>
+            <Separator prefHeight="12.0" prefWidth="672.0" />
+            <Pane prefHeight="599.0" prefWidth="930.0">
+               <children>
+                  <JFXTextArea layoutX="80.0" layoutY="3.0" prefHeight="592.0" prefWidth="850.0" text="* (halloa) /hə'lou/, (hello) /'he'lou/&#10;*  thán từ&#10;- chào anh!, chào chị!&#10;- này, này&#10;- ô này! (tỏ ý ngạc nhiên)&#10;*  Noun&#10;- tiếng chào&#10;- tiếng gọi &quot;này, này&quot; !&#10;- tiếng kêu ô này &quot;! (tỏ ý ngạc nhiên)&#10;*  Intransitive verb&#10;- chào&#10;- gọi &quot;này, này&quot; &#10;- kêu &quot;ô này&quot; (tỏ ý ngạc nhiên)&#10;* (halloa) /hə'lou/, (hello) /'he'lou/&#10;*  thán từ&#10;- chào anh!, chào chị!&#10;- này, này&#10;- ô này! (tỏ ý ngạc nhiên)&#10;*  Noun&#10;- tiếng chào&#10;- tiếng gọi &quot;này, này&quot; !&#10;- tiếng kêu ô này &quot;! (tỏ ý ngạc nhiên)&#10;*  Intransitive verb&#10;- chào&#10;- gọi &quot;này, này&quot; &#10;- kêu &quot;ô này&quot; (tỏ ý ngạc nhiên)&#10;* (halloa) /hə'lou/, (hello) /'he'lou/&#10;*  thán từ&#10;- chào anh!, chào chị!&#10;- này, này&#10;- ô này! (tỏ ý ngạc nhiên)&#10;*  Noun&#10;- tiếng chào&#10;- tiếng gọi &quot;này, này&quot; !&#10;- tiếng kêu ô này &quot;! (tỏ ý ngạc nhiên)&#10;*  Intransitive verb&#10;- chào&#10;- gọi &quot;này, này&quot; &#10;- kêu &quot;ô này&quot; (tỏ ý ngạc nhiên)&#10;* (halloa) /hə'lou/, (hello) /'he'lou/&#10;*  thán từ&#10;- chào anh!, chào chị!&#10;- này, này&#10;- ô này! (tỏ ý ngạc nhiên)&#10;*  Noun&#10;- tiếng chào&#10;- tiếng gọi &quot;này, này&quot; !&#10;- tiếng kêu ô này &quot;! (tỏ ý ngạc nhiên)&#10;*  Intransitive verb&#10;- chào&#10;- gọi &quot;này, này&quot; &#10;- kêu &quot;ô này&quot; (tỏ ý ngạc nhiên)&#10;* (halloa) /hə'lou/, (hello) /'he'lou/&#10;*  thán từ&#10;- chào anh!, chào chị!&#10;- này, này&#10;- ô này! (tỏ ý ngạc nhiên)&#10;*  Noun&#10;- tiếng chào&#10;- tiếng gọi &quot;này, này&quot; !&#10;- tiếng kêu ô này &quot;! (tỏ ý ngạc nhiên)&#10;*  Intransitive verb&#10;- chào&#10;- gọi &quot;này, này&quot; &#10;- kêu &quot;ô này&quot; (tỏ ý ngạc nhiên)">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </JFXTextArea>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -10,7 +10,7 @@ import java.util.Collections;
 import Trie.Trie;
 
 public class DictionaryManagement extends Dictionary {
-    private Trie trie;
+    public Trie trie;
 
     public DictionaryManagement() {
         trie = new Trie();
@@ -46,7 +46,7 @@ public class DictionaryManagement extends Dictionary {
      */
     public void insertFromFile() {
 
-        try (BufferedReader reader = new BufferedReader(new FileReader("DicApp\\src\\main\\java\\App\\DicCommandLine\\dictionaries.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("DicApp\\src\\main\\resources\\Database\\dictionary.txt"))) {
         //try (BufferedReader reader = new BufferedReader(new FileReader("DicApp\\src\\main\\resources\\Database\\dictionary.txt"))) {
             String line;
             String word = "" ;
