@@ -24,8 +24,8 @@ public class TranslateGoogleAPI {
     }
 
     /* Test. */
-//    public static void main(String[] args) throws IOException {
-//        String text = "Tôi là An";
-//        System.out.println("Translated text: " + translate("vi", "en", text));
-//    }
+    public static void main(String[] args) throws IOException {
+        String text = "Tôi là An";
+        System.out.println("Translated text: " + translate("vi", "de", text));
+    }
 }

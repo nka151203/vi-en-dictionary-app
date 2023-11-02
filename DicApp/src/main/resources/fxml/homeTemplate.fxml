@@ -3,6 +3,8 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
@@ -10,7 +12,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="800.0" prefWidth="1230.0" styleClass="parent" stylesheets="@../css/generalStyle.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DicController.generalTaskbarController">
+<AnchorPane prefHeight="800.0" prefWidth="1230.0" styleClass="parent" stylesheets="@../css/generalStyle.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DicController.homeController">
    <children>
       <BorderPane layoutY="-8.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-8.0">
          <top>
@@ -18,21 +20,26 @@
                <children>
                   <Pane prefHeight="200.0" prefWidth="200.0">
                      <children>
-                        <Label layoutX="84.0" layoutY="63.0" text="CHÀO BUỔI SÁNG">
+                        <Label fx:id="helloView" layoutX="110.0" layoutY="63.0" text="CHÀO BUỔI SÁNG">
                            <font>
                               <Font name="System Bold" size="42.0" />
                            </font>
                         </Label>
-                        <Label layoutX="611.0" layoutY="63.0" prefHeight="62.0" prefWidth="298.0" text="06:58:67 PM ">
+                        <Label fx:id="timeLabel" layoutX="674.0" layoutY="63.0" prefHeight="62.0" prefWidth="187.0" text="00:00:00 ">
                            <font>
                               <Font name="System Bold" size="42.0" />
                            </font>
                         </Label>
-                        <Label layoutX="892.0" layoutY="63.0" prefHeight="62.0" prefWidth="298.0" text="31/02/2023">
+                        <Label fx:id="dateLabel" layoutX="892.0" layoutY="63.0" prefHeight="62.0" prefWidth="298.0" text="01/01/2023">
                            <font>
                               <Font size="42.0" />
                            </font>
                         </Label>
+                        <ImageView fx:id="helloIMG" fitHeight="90.0" fitWidth="90.0" layoutX="7.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icon/night.png" />
+                           </image>
+                        </ImageView>
                      </children>
                   </Pane>
                   <HBox alignment="CENTER" prefHeight="150.0" prefWidth="1230.0" style="-fx-background-color: white; -fx-background-radius: 25;">
@@ -100,7 +107,7 @@
                                  </children>
                               </Pane>
                               <Separator prefWidth="200.0" />
-                              <Pane prefHeight="420.0" prefWidth="710.0" />
+                              <Pane fx:id="wordOfDay" prefHeight="417.0" prefWidth="710.0" />
                            </children>
                            <HBox.margin>
                               <Insets right="10.0" />
@@ -118,7 +125,7 @@
                                  </children>
                               </Pane>
                               <Separator prefWidth="200.0" />
-                              <Pane prefHeight="410.0" prefWidth="460.0">
+                              <Pane fx:id="quoteOfDay" prefHeight="410.0" prefWidth="460.0">
                                  <children>
                                     <Label layoutX="36.0" layoutY="10.0" prefHeight="131.0" prefWidth="389.0" text="&quot;People often say that motivation doesn't last. Well, neither does bathing -- that's why we recommend it daily.&quot; -Zig Ziglar" textAlignment="CENTER" wrapText="true">
                                        <font>

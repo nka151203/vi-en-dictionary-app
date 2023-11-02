@@ -98,7 +98,7 @@ public class generalTaskbarController implements Initializable {
     void translate(ActionEvent event) {
         System.out.println("You choice home");
         loader obj = new loader();
-        Pane view = obj.getPane("homeTemplate");
+        Pane view = obj.getPane("translateTemplate");
         for(JFXButton i:taskGroup) {
             i.setStyle("");
         }
@@ -109,5 +109,6 @@ public class generalTaskbarController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         taskGroup = new JFXButton[]{homebut, infobut, lovebut, searchbut, transbut, addbut, gamebut};
+        home(new ActionEvent());
     }
 }

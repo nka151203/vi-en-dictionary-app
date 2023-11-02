@@ -178,7 +178,7 @@ public class DictionaryManagement extends Dictionary {
     /**
      * Find English word.
      */
-    public void dictionaryLookup(String wordTarget) {
+    public Word dictionaryLookup(String wordTarget) {
         List<Word> words = getWords();
 
         Word neededWord = binarySearchWord(words.subList(0, indexSepate), wordTarget);
@@ -191,10 +191,10 @@ public class DictionaryManagement extends Dictionary {
                 System.out.println("Word: " + neededWord.getWordTarget());
                 System.out.println("Pronunciation: " + neededWord.getPronunciation());
                 System.out.println("Meaning: " + neededWord.getWordExplain());
-                return;
+                return new Word(neededWord.getWordTarget(),neededWord.getPronunciation(),neededWord.getWordExplain());
         }
-
         System.out.println("Word \"" + wordTarget + "\" not found in the dictionary.");
+        return null;
     }
 
     /**
