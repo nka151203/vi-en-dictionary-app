@@ -9,18 +9,47 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
-public class Hangman {
+public class Hangman extends Game {
     private DictionaryManagement dictionary;
     private List<Word> words;
-    private Random random;
+
+    private List<String> usedWord = new ArrayList<>();
     private Scanner scanner;
     private int score;
 
-    private Quiz quiz = new Quiz();
-    private static final int NUM_HINTS = 3;
-    private static final int EASY_TIME_LIMIT = 120;
-    private static final int HARD_TIME_LIMIT = 90;
-    private static final int HARD_MODE_THRESHOLD = 10;
+    @Override
+    Word randomQuestion() {
+        Random random = new Random();
+        Word randomWord = words.get(random.nextInt(words.size()));
+        String targetWord = randomWord.getWordTarget().toLowerCase();
+
+        while (!isValidWord(targetWord) || isDuplicateWord(targetWord)) {
+            randomWord = words.get(random.nextInt(words.size()));
+            targetWord = randomWord.getWordTarget().toLowerCase();
+        }
+        return randomWord;
+    }
+
+    private boolean isValidWord(String word) {
+        if (word.matches(".*[^a-zA-Z].*")) {
+            return false;
+        }
+
+        if (word.contains(" ")) {
+            return false;
+        }
+
+        return true;
+    }
+
+    private boolean isDuplicateWord(String word) {
+        for (String w : usedWord) {
+            if (w.equalsIgnoreCase(word)) {
+                return true;
+            }
+        }
+        return false;
+    }
 
     private String[] hangmanParts = {
             "   -------------    \n"
@@ -91,7 +120,6 @@ public class Hangman {
             return;
         }
 
-        random = new Random();
         scanner = new Scanner(System.in);
         score = 0;
     }
@@ -105,17 +133,13 @@ public class Hangman {
         return '\0';
     }
 
-    public void playHangmanGame() {
+    public void playGame() {
 
         int choice;
         boolean exit = false;
 
         while (!exit) {
-            System.out.println("Welcome to Hangman!");
-            System.out.println("[0] Exit");
-            System.out.println("[1] Play game");
-            System.out.println("[2] High Score");
-            System.out.println("[3] Help");
+            gameDisplay("Hangman");
 
             try {
                 choice = scanner.nextInt();
@@ -127,10 +151,7 @@ public class Hangman {
                         exit = true;
                         break;
                     case 1:
-                        System.out.println("Choose the game mode:");
-                        System.out.println("1. Easy");
-                        System.out.println("2. Hard");
-                        System.out.print("Enter your choice: ");
+                        showPlayGame();
 
                         int gameMode = scanner.nextInt();
                         scanner.nextLine();
@@ -140,10 +161,11 @@ public class Hangman {
 
                         while (continueGame) {
 
-                            Word randomWord = words.get(random.nextInt(words.size()));
-                            String targetWord = randomWord.getWordTarget().toLowerCase();
+                            Word randomWord = randomQuestion();
+                            String targetWord = randomWord.getWordTarget();
 
                             StringBuilder hiddenWord = new StringBuilder();
+
                             for (int i = 0; i < targetWord.length(); i++) {
                                 hiddenWord.append("_");
                             }
@@ -153,8 +175,6 @@ public class Hangman {
 
                             System.out.println("Let's Start!");
                             System.out.println(hangmanParts[0]);
-
-                            int hangmanIndex = 0;
 
                             List<Character> guessedLetters = new ArrayList<>();
 
@@ -261,10 +281,10 @@ public class Hangman {
                         }
 
                         System.out.println("Your Score: " + score);
-                        quiz.exportScore("hangman", score);
+                        exportScore("hangman", score);
                         break;
                     case 2:
-                        quiz.importScore("hangman");
+                        importScore("hangman");
                         break;
                     case 3:
                         break;

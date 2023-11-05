@@ -1,3 +1,6 @@
 hangman - 1500
 hangman - 40
 hangman - 120
+hangman - 151
+hangman - 1763
+hangman - 228

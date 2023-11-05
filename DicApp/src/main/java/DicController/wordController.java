@@ -3,8 +3,7 @@ package DicController;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextArea;
 import com.jfoenix.controls.JFXToggleButton;
-import com.sun.speech.freetts.Voice;
-import com.sun.speech.freetts.VoiceManager;
+
 import javafx.fxml.FXML;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
@@ -41,13 +40,6 @@ public class wordController {
         }
         wordPronun.setText(wp);
         wordMeaning.setText(wm);
-        pronunBut.setOnAction(event ->{
-            System.setProperty("freetts.voices","com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
-            Voice voice  = VoiceManager.getInstance().getVoice("kevin");
-            voice.allocate();
-            voice.speak(wk);
-            voice.deallocate();
 
-        });
     }
 }

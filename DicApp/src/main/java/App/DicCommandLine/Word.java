@@ -17,6 +17,8 @@ public class Word {
      */
     private String pronunciation;
 
+    private boolean interetedWord;
+
     public Word() {
         this.wordExplain = "";
         this.wordTarget = "";
@@ -31,6 +33,14 @@ public class Word {
         this.wordTarget = wordTarget;
         this.pronunciation = pronunciation;
         this.wordExplain = wordExplain;
+        interetedWord = false;
+    }
+
+    public Word(String wordTarget, String pronunciation, String wordExplain, boolean interetedWord) {
+        this.wordTarget = wordTarget;
+        this.pronunciation = pronunciation;
+        this.wordExplain = wordExplain;
+        this.interetedWord = interetedWord;
     }
 
     public void setWordTarget(String wordTarget) {
@@ -38,7 +48,9 @@ public class Word {
     }
 
     public String getWordTarget() {
-        return wordTarget;
+        if (wordTarget != null) {
+            return wordTarget;
+        } else return "";
     }
 
     public void setPronunciation(String pronunciation) {
@@ -57,6 +69,13 @@ public class Word {
         return wordExplain;
     }
 
+    public boolean getInteretedWord() {
+        return interetedWord;
+    }
+
+    public void setInteretedWord(boolean interetedWord) {
+        this.interetedWord = interetedWord;
+    }
 
     public String getWord() {
         return getWordTarget() + " - " + getWordExplain();

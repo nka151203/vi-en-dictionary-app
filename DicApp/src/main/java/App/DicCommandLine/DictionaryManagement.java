@@ -1,5 +1,6 @@
 package App.DicCommandLine;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.io.BufferedReader;
@@ -16,8 +17,10 @@ public class DictionaryManagement extends Dictionary {
         trie = new Trie();
     }
 
-    private final int indexSepate = 33;
-    //private final int indexSepate = 58169;
+    public List<String> listInterestedWord = new ArrayList<>();
+
+    //private final int indexSepate = 51;
+    private final int indexSepate = 58105;
 
     /**
      * Add new words from cmd.
@@ -47,15 +50,21 @@ public class DictionaryManagement extends Dictionary {
     public void insertFromFile() {
 
         try (BufferedReader reader = new BufferedReader(new FileReader("DicApp\\src\\main\\resources\\Database\\dictionary.txt"))) {
-        //try (BufferedReader reader = new BufferedReader(new FileReader("DicApp\\src\\main\\resources\\Database\\dictionary.txt"))) {
             String line;
             String word = "" ;
-            String pronunciation= "" ;
-            String meaning= "" ;
+            String pronunciation = "" ;
+            boolean interested = false;
+            String meaning = "" ;
             while ((line = reader.readLine()) != null) {
                 if (line.startsWith("@") && line.contains("/")) {
-                    word = line.substring(1,line.indexOf('/')-1);
-                    pronunciation = line.substring(line.indexOf('/'));
+
+                    String[] parts = line.split("/");
+                    String wordInfo = parts[0];
+                    interested = parts.length > 2 && parts[2].trim().equals("1");
+
+                    word = parts[0].substring(1,line.indexOf('/')-1);
+                    pronunciation = "/" + parts[1] + "/";
+
                 } else if (!word.isEmpty()) {
                     meaning += line;
                     meaning += '\n';
@@ -64,7 +73,8 @@ public class DictionaryManagement extends Dictionary {
                         meaning += '\n';
                     }
 
-                    addWord(new Word(word, pronunciation, meaning));
+                    addWord(new Word(word, pronunciation, meaning, interested));
+                    if (interested) listInterestedWord.add(word);
                     trie.insertWord(word);
                     meaning = "";
                 }
@@ -81,11 +91,16 @@ public class DictionaryManagement extends Dictionary {
     public void dictionaryExportToFile() {
         Scanner sc = new Scanner(System.in);
 
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("DicApp\\src\\main\\java\\App\\DicCommandLine\\dictionaries.txt",false))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("DicApp\\src\\main\\resources\\Database\\dictionary.txt",false))) {
             List<Word> words = getWords();
             writer.write("-----" + "\n");
-            for (Word word : words)
-                writer.write("@" + word.getWordTarget() + " " + word.getPronunciation() + "\n" + word.getWordExplain() + "\n");
+            for (Word word : words) {
+                int check = 0;
+                if (word.getInteretedWord()) {
+                    check = 1;
+                }
+                writer.write("@" + word.getWordTarget() + " " + word.getPronunciation() + ' ' + 0 + "\n" + word.getWordExplain() + "\n");
+            }
 
         } catch (Exception e) {
             System.out.println("Error exporting dictionary.");
@@ -94,11 +109,12 @@ public class DictionaryManagement extends Dictionary {
     }
 
     /**
-     * Add new word.
+     * add new word
+     * @String 3 attribute of word.
      */
     public void addWord(String wordTarget, String pronunciation, String wordExplain) {
 
-        Word word = new Word(wordTarget, pronunciation, wordExplain);
+        Word word = new Word(wordTarget, pronunciation, wordExplain, true);
         addWord(word);
         trie.insertWord(wordTarget);
 
@@ -108,15 +124,12 @@ public class DictionaryManagement extends Dictionary {
 
     /**
      * Remove word.
+     * @String key word
      */
     public void removeWord(String wordTarget) {
         List<Word> words = getWords();
 
-        Word neededWord = binarySearchWord(words.subList(0, indexSepate), wordTarget);
-
-        if (neededWord == null) {
-            neededWord = binarySearchWord(words.subList(indexSepate, words.size()), wordTarget);
-        }
+        Word neededWord = binarySearchWord(words, wordTarget);
 
         if (neededWord != null) {
             removeWord(neededWord);
@@ -133,15 +146,12 @@ public class DictionaryManagement extends Dictionary {
 
     /**
      * Update word.
+     * @String key word
      */
     public void updateWord(String wordTarget, String newWordTarget, String newPronunciation, String newWordExplain) {
         List<Word> words = getWords();
 
-        Word neededWord = binarySearchWord(words.subList(0, indexSepate), wordTarget);
-
-        if (neededWord == null) {
-            neededWord = binarySearchWord(words.subList(indexSepate, words.size()), wordTarget);
-        }
+        Word neededWord = binarySearchWord(words, wordTarget);
 
         if (neededWord != null) {
 
@@ -163,6 +173,7 @@ public class DictionaryManagement extends Dictionary {
 
     /**
      * Display a list of words.
+     * @String key word
      */
     public void displayAllWords() {
         List<Word> words = getWords();
@@ -177,15 +188,13 @@ public class DictionaryManagement extends Dictionary {
 
     /**
      * Find English word.
+     * @String key word.
+     * @return object word.
      */
     public Word dictionaryLookup(String wordTarget) {
         List<Word> words = getWords();
 
-        Word neededWord = binarySearchWord(words.subList(0, indexSepate), wordTarget);
-
-        if (neededWord == null) {
-            neededWord = binarySearchWord(words.subList(indexSepate, words.size()), wordTarget);
-        }
+        Word neededWord = binarySearchWord(words, wordTarget);
 
         if (neededWord != null) {
                 System.out.println("Word: " + neededWord.getWordTarget());
@@ -211,17 +220,51 @@ public class DictionaryManagement extends Dictionary {
         } else {
             System.out.println("Words starting with \"" + prefix + "\":");
             for (String word : matchedWords) {
-                System.out.println(count + ". " + word);
                 count ++;
+                System.out.println(count + ". " + word);
                 if (count == 20 || count > matchedWords.size()) break;
             }
         }
     }
 
+    /**
+     * change status interestedWord.
+     */
+    public void checkInterestedWord(String wordTarget, boolean interested) {
+        List<Word> words = getWords();
+
+        Word neededWord = binarySearchWord(words, wordTarget);
+
+        if (neededWord != null) {
+            if (neededWord.getInteretedWord() != interested) {
+                neededWord.setInteretedWord(interested);
+
+                if (interested) {
+                    listInterestedWord.add(wordTarget);
+                } else listInterestedWord.remove(wordTarget);
+            }
+        }
+    }
+
+    /**
+     * show my list interested word.
+     */
+    public void showListInterestedWord() {
+        int index = 1;
+        for (String word : listInterestedWord) {
+            System.out.println(index + ". " + word);
+            index ++;
+        }
+    }
+
+    /**
+     * Search word with String.
+     */
     private Word binarySearchWord(List<Word> words, String target) {
         int left = 0;
-        int right = words.size() - 1;
+        int right = indexSepate - 1;
 
+        if (target == null) return null;
         while (left <= right) {
             int mid = left + (right - left) / 2;
             Word word = words.get(mid);
@@ -234,6 +277,14 @@ public class DictionaryManagement extends Dictionary {
                 left = mid + 1;
             } else {
                 right = mid - 1;
+            }
+        }
+
+        for (int i = indexSepate; i < words.size(); i++) {
+            System.out.println("Word doesn't exist in primary dictionary");
+            Word word = words.get(i);
+            if (word.getWordTarget().equals(target)) {
+                return word;
             }
         }
 

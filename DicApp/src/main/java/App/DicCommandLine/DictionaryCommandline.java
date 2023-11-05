@@ -110,7 +110,7 @@ public class DictionaryCommandline extends DictionaryManagement {
                         break;
                     case 7:
                         Hangman hangman = new Hangman();
-                        hangman.playHangmanGame();
+                        hangman.playGame();
                         break;
                     case 8:
                         break;
