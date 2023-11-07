@@ -4,7 +4,7 @@
 .slider{
     -fx-background-color: white;
 }
-.button:hover{
+.buttonTaskbar:hover{
     -fx-background-color: rgba(91, 243, 232, 0.4);
     -fx-border-width: 0 0 0 3;
     -fx-border-color: #5bf3e8;
@@ -12,7 +12,7 @@
 .word{
     -fx-font-size: 20;
 }
-.button:selected{
+.buttonTaskbar:selected{
     -fx-border-width: 0 0 0 3;
     -fx-border-color: #5bf3e8;
 }

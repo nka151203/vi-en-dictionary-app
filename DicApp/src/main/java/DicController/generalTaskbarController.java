@@ -26,7 +26,7 @@ public class generalTaskbarController implements Initializable {
     void add(ActionEvent event) {
         System.out.println("You choice ad");
         loader obj = new loader();
-        Pane view = obj.getPane("homeTemplate");
+        Pane view = obj.getPane("addWordTemplate");
         for(JFXButton i:taskGroup) {
             i.setStyle("");
         }

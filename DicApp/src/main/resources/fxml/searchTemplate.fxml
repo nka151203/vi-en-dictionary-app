@@ -21,12 +21,12 @@
                      <children>
                         <Pane prefHeight="248.0" prefWidth="300.0">
                            <children>
-                              <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="88.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                              <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="84.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
                                     <Image url="@../icon/tabSearch.png" />
                                  </image>
                               </ImageView>
-                              <Label layoutX="97.0" layoutY="140.0" text="TRA TỪ">
+                              <Label layoutX="93.0" layoutY="134.0" text="TRA TỪ">
                                  <font>
                                     <Font name="System Bold" size="30.0" />
                                  </font>

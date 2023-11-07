@@ -18,6 +18,9 @@ import java.util.ResourceBundle;
 public class translateController implements Initializable {
 
     @FXML
+    private JFXButton exchangeLang;
+
+    @FXML
     private ChoiceBox<String> langFrom;
 
     @FXML
@@ -64,6 +67,13 @@ public class translateController implements Initializable {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
+        });
+        exchangeLang.setOnAction(event -> {
+            String temp = choiceFrom;
+            choiceFrom = choiceTo;
+            choiceTo = temp;
+            langFrom.setValue(langtolang.getLangKey(choiceFrom));
+            langTo.setValue(langtolang.getLangKey(choiceTo));
         });
 
 //        textTo.textProperty().addListener(new ChangeListener<String>() {
