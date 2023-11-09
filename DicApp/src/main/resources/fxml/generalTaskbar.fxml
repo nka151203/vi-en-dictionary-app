@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import java.lang.String?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -17,7 +18,7 @@
                <children>
                   <VBox alignment="CENTER" layoutY="197.0" prefHeight="595.0" prefWidth="50.0">
                      <children>
-                        <JFXButton fx:id="homebut" minHeight="50.0" minWidth="50.0" onAction="#home" prefHeight="50.0" prefWidth="50.0" styleClass="selected" stylesheets="@../css/generalStyle.css" text="Button">
+                        <JFXButton fx:id="homebut" minHeight="50.0" minWidth="50.0" onAction="#home" prefHeight="50.0" prefWidth="50.0" stylesheets="@../css/generalStyle.css" text="Button">
                            <graphic>
                               <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -28,8 +29,12 @@
                            <VBox.margin>
                               <Insets bottom="5.0" top="5.0" />
                            </VBox.margin>
+                           <styleClass>
+                              <String fx:value="selected" />
+                              <String fx:value="buttonTaskbar" />
+                           </styleClass>
                         </JFXButton>
-                        <JFXButton fx:id="searchbut" minHeight="50.0" minWidth="50.0" onAction="#search" prefHeight="35.0" prefWidth="35.0">
+                        <JFXButton fx:id="searchbut" minHeight="50.0" minWidth="50.0" onAction="#search" prefHeight="35.0" prefWidth="35.0" styleClass="buttonTaskbar" stylesheets="@../css/generalStyle.css">
                            <graphic>
                               <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -41,7 +46,7 @@
                               <Insets bottom="5.0" top="5.0" />
                            </VBox.margin>
                         </JFXButton>
-                        <JFXButton fx:id="addbut" minHeight="50.0" minWidth="50.0" onAction="#add" prefHeight="35.0" prefWidth="35.0">
+                        <JFXButton fx:id="addbut" minHeight="50.0" minWidth="50.0" onAction="#add" prefHeight="35.0" prefWidth="35.0" styleClass="buttonTaskbar" stylesheets="@../css/generalStyle.css">
                            <graphic>
                               <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -53,7 +58,7 @@
                               <Insets bottom="5.0" top="5.0" />
                            </VBox.margin>
                         </JFXButton>
-                        <JFXButton fx:id="transbut" minHeight="50.0" minWidth="50.0" onAction="#translate" prefHeight="35.0" prefWidth="35.0" text="Button">
+                        <JFXButton fx:id="transbut" minHeight="50.0" minWidth="50.0" onAction="#translate" prefHeight="35.0" prefWidth="35.0" styleClass="buttonTaskbar" stylesheets="@../css/generalStyle.css" text="Button">
                            <graphic>
                               <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -65,7 +70,7 @@
                               <Insets bottom="5.0" top="5.0" />
                            </VBox.margin>
                         </JFXButton>
-                        <JFXButton fx:id="gamebut" minHeight="50.0" minWidth="50.0" onAction="#game" prefHeight="35.0" prefWidth="35.0">
+                        <JFXButton fx:id="gamebut" minHeight="50.0" minWidth="50.0" onAction="#game" prefHeight="35.0" prefWidth="35.0" styleClass="buttonTaskbar" stylesheets="@../css/generalStyle.css">
                            <graphic>
                               <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -77,7 +82,7 @@
                               <Insets bottom="5.0" top="5.0" />
                            </VBox.margin>
                         </JFXButton>
-                        <JFXButton fx:id="lovebut" minHeight="50.0" minWidth="50.0" onAction="#love" prefHeight="35.0" prefWidth="35.0">
+                        <JFXButton fx:id="lovebut" minHeight="50.0" minWidth="50.0" onAction="#love" prefHeight="35.0" prefWidth="35.0" styleClass="buttonTaskbar" stylesheets="@../css/buttonCollections.css">
                            <graphic>
                               <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -90,7 +95,7 @@
                            </VBox.margin>
                         </JFXButton>
                         <Pane prefHeight="192.0" prefWidth="50.0" />
-                        <JFXButton fx:id="infobut" minHeight="50.0" minWidth="50.0" onAction="#info" prefHeight="63.0" prefWidth="50.0">
+                        <JFXButton fx:id="infobut" minHeight="50.0" minWidth="50.0" onAction="#info" prefHeight="63.0" prefWidth="50.0" styleClass="buttonTaskbar" stylesheets="@../css/generalStyle.css">
                            <graphic>
                               <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
                                  <image>

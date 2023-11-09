@@ -112,9 +112,9 @@ public class DictionaryManagement extends Dictionary {
      * add new word
      * @String 3 attribute of word.
      */
-    public void addWord(String wordTarget, String pronunciation, String wordExplain) {
+    public void addWord(String wordTarget, String pronunciation, String wordExplain, boolean interested) {
 
-        Word word = new Word(wordTarget, pronunciation, wordExplain, true);
+        Word word = new Word(wordTarget, pronunciation, wordExplain, interested);
         addWord(word);
         trie.insertWord(wordTarget);
 

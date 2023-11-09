@@ -65,7 +65,7 @@ public class homeController implements Initializable {
         Date curr = new Date();
         SimpleDateFormat currHour = new SimpleDateFormat("HH");
 
-        if(Integer.parseInt(currHour.format(curr)) > 3 && Integer.parseInt(currHour.format(curr)) <12){
+        if(Integer.parseInt(currHour.format(curr)) >= 3 && Integer.parseInt(currHour.format(curr)) <12){
             try{
                 helloView.setText("CHÀO BUỔI SÁNG !");
                 Image img = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/icon/morning.png")));
@@ -74,7 +74,7 @@ public class homeController implements Initializable {
                 System.out.println(e.getMessage());
             }
         }
-        if(Integer.parseInt(currHour.format(curr)) > 12 && Integer.parseInt(currHour.format(curr)) <18){
+        if(Integer.parseInt(currHour.format(curr)) >= 12 && Integer.parseInt(currHour.format(curr)) <18){
             try{
                 helloView.setText("CHÀO BUỔI CHIỀU !");
                 Image img = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/icon/afternoon.png")));
@@ -83,7 +83,7 @@ public class homeController implements Initializable {
                 System.out.println(e.getMessage());
             }
         }
-        if(Integer.parseInt(currHour.format(curr)) > 18 || Integer.parseInt(currHour.format(curr)) <3){
+        if(Integer.parseInt(currHour.format(curr)) >= 18 || Integer.parseInt(currHour.format(curr)) <3){
             helloView.setText("CHÀO BUỔI TỐI !");
             try{
                 Image img = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/icon/night.png")));

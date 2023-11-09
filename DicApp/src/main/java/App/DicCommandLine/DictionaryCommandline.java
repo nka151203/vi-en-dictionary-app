@@ -71,8 +71,11 @@ public class DictionaryCommandline extends DictionaryManagement {
                         String pronunciation = scanner.nextLine();
                         System.out.print("Enter Vietnamese meaning: ");
                         String wordExplain = scanner.nextLine();
-
-                        addWord(wordTarget,pronunciation,wordExplain);
+                        System.out.println("Do you want add to interested list?");
+                        String check = scanner.nextLine();
+                        boolean interested = false;
+                        if (check == "yes")  interested = true;
+                        addWord(wordTarget,pronunciation,wordExplain, interested);
                         break;
                     case 2:
                         System.out.print("Enter the word to remove: ");

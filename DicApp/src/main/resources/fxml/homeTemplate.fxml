@@ -25,12 +25,12 @@
                               <Font name="System Bold" size="42.0" />
                            </font>
                         </Label>
-                        <Label fx:id="timeLabel" layoutX="674.0" layoutY="63.0" prefHeight="62.0" prefWidth="187.0" text="00:00:00 ">
+                        <Label fx:id="timeLabel" layoutX="769.0" layoutY="63.0" prefHeight="62.0" prefWidth="187.0" text="00:00:00 ">
                            <font>
                               <Font name="System Bold" size="42.0" />
                            </font>
                         </Label>
-                        <Label fx:id="dateLabel" layoutX="892.0" layoutY="63.0" prefHeight="62.0" prefWidth="298.0" text="01/01/2023">
+                        <Label fx:id="dateLabel" layoutX="968.0" layoutY="63.0" prefHeight="62.0" prefWidth="222.0" text="01/01/2023">
                            <font>
                               <Font size="42.0" />
                            </font>
