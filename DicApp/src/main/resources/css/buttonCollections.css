@@ -92,7 +92,6 @@
     -fx-background-radius: 8,7,6;
     -fx-background-insets: 0,1,2;
     -fx-text-fill: black;
-    -fx-font-size: 16px;
     -fx-font-weight:bold;
     -fx-border-width: 0 0 0 0;
     -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
@@ -108,11 +107,7 @@
     -fx-text-fill: #242d35;
     -fx-font-weight:bold;
     -fx-border-width: 0 0 0 0;
-    -fx-font-size: 16px;
 }
-
-
-
 .line{
     -fx-text-fill: white;
     -fx-font-family: "Arial Narrow";
