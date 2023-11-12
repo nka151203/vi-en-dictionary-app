@@ -169,22 +169,16 @@ public class Hangman extends Game {
                             for (int i = 0; i < targetWord.length(); i++) {
                                 hiddenWord.append("_");
                             }
-
                             int timeLimit = (gameMode == 1) ? EASY_TIME_LIMIT : HARD_TIME_LIMIT;
                             int numAttempts = 7;
-
                             System.out.println("Let's Start!");
                             System.out.println(hangmanParts[0]);
-
                             List<Character> guessedLetters = new ArrayList<>();
-
                             long startTime = System.currentTimeMillis();
                             long time = 0;
-
                             while (numAttempts > 0) {
                                 long currentTime = System.currentTimeMillis();
                                 long elapsedTime = (currentTime - startTime) / 1000;
-
                                 if (elapsedTime >= timeLimit) {
                                     System.out.println("Time's up! You didn't guess the word in time.");
                                     System.out.println("Game over! The word was: " + targetWord);
@@ -192,24 +186,19 @@ public class Hangman extends Game {
                                     System.out.println(randomWord.getWordExplain());
                                     break;
                                 }
-
                                 System.out.println("Word: " + hiddenWord.toString());
                                 System.out.println("Attempts left: " + numAttempts);
                                 System.out.println("Time left: " + (timeLimit - elapsedTime) + " seconds");
                                 System.out.println("Hints left: " + hintNumber);
                                 System.out.print("Enter a letter or 'hint' for a hint: ");
-
                                 String input = scanner.nextLine();
                                 System.out.println();
-
                                 char guess = input.toLowerCase().charAt(0);
-
                                 if (guessedLetters.contains(guess)) {
                                     System.out.println("You already guessed that letter. Try again.");
                                     System.out.println(hangmanParts[7 - numAttempts]);
                                     continue;
                                 }
-
                                 if (input.equals("hint")) {
                                     if (hintNumber > 0) {
                                         hintNumber--;
@@ -219,7 +208,6 @@ public class Hangman extends Game {
                                                 hiddenWord.setCharAt(i, hint);
                                             }
                                         }
-
                                         if (!hiddenWord.toString().contains("_")) {
                                             System.out.println("Congratulations! You guessed the word: " + targetWord);
                                             System.out.println(randomWord.getPronunciation());
@@ -234,18 +222,14 @@ public class Hangman extends Game {
                                     }
                                     continue;
                                 }
-
                                 guessedLetters.add(guess);
-
                                 if (targetWord.contains(String.valueOf(guess))) {
                                     for (int i = 0; i < targetWord.length(); i++) {
                                         if (targetWord.charAt(i) == guess) {
                                             hiddenWord.setCharAt(i, guess);
                                         }
                                     }
-
                                     System.out.println(hangmanParts[7 - numAttempts]);
-
                                     if (!hiddenWord.toString().contains("_")) {
                                         System.out.println("Congratulations! You guessed the word: " + targetWord);
                                         System.out.println(randomWord.getPronunciation());
@@ -261,25 +245,19 @@ public class Hangman extends Game {
 
                                 time = timeLimit - elapsedTime;
                             }
-
                             if (numAttempts == 0) {
                                 System.out.println("Game over! The word was: " + targetWord);
                                 System.out.println(randomWord.getPronunciation());
                                 System.out.println(randomWord.getWordExplain());
                             }
-
                             score += numAttempts * (time);
                             System.out.println("Score: " + score);
-
                             System.out.println("Do you want to play again? (Y/N): ");
                             String playAgain = scanner.nextLine();
-
                             if (playAgain.equalsIgnoreCase("N")) {
                                 continueGame = false;
                             }
-
                         }
-
                         System.out.println("Your Score: " + score);
                         exportScore("hangman", score);
                         break;
