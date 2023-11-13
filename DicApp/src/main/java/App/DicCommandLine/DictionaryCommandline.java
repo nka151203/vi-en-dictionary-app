@@ -1,10 +1,11 @@
 package App.DicCommandLine;
 
-import java.util.Comparator;
+import DicGame.HangmanCommandLine;
+
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
-import DicGame.Hangman;
 
 public class DictionaryCommandline extends DictionaryManagement {
 
@@ -112,7 +113,7 @@ public class DictionaryCommandline extends DictionaryManagement {
                         dictionarySearcher(prefix);
                         break;
                     case 7:
-                        Hangman hangman = new Hangman();
+                        HangmanCommandLine hangman = new HangmanCommandLine();
                         hangman.playGame();
                         break;
                     case 8:

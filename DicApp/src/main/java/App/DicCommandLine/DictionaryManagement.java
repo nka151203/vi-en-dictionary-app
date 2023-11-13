@@ -330,6 +330,23 @@ public class DictionaryManagement extends Dictionary {
             e.printStackTrace();
         }
     }
+
+    /**
+     *
+     */
+    public List<String> readQuote() {
+        List<String> quoteList = new ArrayList<>();
+        try (BufferedReader reader = new BufferedReader(new FileReader("DicApp\\src\\main\\resources\\Database\\Quote.txt"))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                quoteList.add(line);
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return quoteList;
+    }
 }
 
 

@@ -1,7 +1,5 @@
 package DicGame;
 
-import App.DicCommandLine.Word;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,7 +8,6 @@ import java.util.List;
 
 public abstract class Game {
 
-    static final int NUM_HINTS = 3;
     static final int EASY_TIME_LIMIT = 120;
     static final int HARD_TIME_LIMIT = 90;
 
@@ -19,6 +16,7 @@ public abstract class Game {
         System.out.println("[0] Exit");
         System.out.println("[1] Play game");
         System.out.println("[2] High Score");
+        System.out.print("Enter your choice: ");
     }
 
     void showPlayGame() {
@@ -72,5 +70,5 @@ public abstract class Game {
 
 
     abstract void playGame();
-    abstract Word randomQuestion();
+    //abstract Word randomQuestion();
 }
