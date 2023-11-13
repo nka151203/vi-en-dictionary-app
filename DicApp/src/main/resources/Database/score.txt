@@ -4,3 +4,6 @@ hangman - 120
 hangman - 151
 hangman - 1763
 hangman - 228
+multiple choices - 345
+multiple choices - 547
+

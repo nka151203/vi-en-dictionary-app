@@ -11,12 +11,14 @@ public class Quiz {
     private String fullAnswer;
     private String key;
 
+    private List<String> answerList = new ArrayList<>();
     public Quiz() {}
 
-    public Quiz(String q, String f, String k) {
+    public Quiz(String q, String f, String k, List<String> quesList) {
         this.question = q;
         this.fullAnswer = f;
         this.key = k;
+        this.answerList = quesList;
     }
 
     public String getQuestion() {
@@ -29,6 +31,15 @@ public class Quiz {
 
     public String getKey() {
         return key;
+    }
+
+    public void printfAnswer() {
+        if (!answerList.isEmpty()) {
+            System.out.println(answerList.get(0));
+            System.out.println(answerList.get(1));
+            System.out.println(answerList.get(2));
+            System.out.println(answerList.get(3));
+        }
     }
 
     public void importScore(String key) {

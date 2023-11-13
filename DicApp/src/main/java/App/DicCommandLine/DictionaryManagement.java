@@ -1,14 +1,12 @@
 package App.DicCommandLine;
 
+import Trie.Trie;
+
+import java.io.*;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.util.Collections;
-import Trie.Trie;
 
 public class DictionaryManagement extends Dictionary {
     public Trie trie;
@@ -19,7 +17,9 @@ public class DictionaryManagement extends Dictionary {
 
     public List<String> listInterestedWord = new ArrayList<>();
 
-    //private final int indexSepate = 51;
+    public static int lookupedWord;
+    public static int contributedWord;
+
     private final int indexSepate = 58105;
 
     /**
@@ -79,6 +79,7 @@ public class DictionaryManagement extends Dictionary {
                     meaning = "";
                 }
             }
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -117,6 +118,7 @@ public class DictionaryManagement extends Dictionary {
         Word word = new Word(wordTarget, pronunciation, wordExplain, interested);
         addWord(word);
         trie.insertWord(wordTarget);
+        contributedWord ++;
 
         dictionaryExportToFile();
         System.out.println("Word added successfully.");
@@ -200,6 +202,9 @@ public class DictionaryManagement extends Dictionary {
                 System.out.println("Word: " + neededWord.getWordTarget());
                 System.out.println("Pronunciation: " + neededWord.getPronunciation());
                 System.out.println("Meaning: " + neededWord.getWordExplain());
+
+                lookupedWord ++;
+
                 return new Word(neededWord.getWordTarget(),neededWord.getPronunciation(),neededWord.getWordExplain());
         }
         System.out.println("Word \"" + wordTarget + "\" not found in the dictionary.");
@@ -291,6 +296,40 @@ public class DictionaryManagement extends Dictionary {
         return null;
     }
 
+    /**
+     * read lookupedWord and contributedWord from file
+     */
+    public void readNumberWord() {
+        try (BufferedReader reader = new BufferedReader(new FileReader("DicApp\\src\\main\\resources\\Database\\numberWord.txt"))) {
+            String line;
+
+            if ((line = reader.readLine()) != null) {
+                try {
+                    String[] numbers = line.trim().split("\\s+");
+                    if (numbers.length == 2) {
+                        lookupedWord = Integer.parseInt(numbers[0]);
+                        contributedWord = Integer.parseInt(numbers[1]);
+                    }
+
+                } catch (NumberFormatException e) {
+                    e.printStackTrace();
+                 }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * write lookupedWord and contributedWord to file
+     */
+    public void writeNumberWord() {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("DicApp\\src\\main\\resources\\Database\\numberWord.txt"))) {
+            writer.write(lookupedWord + " " + contributedWord);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
 
 

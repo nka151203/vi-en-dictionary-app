@@ -1,18 +1,21 @@
 package DicGame;
 
+import App.DicCommandLine.Word;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.*;
 
-public class MultipleChoices {
+public class MultipleChoices extends Game {
     private List<Quiz> quizList;
     private Random random;
     private Scanner scanner;
     private Quiz yourQuiz;
     private int score;
     private int countQuiz;
-    private static final int GAME_DURATION = 30000;
 
     public MultipleChoices() {
         quizList = new ArrayList<>();
@@ -24,25 +27,38 @@ public class MultipleChoices {
     }
 
     public void insertFromFile() {
-        try (BufferedReader reader = new BufferedReader(new FileReader("DicApp\\src\\main\\resources\\Database\\Questions.txt"))) {
+        Path filePath = Paths.get("DicApp", "src", "main", "resources", "Database", "Questions.txt");
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath.toFile()))) {
             String line;
             String question = "";
             String answer = "";
             String key = "";
+            List<String> ql = new ArrayList<>();
 
             while ((line = reader.readLine()) != null) {
                 if (line.startsWith("@")) {
-                    question += line.substring(line.indexOf('@') + 2);
-                } else if (line.startsWith("|")) {
-                    answer = line.substring(line.indexOf('|') + 2);
-                    key = line.substring(line.indexOf('|') + 1, line.indexOf('|') + 2);
-                    Quiz quiz = new Quiz(question, answer, key);
-                    quizList.add(quiz);
-                    question = "";
-                    answer = "";
-                    key = "";
-                } else {
-                    question += line;
+                    question = line.substring(line.indexOf('@') + 2);
+                } else if (line.matches("[a-dA-D]\\..*")) {
+                    ql.add(line);
+                    while ((line = reader.readLine()) != null && !line.isEmpty()) {
+                        if (line.matches("[a-dA-D]\\..*")) {
+                            ql.add(line);
+                        } else {
+                            if (line.startsWith("|")) {
+                                answer = line.substring(line.indexOf('|') + 2);
+                                key = line.substring(line.indexOf('|') + 2, line.indexOf('|') + 3);
+                                if (!question.isEmpty()) {
+                                    Quiz quiz = new Quiz(question, answer, key, new ArrayList<>(ql));
+                                    quizList.add(quiz);
+                                    question = "";
+                                    answer = "";
+                                    key = "";
+                                    ql.clear();
+                                }
+                            }
+                        }
+                    }
                 }
             }
         } catch (IOException e) {
@@ -50,34 +66,24 @@ public class MultipleChoices {
         }
     }
 
-    public void playMultipleChoices() {
+    public void playGame() {
         insertFromFile();
         boolean exit = false;
         int choice;
         while (!exit) {
-            System.out.println("Welcome to Multiple Choices!");
-            System.out.println("[0] Exit");
-            System.out.println("[1] Play game");
-            System.out.println("[2] High Score");
-            System.out.println("[3] Help");
-
+            gameDisplay("Multiple Choices");
             try {
                 choice = scanner.nextInt();
                 scanner.nextLine();
-
                 switch (choice) {
                     case 0:
                         System.out.println("Goodbye!");
                         exit = true;
                         break;
                     case 1:
-                        System.out.println("Choose the game mode:");
-                        System.out.println("1. Easy");
-                        System.out.println("2. Hard");
-                        System.out.print("Enter your choice: ");
-
+                        showPlayGame();
                         int gameMode = scanner.nextInt();
-                        // scanner.nextLine();
+                        scanner.nextLine();
                         List<Quiz> quizMode;
                         boolean continueGame = true;
                         Set<String> RQ_E = new HashSet<>();
@@ -87,19 +93,15 @@ public class MultipleChoices {
                             int timeLimit;
                             if (gameMode == 1) {
                                 countScore = 10;
-                                timeLimit = GAME_DURATION * 3;
+                                timeLimit = EASY_TIME_LIMIT;
                                 quizMode = new ArrayList<>(quizList.subList(quizList.size() - 300, quizList.size()));
                             } else {
                                 countScore = 30;
-                                timeLimit = GAME_DURATION * 2;
+                                timeLimit = HARD_TIME_LIMIT;
                                 quizMode = new ArrayList<>(quizList.subList(0, 300));
                             }
-
-                            TimerThread timerThread = new TimerThread(timeLimit);
-
                             Quiz randomQuiz = quizMode.get(random.nextInt(quizMode.size()));
                             int len = 0;
-
                             if (gameMode == 1) {
                                 if (!RQ_E.isEmpty()) {
                                     len = RQ_E.size();
@@ -124,18 +126,18 @@ public class MultipleChoices {
                             String yourAnswer = "";
                             System.out.println("Your question is:\n");
                             System.out.println(yourQuiz.getQuestion());
+                            yourQuiz.printfAnswer();
                             System.out.println("\nEnter your answer: ");
-                            timerThread.start();
+                            long startTime  = System.currentTimeMillis();
                             yourAnswer = scanner.nextLine();
-
-                            if (timerThread.getTimeLeft() <= 0) {
+                            long endTime = System.currentTimeMillis();
+                            if ((endTime - startTime) / 1000.0 >= timeLimit) {
                                 System.out.println("GAME OVER!");
                                 System.out.println("Time's up! You didn't answer this question in time.");
                                 System.out.println("The correct answer is: " + yourQuiz.getFullAnswer());
                                 System.out.println("Your score: " + score);
                                 yourQuiz.exportScore("multiple choices", score);
                                 score = 0;
-                                timerThread.stopTimer();
                             } else if (yourAnswer.equals(yourQuiz.getKey())) {
                                 System.out.println("You are correct!");
                                 score += countScore;
@@ -147,7 +149,6 @@ public class MultipleChoices {
                                 yourQuiz.exportScore("multiple choices", score);
                                 score = 0;
                             }
-                            timerThread.stopTimer();
 
                             if (gameMode == 1) {
                                 if (RQ_E.size() == quizMode.size()) {
@@ -156,9 +157,10 @@ public class MultipleChoices {
                                     System.out.println("[3] Exit?");
                                     System.out.println("Enter your choice: ");
                                     int tmp = scanner.nextInt();
+                                    scanner.nextLine();
                                     if (tmp == 1) {
                                         gameMode = 1;
-                                        RQ_E = null;
+                                        RQ_E.clear();
                                         if (score != 0) {
                                             yourQuiz.exportScore("multiple choices", score);
                                             score = 0;
@@ -178,6 +180,7 @@ public class MultipleChoices {
                                             System.out.println("[3] Exit?");
                                             System.out.print("Enter your choice: ");
                                             int yourChoice = scanner.nextInt();
+                                            scanner.nextLine();
                                             if (yourChoice != 3) {
                                                 gameMode = yourChoice;
                                             } else {
@@ -191,6 +194,7 @@ public class MultipleChoices {
                                     System.out.println("[3] Exit?");
                                     System.out.println("Enter your choice: ");
                                     int tmp = scanner.nextInt();
+                                    scanner.nextLine();
                                     if (tmp != 3) {
                                         gameMode = tmp;
                                     } else {
@@ -208,9 +212,10 @@ public class MultipleChoices {
                                     System.out.println("[3] Exit?");
                                     System.out.println("Enter your choice: ");
                                     int tmp = scanner.nextInt();
+                                    scanner.nextLine();
                                     if (tmp == 2) {
                                         gameMode = 2;
-                                        RQ_H = null;
+                                        RQ_H.clear();
                                         if (score != 0) {
                                             yourQuiz.exportScore("multiple choices", score);
                                             score = 0;
@@ -230,6 +235,7 @@ public class MultipleChoices {
                                             System.out.println("[3] Exit?");
                                             System.out.print("Enter your choice: ");
                                             int yourChoice = scanner.nextInt();
+                                            scanner.nextLine();
                                             if (yourChoice != 3) {
                                                 gameMode = yourChoice;
                                             } else {
@@ -243,6 +249,7 @@ public class MultipleChoices {
                                     System.out.println("[3] Exit?");
                                     System.out.println("Enter your choice: ");
                                     int tmp = scanner.nextInt();
+                                    scanner.nextLine();
                                     if (tmp != 3) {
                                         gameMode = tmp;
                                     } else {
@@ -254,34 +261,43 @@ public class MultipleChoices {
                                     }
                                 }
                             }
-                            quizMode = null;
+                            quizMode.clear();
                         }
                         break;
                     case 2:
                         yourQuiz.importScore("multiple choices");
                         break;
-                    case 3:
-                        break;
                 }
             } catch (Exception e) {
                 System.out.println("Action not supported.");
+                System.out.println(e.getMessage());
                 scanner.nextLine();
             }
         }
     }
 
+    @Override
+    Word randomQuestion() {
+        return null;
+    }
 
-    public void Show() {
-        for (int i = 0; i < 10;i++) {
-            System.out.println(i+1 + "." + quizList.get(i).getQuestion() + "\n");
-
+    private void showQuizList() {
+        List<Quiz> quizs = quizList;
+        int cnt = 1;
+        for (Quiz i :  quizs) {
+            System.out.print(cnt + ". ");
+            System.out.println(i.getQuestion());
+            i.printfAnswer();
+            i.getFullAnswer();
+            i.getKey();
+            cnt++;
         }
+        System.out.println(quizs.size());
     }
-
-    public static void main(String[] args) {
-        MultipleChoices test = new MultipleChoices();
-        test.insertFromFile();
-        test.playMultipleChoices();
+    public static void main(String []args) {
+        MultipleChoices mc = new MultipleChoices();
+        mc.insertFromFile();
+        //mc.showQuizList();
+        mc.playGame();
     }
-
 }

@@ -1,2756 +1,2754 @@
+ ------
 @ The mausoleum is ................. by Thien Thu mountain, two towering columns and a vast expanse of
 water.
-a. feed 
-b. feeding 
-c. fed 
-d. feeds
-| c. fed 
+A. feed
+B. feeding
+C. fed
+D. feeds
+| C. fed
 
-@ Put plants ............... a window so that they will get enough light. 
-a. near to 
-b. near of 
-c. next to 
-d. nearly
-| c. next to 
+@ Put plants ............... a window so that they will get enough light.
+A. near to
+B. near of
+C. next to
+D. nearly
+| C. next to
 
-@ Employers often require that candidates have not only a degree ............. 
-a. but two years experience 
-b. also two years experience
-c. but also two-year experience 
-d. but more two years experience
-| c. but also two-year experience 
+@ Employers often require that candidates have not only a degree .............
+A. but two years experience
+B. also two years experience
+C. but also two-year experience
+D. but more two years experience
+| C. but also two-year experience
 
-@ Richard Nixon had been a lawyer and ............... before he entered politics. 
-a. served in the Navy as an officer 
-b. an officer in the Navy
-c. the Navy had him as an officer 
-d. did service in the Navy as an officer
-|c. the Navy had him as an officer
+@ Richard Nixon had been a lawyer and ............... before he entered politics.
+A. served in the Navy as an officer
+B. an officer in the Navy
+C. the Navy had him as an officer
+D. did service in the Navy as an officer
+| C. the Navy had him as an officer
 
-@ If one of the participants in a conversation wonders ............... no real communication has taken place. 
-a. what said the other person 
-b. what the other person said
-c. what did the other person say 
-d. what was the other person saying
-| b. what the other person said
+@ If one of the participants in a conversation wonders ............... no real communication has taken place.
+A. what said the other person
+B. what the other person said
+C. what did the other person say
+D. what was the other person saying
+| B. what the other person said
 
-@ The salary of a bus driver is much higher ................ 
-a. in comparison with the salary of a teacher 
-b. than a teacher
-c. than that of a teacher 
-d. to compare as a teacher
-| c. than that of a teacher
+@ The salary of a bus driver is much higher ................
+A. in comparison with the salary of a teacher
+B. than a teacher
+C. than that of a teacher
+D. to compare as a teacher
+| C. than that of a teacher
 
-@ Professional people expect ............... when it is necessary to cancel an appointment. 
-a. you to call them 
-b. that you would call them
-c. your calling them 
-d. that you are calling them
-| a. you to call them 
+@ Professional people expect ............... when it is necessary to cancel an appointment.
+A. you to call them
+B. that you would call them
+C. your calling them
+D. that you are calling them
+| A. you to call them
 
 @ Sedimentary rocks are formed below the surface of the earth ............... very high temperatures and
-pressures. 
-a. where there are 
-b. there are 
-c. where are there 
-d. there are where
-| a. where there are
+pressures.
+A. where there are
+B. there are
+C. where are there
+D. there are where
+| A. where there are
 
-@ Farmers look forward to ............... every summer. 
-a. participating in the county fairs 
-b. participate in the county fairs
-c. be participating in the county fairs 
-d. have participated in the county fairs
-| a. participating in the county fairs
+@ Farmers look forward to ............... every summer.
+A. participating in the county fairs
+B. participate in the county fairs
+C. be participating in the county fairs
+D. have participated in the county fairs
+| A. participating in the county fairs
 
-@ Clipper ships were the swiftest sailing ships that ...................... to sea and the most beautiful. 
-a. ever were put 
-b. were ever putted 
-c. were ever put 
-d. ever were putted
-| c. were ever put
+@ Clipper ships were the swiftest sailing ships that ...................... to sea and the most beautiful.
+A. ever were put
+B. were ever putted
+C. were ever put
+D. ever were putted
+| C. were ever put
 
-@ The ships had their days of ...................... in the 1840s and 1850s. 
-a. glorious 
-b. glory 
-c. glorify 
-d. gloriously
-| b. glory
+@ The ships had their days of ...................... in the 1840s and 1850s.
+A. glorious
+B. glory
+C. glorify
+D. gloriously
+| B. glory
 
-@ Tea loses its flavor quickly ........................ in the hold of a vessel. 
-a. when storing 
-b. stored 
-c. when stored 
-d. storing
-| c. when stored
+@ Tea loses its flavor quickly ........................ in the hold of a vessel.
+A. when storing
+B. stored
+C. when stored
+D. storing
+| C. when stored
 
-@ Earl was one of the first American artists ...................... landscapes. 
-a. painting 
-b. painted 
-c. for painting 
-d. to paint
-| d. to paint
+@ Earl was one of the first American artists ...................... landscapes.
+A. painting
+B. painted
+C. for painting
+D. to paint
+| D. to paint
 
 @ The crime rate has continued to rise in American cities despite efforts on the part of both
-government and private citizens to curb ................ 
-a. them 
-b. him 
-c. its 
-d. it
-| d. to paint
+government and private citizens to curb ................
+A. them
+B. him
+C. its
+D. it
+| D. to paint
 
-@ In 1778, he .................. to London to study with Benjamin West for four years. 
-a. has gone 
-b. had gone 
-c. would go 
-d. went
-| d. went
+@ In 1778, he .................. to London to study with Benjamin West for four years.
+A. has gone
+B. had gone
+C. would go
+D. went
+| D. went
 
-@ No one has been able to satisfactorily explain how or ............ The Moon sporadically sparks. 
-a. when 
-b. why 
-c. what 
-d. which
-| b. why 
+@ No one has been able to satisfactorily explain how or ............ The Moon sporadically sparks.
+A. when
+B. why
+C. what
+D. which
+| B. why
 
-@ The basic fiber-optics system is called a fiberscope, ............ Consists of two bundles of fibers. 
-a. which 
-b. in which 
-c. where 
-d. what
-| a. which
+@ The basic fiber-optics system is called a fiberscope, ............ Consists of two bundles of fibers.
+A. which
+B. in which
+C. where
+D. what
+| A. which
 
-@ Physicians can look into the lungs, heart and other areas that were formerly................. to them. 
-a. accessibly 
-b. access 
-c. accessible 
-d. inaccessible
-| d. inaccessible
+@ Physicians can look into the lungs, heart and other areas that were formerly................. to them.
+A. accessibly
+B. access
+C. accessible
+D. inaccessible
+| D. inaccessible
 
 @ ............... his highly individual conceptions of music and chaos, John Cage became a leading figure
-in avant-garde music. 
-a. Such was 
-b. Due to 
-c. Because from 
-d. That
-| b. Due to
+in avant-garde music.
+A. Such was
+B. Due to
+C. Because from
+D. That
+| B. Due to
 
-@ Sanford Meisner ............... the Neighborhood Playhouse in New York City. 
-a. founding and directing
-b. who founded and directed
-c. founded and directed 
-d. in finding and directing
-| c. founded and directed
+@ Sanford Meisner ............... the Neighborhood Playhouse in New York City.
+A. founding and directing
+B. who founded and directed
+C. founded and directed
+D. in finding and directing
+| C. founded and directed
 
 @ Experiments in the sonic imaging of moving objects ............... in both the United States and Europe
-well before the Second World War. 
-a. were conducting 
-b. have been conducted 
-c. had been conducted 
-d. being conducted
-| c. had been conducted
+well before the Second World War.
+A. were conducting
+B. have been conducted
+C. had been conducted
+D. being conducted
+| C. had been conducted
 
-@ ............... billions and billions of stars exist in the vast space beyond our Milky Way galaxy. 
-a. That is estimated 
-b. An estimate that
-c. That the estimate 
-d. It is estimated that
-| d. It is estimated that
+@ ............... billions and billions of stars exist in the vast space beyond our Milky Way galaxy.
+A. That is estimated
+B. An estimate that
+C. That the estimate
+D. It is estimated that
+| D. It is estimated that
 
-@ ............... gene-bearing bodies within the nuclei of living organisms. 
-a. Chromosomes 
-b. Chromosomes that are
-c. Chromosomes are 
-d. Chromosomes while they are
-| c. Chromosomes are 
+@ ............... gene-bearing bodies within the nuclei of living organisms.
+A. Chromosomes
+B. Chromosomes that are
+C. Chromosomes are
+D. Chromosomes while they are
+| C. Chromosomes are
 
-@ Abner Doubleday, ..............., was credited with the invention of baseball in 1839. 
-a. who become a Union army general 
-b. which became a Union army general
-c. who were a Union army general 
-d. a Union army general
-| d. a Union army general
+@ Abner Doubleday, ..............., was credited with the invention of baseball in 1839.
+A. who become a Union army general
+B. which became a Union army general
+C. who were a Union army general
+D. a Union army general
+| D. a Union army general
 
-@ ............... photosynthesis were to stop, life would disappear from the planet Earth relatively quickly. 
-a. For 
-b. However 
-c. If 
-d. Although
-| c. If
+@ ............... photosynthesis were to stop, life would disappear from the planet Earth relatively quickly.
+A. For
+B. However
+C. If
+D. Although
+| C. If
 
-@ Each fiber in the bundle ................. only a tiny fraction of the total image. 
-a. transmit 
-b. transmitted 
-c. transmits 
-d. to transmit
-| c. transmits 
+@ Each fiber in the bundle ................. only a tiny fraction of the total image.
+A. transmit
+B. transmitted
+C. transmits
+D. to transmit
+| C. transmits
 
 @ Antonio Gaudi, architect of Barcelona's Holy Family Church, died before seeing ............... the
-structure. 
-a. on completion of 
-b. the completion of
-c. completing of 
-d. their completing of
-| b. the completion of
+structure.
+A. on completion of
+B. the completion of
+C. completing of
+D. their completing of
+| B. the completion of
 
-@ 28. This is the factory ................................. at work. 
-a. they are 
-b. where they are 
-c. where are 
-d. in where they are
+@ This is the factory ................................. at work.
+A. they are
+B. where they are
+C. where are
+D. in where they are
+| B. where they are
 
-| b. where they are
+@ America's first globe maker was James Wilson, who ................... and blacksmith in his earlier life.
+A. a farmer had been
+B. had been a farmer
+C. farming
+D. being a farmer
+| B. had been a farmer
 
-@ America's first globe maker was James Wilson, who ................... and blacksmith in his earlier life. 
-a. a farmer had been 
-b. had been a farmer
-c. farming 
-d. being a farmer
-| b. had been a farmer
+@ Napoleon ................... the West Indian island of Santo Domingo in 1801.
+A. attacked
+B. is attacking
+C. has attracted
+D. attacking
+| A. attacked
 
-@ Napoleon ................... the West Indian island of Santo Domingo in 1801. 
-a. attacked 
-b. is attacking 
-c. has attracted 
-d. attacking
-| a. attacked 
-
-@ Modern industrial methods have supplanted individual crafts, ................... stone carvers, coopers, and cobblers virtually extinct. 
-a. make blacksmiths, 
-b. made blacksmiths, 
-c. making them blacksmiths, 
-d. making blacksmiths, 
-| d. making blacksmiths
+@ Modern industrial methods have supplanted individual crafts, ................... stone carvers, coopers, and cobblers virtually extinct.
+A. make blacksmiths,
+B. made blacksmiths,
+C. making them blacksmiths,
+D. making blacksmiths,
+| D. making blacksmiths
 
 @ Not only knowledge and skills, but also attitudes ................... in school for students' future
-adjustment to society. 
-a. when cultivated 
-b. cultivated
-c. which need to be cultivated 
-d. need to be cultivated
-| d. need to be cultivated
+adjustment to society.
+A. when cultivated
+B. cultivated
+C. which need to be cultivated
+D. need to be cultivated
+| D. need to be cultivated
 
-@ On Mercator's maps, the far northern and southern polar regions are.................... 
-a. greatly exaggerated in area. 
-b. exaggerating greatly in area. 
-c. greatly exaggerate in area. 
-d. great exaggeration in area.
-| a. greatly exaggerated in area.
+@ On Mercator's maps, the far northern and southern polar regions are....................
+A. greatly exaggerated in area.
+B. exaggerating greatly in area.
+C. greatly exaggerate in area.
+D. great exaggeration in area.
+| A. greatly exaggerated in area.
 
-@ On the slope of Long's Peak in Colorado ................... the ruin of a gigantic tree. 
-a. that lies 
-b. lies 
-c. where lies 
-d. lie
-| b. lies
+@ On the slope of Long's Peak in Colorado ................... the ruin of a gigantic tree.
+A. that lies
+B. lies
+C. where lies
+D. lie
+| B. lies
 
-@ ................... in Shanghai than in any other city in China. 
-a. More people live 
-b. More people living 
-c. It has more people 
-d. More living people
-| a. More people live
+@ ................... in Shanghai than in any other city in China.
+A. More people live
+B. More people living
+C. It has more people
+D. More living people
+| A. More people live
 
 @ The earth spins on its axis and ................... 23 hours, 56 minutes and 4.09
-seconds for one complete rotation. 
-a. need 
-b. needed 
-c. needing 
-d. needs
-| d. needs
+seconds for one complete rotation.
+A. need
+B. needed
+C. needing
+D. needs
+| D. needs
 
-@ ................... on the environment for the gratification of its needs. 
-a. Each organism to depend 
-b. Every organism depends
-c. All organisms depending 
-d. Many organisms can depend
-| b. Every organism depends
+@ ................... on the environment for the gratification of its needs.
+A. Each organism to depend
+B. Every organism depends
+C. All organisms depending
+D. Many organisms can depend
+| B. Every organism depends
 
-@ 38. Of Charles Dickens' many novels, expectations perhaps ................... to many readers. 
-a. the most satisfying one 
-b. most satisfying one
-c. more than satisfying one 
-d. the more satisfying than
+@ Of Charles Dickens' many novels, expectations perhaps ................... to many readers.
+A. the most satisfying one
+B. most satisfying one
+C. more than satisfying one
+D. the more satisfying than
+| A. the most satisfying one
 
-| a. the most satisfying one
+@ ..................., the nation's capital remained in Philadelphia, Pennsylvania.
+A. While designing Washington, D.C.
+B. Washington, D.C., was designed
+C. While Washington, D.C., was being designed
+D. Washington, D.C., designed
+| C. While Washington, D.C., was being designed
 
-@ ..................., the nation's capital remained in Philadelphia, Pennsylvania. 
-a. While designing Washington, D.C. 
-b. Washington, D.C., was designed
-c. While Washington, D.C., was being designed
-d. Washington, D.C., designed
-| c. While Washington, D.C., was being designed
+@ Children learn primarily by ................... the world around them.
+A. experiencing directly of
+B. experience direct
+C. directly physical experience
+D. direct physical experience of
+| D. direct physical experience of
 
-@ Children learn primarily by ................... the world around them. 
-a. experiencing directly of 
-b. experience direct
-c. directly physical experience 
-d. direct physical experience of
-| d. direct physical experience of
+@ It is earth's gravity that ................... people their weight.
+A. gives
+B. give
+C. giving
+D. given
+| A. gives
 
-@ It is earth's gravity that ................... people their weight. 
-a. gives 
-b. give 
-c. giving 
-d. given
-| a. gives
+@ Generally speaking, people should have ................... as their desires will allow.
+A. much education
+B. as much education
+C. education
+D. for education
+| B. as much education
 
-@ Generally speaking, people should have ................... as their desires will allow. 
-a. much education 
-b. as much education 
-c. education 
-d. for education
-| b. as much education
+@ A dolphin six ................... length can move as fast as most ships.
+A. foot in
+B. feet in
+C. foot of
+D. feet of
+| B. feet in
 
-@ A dolphin six ................... length can move as fast as most ships. 
-a. foot in 
-b. feet in 
-c. foot of 
-d. feet of
-| b. feet in
-
-@ With new technology, cameras can take pictures of underwater valleys................... color. 
-a. within 
-b. for 
-c. in 
-d. by
-| c. in 
+@ With new technology, cameras can take pictures of underwater valleys................... color.
+A. within
+B. for
+C. in
+D. by
+| C. in
 
 @ ................. the fifth largest among the nine planets that make up our solar system.
-a. The Earth is 
-b. The Earth being 
-c. That the Earth is 
-d. Being the Earth
-| a. The Earth is
+A. The Earth is
+B. The Earth being
+C. That the Earth is
+D. Being the Earth
+| A. The Earth is
 
-@ In mathematics, a variable is a symbol ................. some element of a set. 
-a. and representing 
-b. represents 
-c. that represents 
-d. represents that
-| c. that represents
+@ In mathematics, a variable is a symbol ................. some element of a set.
+A. and representing
+B. represents
+C. that represents
+D. represents that
+| C. that represents
 
-@ .................. actress's life is in many ways unlike that of other women. 
-a. An 
-b. A 
-c. As the 
-d. That the
-| a. An 
+@ .................. actress's life is in many ways unlike that of other women.
+A. An
+B. A
+C. As the
+D. That the
+| A. An
 
-@ About 20 miles from Boston, .................. a little town named Concord that has a rich history. 
-a. has 
-b. there is 
-c. there are 
-d. where is
-| b. there is
+@ About 20 miles from Boston, .................. a little town named Concord that has a rich history.
+A. has
+B. there is
+C. there are
+D. where is
+| B. there is
 
 @ An advisor to both Franklin Delano Roosevelt and Harry Truman, .................of Bethune Cookman
-College. 
-a. Dr. Mary Mcleod Bethune was the founder
-b. Dr. Mary Mcleod Bethune, who was the founder
-c. the founder was Dr. Mary Mcleod Bethune
-d. did the founder Dr. Mary Mcleod Bethune
-| a. Dr. Mary Mcleod Bethune was the founder
+College.
+A. Dr. Mary Mcleod Bethune was the founder
+B. Dr. Mary Mcleod Bethune, who was the founder
+C. the founder was Dr. Mary Mcleod Bethune
+D. did the founder Dr. Mary Mcleod Bethune
+| A. Dr. Mary Mcleod Bethune was the founder
 
-@ Warmth, moisture, and oxygen are three necessary requirements ................. most seedlings. 
-a. for cultivating 
-b. for cultivate 
-c. as cultivating 
-d. can cultivate
-| a. for cultivating
+@ Warmth, moisture, and oxygen are three necessary requirements ................. most seedlings.
+A. for cultivating
+B. for cultivate
+C. as cultivating
+D. can cultivate
+| A. for cultivating
 
-@ They share the housework ........................ between them. 
-a. equally 
-b. equal 
-c. they are equal 
-d. and equal
-| a. equally
+@ They share the housework ........................ between them.
+A. equally
+B. equal
+C. they are equal
+D. and equal
+| A. equally
 
-@ A well-known large natural lake is Lake Tahoe, ................. straddles the California-Nevada border. 
-a. and 
-b. which 
-c. since 
-d. for
-| b. which 
+@ A well-known large natural lake is Lake Tahoe, ................. straddles the California-Nevada border.
+A. and
+B. which
+C. since
+D. for
+| B. which
 
-@ Before ................., they used horse-drawn wooden carts. 
-a. farmers have had tractors 
-b. tractors owned by farmers
-c. having tractors farmers 
-d. farmers had tractors
-| d. farmers had tractors
+@ Before ................., they used horse-drawn wooden carts.
+A. farmers have had tractors
+B. tractors owned by farmers
+C. having tractors farmers
+D. farmers had tractors
+| D. farmers had tractors
 
-@ Tuna, ................., may weigh up to 1,000 pounds. 
-a. is the sea giant 
-b. can be giants of the sea
-c. one of the sea giants 
-d. the sea of the giant
-| c. one of the sea giants
+@ Tuna, ................., may weigh up to 1,000 pounds.
+A. is the sea giant
+B. can be giants of the sea
+C. one of the sea giants
+D. the sea of the giant
+| C. one of the sea giants
 
-@ Physical fitness exercises can cause injuries ................. the participants are not careful. 
-a. that 
-b. to 
-c. if 
-d. with
-| c. if
+@ Physical fitness exercises can cause injuries ................. the participants are not careful.
+A. that
+B. to
+C. if
+D. with
+| C. if
 
-@ Total weight of all the ants in the world is much greater than ................. 
-a. to all human beings 
-b. all human beings is that
-c. that of all human beings 
-d. is of all human beings
-| c. that of all human beings
+@ Total weight of all the ants in the world is much greater than .................
+A. to all human beings
+B. all human beings is that
+C. that of all human beings
+D. is of all human beings
+| C. that of all human beings
 
 @ ................. for overall health.
-a. Extra fiber in one's diet is helpful
-b. Extra fiber is one's helpful diet
-c. Helpful one's diet is extra fiber 
-d. One's diet is helpful in extra fiber
-| a. Extra fiber in one's diet is helpful
+A. Extra fiber in one's diet is helpful
+B. Extra fiber is one's helpful diet
+C. Helpful one's diet is extra fiber
+D. One's diet is helpful in extra fiber
+| A. Extra fiber in one's diet is helpful
 
-@ Elephants scratch themselves with sticks .................. 
-a. holding in their trunks 
-b. in their trunks holding
-c. hold in their trunks 
-d. held in their trunks
-| d. held in their trunks
+@ Elephants scratch themselves with sticks ..................
+A. holding in their trunks
+B. in their trunks holding
+C. hold in their trunks
+D. held in their trunks
+| D. held in their trunks
 
-@ Van Gogh's "Sunflowers" .............. $39.9 million, three times the previous record. 
-a. once sold for 
-b. for sale once 
-c. selling for once 
-d. for once sold
-| a. once sold for
+@ Van Gogh's "Sunflowers" .............. $39.9 million, three times the previous record.
+A. once sold for
+B. for sale once
+C. selling for once
+D. for once sold
+| A. once sold for
 
-@ Some monkeys, ................., use their tails in a way similar to a hand. 
-a. like the spider monkey 
-b. spider monkey likes
-c. to the spider monkey 
-d. the monkey likes the spider
-| a. like the spider monkey
+@ Some monkeys, ................., use their tails in a way similar to a hand.
+A. like the spider monkey
+B. spider monkey likes
+C. to the spider monkey
+D. the monkey likes the spider
+| A. like the spider monkey
 
-@ Black, red, and even bright pink diamonds ...................... 
-a. occasionally to find 
-b. occasionally found
-c. have occasionally been found 
-d. have occasionally found
-| c. have occasionally been found
+@ Black, red, and even bright pink diamonds ......................
+A. occasionally to find
+B. occasionally found
+C. have occasionally been found
+D. have occasionally found
+| C. have occasionally been found
 
-@ Between the California Coast Range and the Sierra Nevada ..................... 
-a. great Central Valley 
-b. the great Central Valley
-c. being the great Central Valley 
-d. lies the great Central Valley
-| d. lies the great Central Valley
+@ Between the California Coast Range and the Sierra Nevada .....................
+A. great Central Valley
+B. the great Central Valley
+C. being the great Central Valley
+D. lies the great Central Valley
+| D. lies the great Central Valley
 
-@ It is gravity ................. objects toward the earth. 
-a. pull 
-b. that pulls 
-c. to pull 
-d. what pulls
-| b. that pulls
+@ It is gravity ................. objects toward the earth.
+A. pull
+B. that pulls
+C. to pull
+D. what pulls
+| B. that pulls
 
-@ ................. their territories but rather than fight, they howl. 
-a. Wolves protectively jealous 
-b. Jealous of wolves
-c. Protection of wolves 
-d. Wolves jealously protect
-| d. Wolves jealously protect
+@ ................. their territories but rather than fight, they howl.
+A. Wolves protectively jealous
+B. Jealous of wolves
+C. Protection of wolves
+D. Wolves jealously protect
+| D. Wolves jealously protect
 
-@ ................. strength of 70 horses, a forklift toils all day long in a warehouse lifting great weights. 
-a. Because the 
-b. With the 
-c. Some 
-d. The
-| b. With the
+@ ................. strength of 70 horses, a forklift toils all day long in a warehouse lifting great weights.
+A. Because the
+B. With the
+C. Some
+D. The
+| B. With the
 
 @ The growth of two-income families in the United States .................. of people moving to a new
-social class. 
-a. has resulted in millions 
-b. results of millions
-c. millions of results 
-d. resulting in millions
-| a. has resulted in millions
+social class.
+A. has resulted in millions
+B. results of millions
+C. millions of results
+D. resulting in millions
+| A. has resulted in millions
 
-@ Using a globe can be ................. it is educational. 
-a. enjoyable 
-b. to enjoy as 
-c. as enjoyable 
-d. as enjoyable as
-| d. as enjoyable as
+@ Using a globe can be ................. it is educational.
+A. enjoyable
+B. to enjoy as
+C. as enjoyable
+D. as enjoyable as
+| D. as enjoyable as
 
 @ Each mediocre book we read means one less great book that we would otherwise have a
 chance ..................
-a. to read them 
-b. read 
-c. reading 
-d. to read
-| d. to read
+A. to read them
+B. read
+C. reading
+D. to read
+| D. to read
 
-@ Most accidents in the home can be prevented by ................. elimination of hazards. 
-a. that 
-b. that the 
-c. there is a 
-d. the
-| d. the
+@ Most accidents in the home can be prevented by ................. elimination of hazards.
+A. that
+B. that the
+C. there is a
+D. the
+| D. the
 
-@  ................. problems in sailing in tropical seas is the coral reefs. 
-a. One of the biggest 
-b. The biggest one
-c. Of the biggest one 
-d. There are the biggest
-| a. One of the biggest
+@  ................. problems in sailing in tropical seas is the coral reefs.
+A. One of the biggest
+B. The biggest one
+C. Of the biggest one
+D. There are the biggest
+| A. One of the biggest
 
-@ The strongest dump trucks work in rock quarries, ................. tons of rocks and soil at one time. 
-a. that they move 
-b. they move 
-c. where they move 
-d. which they move
-| c. where they move
+@ The strongest dump trucks work in rock quarries, ................. tons of rocks and soil at one time.
+A. that they move
+B. they move
+C. where they move
+D. which they move
+| C. where they move
 
 @ Alice Freeman, ................. to head Wellesley College at age 27, is one of the youngest college
-presidents in history. 
-a. who was appointed 
-b. has been appointed
-c. that is appointed 
-d. is appointed
-| a. who was appointed 
+presidents in history.
+A. who was appointed
+B. has been appointed
+C. that is appointed
+D. is appointed
+| A. who was appointed
 
-@ Helen Keller lost both her sight and hearing after a severe illness ................. 
-a. of her age in 19 months 
-b. she was 19 months old
-c. when she was 19 months old 
-d. when 19 months old she was
-| c. when she was 19 months old 
+@ Helen Keller lost both her sight and hearing after a severe illness .................
+A. of her age in 19 months
+B. she was 19 months old
+C. when she was 19 months old
+D. when 19 months old she was
+| C. when she was 19 months old
 
 @ Because aluminum is lighter and cheaper ............., it is frequently used for high-tension power
-transmission. 
-a. as copper 
-b. than copper 
-c. for copper 
-d. more copper
-| b. than copper
+transmission.
+A. as copper
+B. than copper
+C. for copper
+D. more copper
+| B. than copper
 
-@ It is only recently that ballets have been based on themes ............. American life. 
-a. reflecting 
-b. reflects 
-c. is reflecting 
-d. reflected
-| a. reflecting
+@ It is only recently that ballets have been based on themes ............. American life.
+A. reflecting
+B. reflects
+C. is reflecting
+D. reflected
+| A. reflecting
 
-@ Poison oak generates irritating poisons ............. even if people merely brush against the plants. 
-a. they can affect people 
-b. that can affect people
-c. what can effect people 
-d. which do they affect
-| b. that can affect people
+@ Poison oak generates irritating poisons ............. even if people merely brush against the plants.
+A. they can affect people
+B. that can affect people
+C. what can effect people
+D. which do they affect
+| B. that can affect people
 
 @ ............. ants live in colonies, keep farms, go to war, carry off slaves, and have a society somewhat
-like human beings. 
-a. Studies of ant life show that 
-b. Studies of ant life that
-c. That is studied 
-d. That the studies of ant life
-| a. Studies of ant life show that
+like human beings.
+A. Studies of ant life show that
+B. Studies of ant life that
+C. That is studied
+D. That the studies of ant life
+| A. Studies of ant life show that
 
-@ Generic medications are just as ............., and much less expensive. 
-a. effectively brand-name products 
-b. brand-name products effective
-c. brand-name products as effective 
-d. effective as brand-name products
-| d. effective as brand-name products
+@ Generic medications are just as ............., and much less expensive.
+A. effectively brand-name products
+B. brand-name products effective
+C. brand-name products as effective
+D. effective as brand-name products
+| D. effective as brand-name products
 
 @ ............. is no way to tell the exact number of heroin addicts in the United States.
-a. It 
-b. There 
-c. What 
-d. Each
-| b. There 
+A. It
+B. There
+C. What
+D. Each
+| B. There
 
-@ Ernest Hemingway is ............. of modern fiction. 
-a. one of the molders
-b. the molders one
-c. who is one of the molders 
-d. the molders who is the one
-| a. one of the molders
+@ Ernest Hemingway is ............. of modern fiction.
+A. one of the molders
+B. the molders one
+C. who is one of the molders
+D. the molders who is the one
+| A. one of the molders
 
-@ ............. occasions for congratulations. 
-a. Birthdays that usually considered 
-b. Usually considering birthdays
-c. Birthdays are usually considered 
-d. That considered birthdays usually
-| c. Birthdays are usually considered
+@ ............. occasions for congratulations.
+A. Birthdays that usually considered
+B. Usually considering birthdays
+C. Birthdays are usually considered
+D. That considered birthdays usually
+| C. Birthdays are usually considered
 
-@ Forty-niners ............. to California for gold in 1848. 
-a. rushed 
-b. are rushed 
-c. have rushed 
-d. rushing
-| a. rushed 
+@ Forty-niners ............. to California for gold in 1848.
+A. rushed
+B. are rushed
+C. have rushed
+D. rushing
+| A. rushed
 
-@ In order for people to work together effectively, they need ............. each other's needs. 
-a. to be sensitive to 
-b. is sensitive for
-c. sensitivity 
-d. sensitive
-| a. to be sensitive to
+@ In order for people to work together effectively, they need ............. each other's needs.
+A. to be sensitive to
+B. is sensitive for
+C. sensitivity
+D. sensitive
+| A. to be sensitive to
 
-@ It is good form to use the name of the person .............. 
-a. who are greeting 
-b. you are greeting 
-c. which you are greeting 
-d. greeting for you
-| b. you are greeting
+@ It is good form to use the name of the person ..............
+A. who are greeting
+B. you are greeting
+C. which you are greeting
+D. greeting for you
+| B. you are greeting
 
-@ ............. the promotion of health and to helping people avoid injury and disease. 
-a. To commit the Red Cross 
-b. The Red Cross to commit
-c. Committed to the Red Cross is 
-d. The Red Cross is committed to
-| d. The Red Cross is committed to
+@ ............. the promotion of health and to helping people avoid injury and disease.
+A. To commit the Red Cross
+B. The Red Cross to commit
+C. Committed to the Red Cross is
+D. The Red Cross is committed to
+| D. The Red Cross is committed to
 
 @ People usually can get a sufficient amount of the calcium their bodies
-............. from the food they consume. 
-a. need 
-b. needs 
-c. needing 
-d. to need
-| a. need 
+............. from the food they consume.
+A. need
+B. needs
+C. needing
+D. to need
+| A. need
 
-@ It is possible ............. may assist some trees in saving water in the winter. 
-a. the leaves are lost 
-b. when leaves have lost
-c. that the loss of leaves 
-d. to lose leaves
-| d. to lose leaves
+@ It is possible ............. may assist some trees in saving water in the winter.
+A. the leaves are lost
+B. when leaves have lost
+C. that the loss of leaves
+D. to lose leaves
+| D. to lose leaves
 
-@ Hollywood, the heart of America's motion picture industry, ............. of Los Angeles 
-a century ago. 
-a. was only a quiet suburb 
-b. only quiet suburb was
-c. quiet suburb only was 
-d. suburb was quiet only
-| a. was only a quiet suburb
+@ Hollywood, the heart of America's motion picture industry, ............. of Los Angeles
+a century ago.
+A. was only a quiet suburb
+B. only quiet suburb was
+C. quiet suburb only was
+D. suburb was quiet only
+| A. was only a quiet suburb
 
 @ Kitchen appliances called blenders became ............. in the 1930s, when Stephen J. Poplawski
-developed a machine that excelled at making his favorite drink. 
-a. establish 
-b. establishing 
-c. established 
-d. which establish
-| c. established
+developed a machine that excelled at making his favorite drink.
+A. establish
+B. establishing
+C. established
+D. which establish
+| C. established
 
 @ Built at the beginning of the century, the Library of Congress houses one of the largest ............. collections of books in the world.
-a. and fine 
-b. and finest 
-c. or finest 
-d. yet fine
-| b. and finest
+A. and fine
+B. and finest
+C. or finest
+D. yet fine
+| B. and finest
 
-@ In the preparation of fibrous material for production uses, stiff woody fibers from plants ............. fibers from animal sources. 
-a. the most heat the 
-b. need more heat than
-c. than more heat needed 
-d. need the more heat than
-| b. need more heat than
+@ In the preparation of fibrous material for production uses, stiff woody fibers from plants ............. fibers from animal sources.
+A. the most heat the
+B. need more heat than
+C. than more heat needed
+D. need the more heat than
+| B. need more heat than
 
 @ Partnership is an association of two or more individuals who ............. together to develop a
-business. 
-a. worked 
-b. they work 
-c. work 
-d. working
-| c. work 
+business.
+A. worked
+B. they work
+C. work
+D. working
+| C. work
 
-@ Chosen as the nation's capital at the end of the American Civil War, ............. a city of over a million people. 
-a. Washington, D.C., is now 
-b. for Washington, D.C., 
-c. to Washington, D.C., 
-d. now in Washington, D.C., 
-| a. Washington, D.C., is now
+@ Chosen as the nation's capital at the end of the American Civil War, ............. a city of over a million people.
+A. Washington, D.C., is now
+B. for Washington, D.C.,
+C. to Washington, D.C.,
+D. now in Washington, D.C.,
+| A. Washington, D.C., is now
 
 @ Within an area of only 100 miles, Death Valley sinks to 282 feet below sea level while Mount
-Whitney ............. to a height of 14,494 feet. 
-a. soaring 
-b. soar 
-c. soared 
-d. soars
-| d. soars
+Whitney ............. to a height of 14,494 feet.
+A. soaring
+B. soar
+C. soared
+D. soars
+| D. soars
 
-@ The cosmopolitan flavor of San Francisco is enhanced by ............. shops and restaurants. 
-a. an ethnic 
-b. its many ethnic 
-c. its ethnicity 
-d. ethnicity
-| b. its many ethnic
+@ The cosmopolitan flavor of San Francisco is enhanced by ............. shops and restaurants.
+A. an ethnic
+B. its many ethnic
+C. its ethnicity
+D. ethnicity
+| B. its many ethnic
 
 @ ............. that increasing numbers of compact-disc players will be bought by consumers in the years
-to come. 
-a. They are anticipated 
-b. In anticipation
-c. Anticipating 
-d. It is anticipated
-| d. It is anticipated
+to come.
+A. They are anticipated
+B. In anticipation
+C. Anticipating
+D. It is anticipated
+| D. It is anticipated
 
-@ Birds all over the world ............. in distances up to thousands of miles. 
-a. migrating 
-b. migrated 
-c. migrate 
-d. are migrated
-| c. migrate
+@ Birds all over the world ............. in distances up to thousands of miles.
+A. migrating
+B. migrated
+C. migrate
+D. are migrated
+| C. migrate
 
-@ Cellulose, which ............. for making paper, can be found in all plants. 
-a. is used 
-b. uses 
-c. are used 
-d. is using
-| a. is used
+@ Cellulose, which ............. for making paper, can be found in all plants.
+A. is used
+B. uses
+C. are used
+D. is using
+| A. is used
 
-@ ............. , human beings have relatively constant body temperature. 
-a. Alike all mammal 
-b. Alike all mammals
-c. Like all mammals 
-d. Like all mammal
-| c. Like all mammals 
+@ ............. , human beings have relatively constant body temperature.
+A. Alike all mammal
+B. Alike all mammals
+C. Like all mammals
+D. Like all mammal
+| C. Like all mammals
 
-@ So far there is no vaccine ............. in sight for the common cold. 
-a. or curing 
-b. has cured 
-c. or cure 
-d. having cured
-| c. or cure
+@ So far there is no vaccine ............. in sight for the common cold.
+A. or curing
+B. has cured
+C. or cure
+D. having cured
+| C. or cure
 
 @ The Louisiana Territory, an area ............. the size of France, was bought by
-the United States from France for $15,000,000 in 1803. 
-a. than more four times 
-b. more than four times
-c. four times than more 
-d. is four times more than
-| b. more than four times
+the United States from France for $15,000,000 in 1803.
+A. than more four times
+B. more than four times
+C. four times than more
+D. is four times more than
+| B. more than four times
 
 @ Despite claims that filters and low-tar tobacco make smoking somewhat safer, in fact they only
-marginally reduce, ............. eliminate the hazards. 
-a. none 
-b. no 
-c. not 
-d. nor
-| c. not
+marginally reduce, ............. eliminate the hazards.
+A. none
+B. no
+C. not
+D. nor
+| C. not
 
 @ ............. many of the designs for the new capital were considered lost forever, Benjamin Banneker
-helped reproduce the original plans. 
-a. When 
-b. During 
-c. If as 
-d. How
-| a. When
+helped reproduce the original plans.
+A. When
+B. During
+C. If as
+D. How
+| A. When
 
-@ 104. Few natural elements exist in ............. that they are rarely seen in their natural environments. 
-a. such small quantities 
-b. so small quantities
-c. very small quantities 
-d. small quantity
+@ Few natural elements exist in ............. that they are rarely seen in their natural environments.
+A. such small quantities
+B. so small quantities
+C. very small quantities
+D. small quantity
+| A. such small quantities
 
-| a. such small quantities
+@ Generally speaking, every person ............. the potential to be a teacher, to some extent.
+A. has
+B. to have
+C. having
+D. have
+| A. has
 
-@ Generally speaking, every person ............. the potential to be a teacher, to some extent. 
-a. has 
-b. to have 
-c. having 
-d. have
-| a. has
+@ ............. business, a merger is a combination of two or more corporations under one management.
+A. The
+B. At
+C. On
+D. In
+| D. In
 
-@ ............. business, a merger is a combination of two or more corporations under one management. 
-a. The 
-b. At 
-c. On 
-d. In
-| d. In
-
-@ ............. of commodities by air began in the 1920s at the same time as airmail service. 
-a. The shipping 
-b. A ship 
-c. The shipped 
-d. To ship
-| a. The shipping
+@ ............. of commodities by air began in the 1920s at the same time as airmail service.
+A. The shipping
+B. A ship
+C. The shipped
+D. To ship
+| A. The shipping
 
 @ Jan Malzeliger's invention, the shoe-lasting machine, ............. production but it also cut the cost of
-shoe production by half. 
-a. not only increased 
-b. not increased only
-c. increased only 
-d. only have increased
-| a. not only increased 
+shoe production by half.
+A. not only increased
+B. not increased only
+C. increased only
+D. only have increased
+| A. not only increased
 
-@ It can sometimes ............. a home. 
-a. to take months to sell 
-b. take several months to sell
-c. selling takes several months 
-d. to sell taking several months
-| b. take several months to sell
+@ It can sometimes ............. a home.
+A. to take months to sell
+B. take several months to sell
+C. selling takes several months
+D. to sell taking several months
+| B. take several months to sell
 
-@ Jellyfish are probably ............. on Earth. 
-a. most numerous predators 
-b. the most numerous predators
-c. most numerous of predators 
-d. the most predators
-| b. the most numerous predators
+@ Jellyfish are probably ............. on Earth.
+A. most numerous predators
+B. the most numerous predators
+C. most numerous of predators
+D. the most predators
+| B. the most numerous predators
 
-@ In the United States ............. is the most concentrated is New Orleans. 
-a. French influence the city 
-b. the city where French influence
-c. where the city influences French 
-d. where the French influence the city
-| b. the city where French influence
+@ In the United States ............. is the most concentrated is New Orleans.
+A. French influence the city
+B. the city where French influence
+C. where the city influences French
+D. where the French influence the city
+| B. the city where French influence
 
-@ A log grabber has a long arm ............., which stretches out to pick up logs. 
-a. calls a jib 
-b. calling a jib 
-c. a jib called 
-d. called a jib
-| d. called a jib
+@ A log grabber has a long arm ............., which stretches out to pick up logs.
+A. calls a jib
+B. calling a jib
+C. a jib called
+D. called a jib
+| D. called a jib
 
-@ A home computer ............. an opportunity for convenient and efficient work at home. 
-a. provides 
-b. to be providing 
-c. which provides 
-d. providing it
-| a. provides 
+@ A home computer ............. an opportunity for convenient and efficient work at home.
+A. provides
+B. to be providing
+C. which provides
+D. providing it
+| A. provides
 
 @ Eli Whitney's milling machine remained unchanged for a century and a half because ............. was
-so efficient. 
-a. it 
-b. he 
-c. of 
-d. its
-| a. it 
+so efficient.
+A. it
+B. he
+C. of
+D. its
+| A. it
 
-@ Some of the rainwater from clouds evaporates before .............. 
-a. reaching the ground 
-b. to reach the ground
-c. reach the ground 
-d. the ground reaches
-| a. reaching the ground 
+@ Some of the rainwater from clouds evaporates before ..............
+A. reaching the ground
+B. to reach the ground
+C. reach the ground
+D. the ground reaches
+| A. reaching the ground
 
 @ Once an offending allergen has been identified ............. tests, it is possible for the doctor to give
-specific desensitizing injections. 
-a. means of 
-b. by means of 
-c. of the means by 
-d. by means
-| b. by means of
+specific desensitizing injections.
+A. means of
+B. by means of
+C. of the means by
+D. by means
+| B. by means of
 
-@ Sometimes ............. wears people out and is worse than the lack of sleep itself. 
-a. to sleep the desire 
-b. the desire to sleep
-c. to desire sleep is 
-d. the desire to sleep who
-| b. the desire to sleep
+@ Sometimes ............. wears people out and is worse than the lack of sleep itself.
+A. to sleep the desire
+B. the desire to sleep
+C. to desire sleep is
+D. the desire to sleep who
+| B. the desire to sleep
 
 
 @ Although dissimilar in almost every other respect, birds and insects have both evolved
-efficient ............. capabilities. 
-a. fly 
-b. flying 
-c. to fly 
-d. is flying
-| b. flying 
+efficient ............. capabilities.
+A. fly
+B. flying
+C. to fly
+D. is flying
+| B. flying
 
-@ The wheel, ............. has remained important for 4,000 years, is one of mankind's first inventions. 
-a. how 
-b. when 
-c. which 
-d. about
-| c. which 
+@ The wheel, ............. has remained important for 4,000 years, is one of mankind's first inventions.
+A. how
+B. when
+C. which
+D. about
+| C. which
 
-@ ............. children master the basics, advanced development becomes easier. 
-a. The 
-b. Once 
-c. That 
-d. Even
-| b. Once 
+@ ............. children master the basics, advanced development becomes easier.
+A. The
+B. Once
+C. That
+D. Even
+| B. Once
 
-@ ............. there is a close correlation between stress and illness. 
-a. Some psychologists believe 
-b. Believed some psychologists
-c. Some psychologists to believe 
-d. Some psychologists believing
-| a. Some psychologists believe
+@ ............. there is a close correlation between stress and illness.
+A. Some psychologists believe
+B. Believed some psychologists
+C. Some psychologists to believe
+D. Some psychologists believing
+| A. Some psychologists believe
 
-@ ............. is often used in soups and sauces. 
-a. Parsley, an inexpensive herb, 
-b. Parsley is an inexpensive herb
-c. Inexpensive parsley, herb 
-d. An herb is inexpensive parsley, 
-| a. Parsley, an inexpensive herb
+@ ............. is often used in soups and sauces.
+A. Parsley, an inexpensive herb,
+B. Parsley is an inexpensive herb
+C. Inexpensive parsley, herb
+D. An herb is inexpensive parsley,
+| A. Parsley, an inexpensive herb
 
-@ Perspiration increases ............. vigorous exercise or hot weather. 
-a. during 
-b. when 
-c. at the time 
-d. for 
-| a. during
+@ Perspiration increases ............. vigorous exercise or hot weather.
+A. during
+B. when
+C. at the time
+D. for
+| A. during
 
-@ Goddard developed the first rocket to fly faster ............. 
-a. than sound is 
-b. does sound 
-c. sound 
-d. than sound
-| d. than sound
+@ Goddard developed the first rocket to fly faster .............
+A. than sound is
+B. does sound
+C. sound
+D. than sound
+| D. than sound
 
-@ Even if the unemployment rate ............. sharply, the drop may still be temporary. 
-a. to drop 
-b. dropping 
-c. have dropped 
-d. drops
-| d. drops
+@ Even if the unemployment rate ............. sharply, the drop may still be temporary.
+A. to drop
+B. dropping
+C. have dropped
+D. drops
+| D. drops
 
-@ Studies indicate ............. collecting art today than ever before. 
-a. there are that more people 
-b. more people that are
-c. that there are more people 
-d. people there are more
-| c. that there are more people
+@ Studies indicate ............. collecting art today than ever before.
+A. there are that more people
+B. more people that are
+C. that there are more people
+D. people there are more
+| C. that there are more people
 
-@ Thieu Tri was a ............... poet who would pen a verse or two at a moment's notice. 
-a. prolific 
-b. prolifically 
-c. prolificacy 
-d. prolificity
-| a. prolific
+@ Thieu Tri was a ............... poet who would pen a verse or two at a moment's notice.
+A. prolific
+B. prolifically
+C. prolificacy
+D. prolificity
+| A. prolific
 
-@ I've been to the theater ................... of times. 
-a. much 
-b. a little 
-c. most of 
-d. few
-| d. few
+@ I've been to the theater ................... of times.
+A. much
+B. a little
+C. most of
+D. few
+| D. few
 
-@ But ............... of the plays I've seen are modern. 
-a. a few of 
-b. a little 
-c. most 
-d. many
-| c. most
+@ But ............... of the plays I've seen are modern.
+A. a few of
+B. a little
+C. most
+D. many
+| C. most
 
-@ When I studied Shakespeare, I thought his plays were ............... boring. 
-a. a great deal of 
-b. few 
-c. much 
-d. many
-| c. much
+@ When I studied Shakespeare, I thought his plays were ............... boring.
+A. a great deal of
+B. few
+C. much
+D. many
+| C. much
 
-@ .................. of Shakespeare's plays are about history. 
-a. A few of
-b. Many 
-c. Much 
-d. A little
-| b. Many
+@ .................. of Shakespeare's plays are about history.
+A. A few of
+B. Many
+C. Much
+D. A little
+| B. Many
 
-@ They spent ............. time studying Victorian literature. 
-a. few 
-b. many 
-c. a large number of 
-d. much
-| d. much
+@ They spent ............. time studying Victorian literature.
+A. few
+B. many
+C. a large number of
+D. much
+| D. much
 
-@ .................. popular expressions in our language have interesting background. 
-a. Little 
-b. Many 
-c. A large number 
-d. Much
-| b. Many 
+@ .................. popular expressions in our language have interesting background.
+A. Little
+B. Many
+C. A large number
+D. Much
+| B. Many
 
 @ At the beginning everybody spoke English very quickly and I couldn't understand ........... But
-after ................. days, it is easier and .................. things I had learnt came back to me. 
-a. much / a few / many 
-b. a lot / little / a lot
-c. much / much / a great number 
-d. many / a few / many
-| a. much / a few / many
+after ................. days, it is easier and .................. things I had learnt came back to me.
+A. much / a few / many
+B. a lot / little / a lot
+C. much / much / a great number
+D. many / a few / many
+| A. much / a few / many
 
-@ They ................. in New York next week. 
-a. arrive 
-b. will arrive 
-c. has arrived 
-d. have arrived
-| b. will arrive
+@ They ................. in New York next week.
+A. arrive
+B. will arrive
+C. has arrived
+D. have arrived
+| B. will arrive
 
-@ This is the best performance of Hamlet that I ............. in years. 
-a. had seen 
-b. saw 
-c. have seen 
-d. see
-| c. have seen
+@ This is the best performance of Hamlet that I ............. in years.
+A. had seen
+B. saw
+C. have seen
+D. see
+| C. have seen
 
-@ They .......... that you are going to be late. 
-a. will know 
-b. know 
-c. knew 
-d. have known
-| b. know 
+@ They .......... that you are going to be late.
+A. will know
+B. know
+C. knew
+D. have known
+| B. know
 
-@ The people that I ................. here have been very friendly. 
-a. to meet 
-b. meet 
-c. have met 
-d. had met
-| b. meet
+@ The people that I ................. here have been very friendly.
+A. to meet
+B. meet
+C. have met
+D. had met
+| B. meet
 
-@ The plug has come out of the ....................... 
-a. sock 
-b. socket 
-c. socking 
-d. soccer
-| b. socket
+@ The plug has come out of the .......................
+A. sock
+B. socket
+C. socking
+D. soccer
+| B. socket
 
-@ She says that she .......... the bill next week. 
-a. pays 
-b. will pay 
-c. has paid 
-d. is paying
-| b. will pay
+@ She says that she .......... the bill next week.
+A. pays
+B. will pay
+C. has paid
+D. is paying
+| B. will pay
 
-@ That is the best book that I ......... on that subject. 
-a. had read 
-b. read 
-c. have read 
-d. am reading
-| c. have read 
+@ That is the best book that I ......... on that subject.
+A. had read
+B. read
+C. have read
+D. am reading
+| C. have read
 
-@ Yesterday I met the woman who ............... us with the work next month. 
-a. will help 
-b. helps 
-c. has helped 
-d. is helping
-| a. will help
+@ Yesterday I met the woman who ............... us with the work next month.
+A. will help
+B. helps
+C. has helped
+D. is helping
+| A. will help
 
-@ That ........... the best movie that I had seen for a long time. 
-a. will be 
-b. has been 
-c. is 
-d. was
-| d. was
+@ That ........... the best movie that I had seen for a long time.
+A. will be
+B. has been
+C. is
+D. was
+| D. was
 
-@ He said that he .............. me there at 4.30 this afternoon. 
-a. would meet 
-b. met 
-c. will meet 
-d. meets
-| a. would meet
+@ He said that he .............. me there at 4.30 this afternoon.
+A. would meet
+B. met
+C. will meet
+D. meets
+| A. would meet
 
-@ Maxwell .......... three dollars for the tie he bought at Macy's. 
-a. had paid 
-b. paid 
-c. pays 
-d. would pay
-| b. paid
+@ Maxwell .......... three dollars for the tie he bought at Macy's.
+A. had paid
+B. paid
+C. pays
+D. would pay
+| B. paid
 
-@ The salesman was telling me that he ......... ten cars last week. 
-a. sold 
-b. had sold 
-c. would sell 
-d. has sold
-| b. had sold 
+@ The salesman was telling me that he ......... ten cars last week.
+A. sold
+B. had sold
+C. would sell
+D. has sold
+| B. had sold
 
 @ Did Bob say that he ............. from Princeton in 1951?
-a. would graduate 
-b. graduates 
-c. has graduated 
-d. had graduated
-| d. had graduated
+A. would graduate
+B. graduates
+C. has graduated
+D. had graduated
+| D. had graduated
 
-@ We bought a used car that had belonged to an old couple who used the car only when they ............ shopping. 
-a. go 
-b. went 
-c. are going 
-d. has gone
-| b. went
+@ We bought a used car that had belonged to an old couple who used the car only when they ............ shopping.
+A. go
+B. went
+C. are going
+D. has gone
+| B. went
 
-@ The man who will replace Mr. Stuart ............... yesterday. 
-a. arrives 
-b. will arrive 
-c. arrived 
-d. has arrived
-| c. arrived
+@ The man who will replace Mr. Stuart ............... yesterday.
+A. arrives
+B. will arrive
+C. arrived
+D. has arrived
+| C. arrived
 
-@ We thought that they .............. to Arizona yesterday.  
-a. would move 
-b. moved 
-c. will move 
-d. had moved
-| b. moved
+@ We thought that they .............. to Arizona yesterday.
+A. would move
+B. moved
+C. will move
+D. had moved
+| B. moved
 
-@ We'll wait until she.................. 
-a. arrive 
-b. arrives 
-c. will arrive 
-d. shall arrive
-| b. arrives
+@ We'll wait until she..................
+A. arrive
+B. arrives
+C. will arrive
+D. shall arrive
+| B. arrives
 
 @ Call Jack as soon as you ............. in town.
-a. get 
-b. gets 
-c. will get 
-d. shall get
-| a. get
+A. get
+B. gets
+C. will get
+D. shall get
+| A. get
 
-@ He knows he has ................ when he is asked to appear on TV. 
-a. arrived 
-b. arrives 
-c. will arrive 
-d. shall arrive
-| a. arrived
+@ He knows he has ................ when he is asked to appear on TV.
+A. arrived
+B. arrives
+C. will arrive
+D. shall arrive
+| A. arrived
 
-@ I'll think about your suggestion while I .......... for you. 
-a. am waiting 
-b. will wait 
-c. wait 
-d. waits
-| a. am waiting
+@ I'll think about your suggestion while I .......... for you.
+A. am waiting
+B. will wait
+C. wait
+D. waits
+| A. am waiting
 
-@ Before Jack leaves New York, he ............ several new plays. 
-a. see 
-b. saw 
-c. has seen 
-d. had seen
-| c. has seen 
+@ Before Jack leaves New York, he ............ several new plays.
+A. see
+B. saw
+C. has seen
+D. had seen
+| C. has seen
 
-@ They will be very happy when they ............... the news. 
-a. hear 
-b. will hear 
-c. heard 
-d. has heard
-| a. hear 
+@ They will be very happy when they ............... the news.
+A. hear
+B. will hear
+C. heard
+D. has heard
+| A. hear
 
-@ I always .......... better after I have rested a while. 
-a. feel 
-b. feels 
-c. will feel 
-d. has felt
-| a. feel
+@ I always .......... better after I have rested a while.
+A. feel
+B. feels
+C. will feel
+D. has felt
+| A. feel
 
-@ We will have learned many new words before we ................ through this course. 
-a. have got 
-b. got 
-c. get 
-d. will get
-| c. get
+@ We will have learned many new words before we ................ through this course.
+A. have got
+B. got
+C. get
+D. will get
+| C. get
 
-@ It is two o'clock, and I .................. my homework yet. 
-a. haven't finished 
-b. didn't finish 
-c. hadn't finished 
-d. don't finish
-| a. haven't finished 
+@ It is two o'clock, and I .................. my homework yet.
+A. haven't finished
+B. didn't finish
+C. hadn't finished
+D. don't finish
+| A. haven't finished
 
-@ We usually go out to dinner when we ................ late. 
-a. work 
-b. worked 
-c. has worked 
-d. had worked
-| a. work 
+@ We usually go out to dinner when we ................ late.
+A. work
+B. worked
+C. has worked
+D. had worked
+| A. work
 
-@ She will be ready when he ..................... here. 
-a. get 
-b. gets 
-c. has got 
-d. will get
-| b. gets
+@ She will be ready when he ..................... here.
+A. get
+B. gets
+C. has got
+D. will get
+| B. gets
 
-@ The child always cries when his mother ........... out of the house. 
-a. go 
-b. goes 
-c. will go 
-d. has gone
-| b. goes
+@ The child always cries when his mother ........... out of the house.
+A. go
+B. goes
+C. will go
+D. has gone
+| B. goes
 
-@ They often listen to the radio while they ............ in their car. 
-a. is traveling 
-b. travel 
-c. will travel 
-d. has traveled
-| b. travel
+@ They often listen to the radio while they ............ in their car.
+A. is traveling
+B. travel
+C. will travel
+D. has traveled
+| B. travel
 
-@ We saw several old friends while we ........... in Baltimore. 
-a. are 
-b. were 
-c. has been 
-d. will be
-| b. were
+@ We saw several old friends while we ........... in Baltimore.
+A. are
+B. were
+C. has been
+D. will be
+| B. were
 
-@ Raymond ............ two new shirts when he was downtown today. 
-a. buy 
-b. bought 
-c. had bought 
-d. has bought
-| b. bought
+@ Raymond ............ two new shirts when he was downtown today.
+A. buy
+B. bought
+C. had bought
+D. has bought
+| B. bought
 
-@ After we had had breakfast, we ............ the house. 
-a. leave 
-b. left 
-c. had left 
-d. has left
-| b. left
+@ After we had had breakfast, we ............ the house.
+A. leave
+B. left
+C. had left
+D. has left
+| B. left
 
-@ I had heard the news before you ................ me about it. 
-a. tell 
-b. told 
-c. has told 
-d. had told
-| b. told
+@ I had heard the news before you ................ me about it.
+A. tell
+B. told
+C. has told
+D. had told
+| B. told
 
 @ It ................. when I got up this morning.
-a. rains 
-b. rained 
-c. had rained 
-d. was raining
-| d. was raining
+A. rains
+B. rained
+C. had rained
+D. was raining
+| D. was raining
 
-@ Mary was not feeling well when she ............. down yesterday. 
-a. fall 
-b. fell 
-c. has fallen 
-d. had fallen
-| b. fell 
+@ Mary was not feeling well when she ............. down yesterday.
+A. fall
+B. fell
+C. has fallen
+D. had fallen
+| B. fell
 
-@ He signed the contract after he ............ each statement carefully. 
-a. reads 
-b. read 
-c. has read 
-d. had read
-| d. had read
+@ He signed the contract after he ............ each statement carefully.
+A. reads
+B. read
+C. has read
+D. had read
+| D. had read
 
-@ Jim had just turned out the lights when the doorbell ................ 
-a. rings 
-b. rang 
-c. has rung 
-d. had rung
-| b. rang 
+@ Jim had just turned out the lights when the doorbell ................
+A. rings
+B. rang
+C. has rung
+D. had rung
+| B. rang
 
-@ I work so hard that I ................ tired. 
-a. am 
-b. was 
-c. be 
-d. has been
-| a. am 
+@ I work so hard that I ................ tired.
+A. am
+B. was
+C. be
+D. has been
+| A. am
 
 @ I'll return the books to the library if I ............. time.
-a. have 
-b. had 
-c. will have 
-d. would have
-| a. have
+A. have
+B. had
+C. will have
+D. would have
+| A. have
 
-@ Richard left dirty footmarks wherever he ............. 
-a. go 
-b. goes 
-c. went 
-d. had gone
-| c. went
+@ Richard left dirty footmarks wherever he .............
+A. go
+B. goes
+C. went
+D. had gone
+| C. went
 
-@ I worked so hard that I ................ tired. 
-a. am 
-b. was 
-c. be 
-d. has been
-| b. was 
+@ I worked so hard that I ................ tired.
+A. am
+B. was
+C. be
+D. has been
+| B. was
 
-@ Don't handle those cups and saucers as if they ................. made of iron. 
-a. are 
-b. were 
-c. has been 
-d. had been
-| b. were
+@ Don't handle those cups and saucers as if they ................. made of iron.
+A. are
+B. were
+C. has been
+D. had been
+| B. were
 
-@ I am standing where I ................ the game. 
-a. can see 
-b. could see 
-c. can't see 
-d. couldn't see
-| a. can see 
+@ I am standing where I ................ the game.
+A. can see
+B. could see
+C. can't see
+D. couldn't see
+| A. can see
 
-@ Use the paint-brush as I ................ you yesterday. 
-a. show 
-b. showed 
-c. had showed 
-d. has showed
-| b. showed
+@ Use the paint-brush as I ................ you yesterday.
+A. show
+B. showed
+C. had showed
+D. has showed
+| B. showed
 
-@ Everywhere I ............ there were dirty footmarks. 
-a. look 
-b. looked 
-c. has looked 
-d. will look
-| b. looked
+@ Everywhere I ............ there were dirty footmarks.
+A. look
+B. looked
+C. has looked
+D. will look
+| B. looked
 
-@ We couldn't play the match because the frog ............ too thick. 
-a. is 
-b. be 
-c. was 
-d. will be
-| c. was
+@ We couldn't play the match because the frog ............ too thick.
+A. is
+B. be
+C. was
+D. will be
+| C. was
 
-@ We shall come and see you if we ............ a holiday. 
-a. have 
-b. will have 
-c. would have 
-d. has had
-| a. have 
+@ We shall come and see you if we ............ a holiday.
+A. have
+B. will have
+C. would have
+D. has had
+| A. have
 
-@ I often avoid .................. to parties. 
-a. go 
-b. to go 
-c. going 
-d. c & b are correct
-| c. going 
+@ I often avoid .................. to parties.
+A. go
+B. to go
+C. going
+D. c & b are correct
+| C. going
 
-@ He enjoys ................ a lot. 
-a. smoke 
-b. to smoke 
-c. smokes 
-d. smoking
-| d. smoking
+@ He enjoys ................ a lot.
+A. smoke
+B. to smoke
+C. smokes
+D. smoking
+| D. smoking
 
-@ Their mother often suggests ................... with some friends. 
-a. go out 
-b. to go out 
-c. going out 
-d. a & c are correct
-| c. going out
+@ Their mother often suggests ................... with some friends.
+A. go out
+B. to go out
+C. going out
+D. a & c are correct
+| C. going out
 
-@ I don't feel like ............. for a walk now. 
-a. to go 
-b. go 
-c. going 
-d. a & c are correct
-| d. a & c are correct
+@ I don't feel like ............. for a walk now.
+A. to go
+B. go
+C. going
+D. a & c are correct
+| D. a & c are correct
 
-@ I'm sorry, I can't remember ................. her last week. 
-a. meet 
-b. to meet 
-c. meeting 
-d. to meeting
-| c. meeting
+@ I'm sorry, I can't remember ................. her last week.
+A. meet
+B. to meet
+C. meeting
+D. to meeting
+| C. meeting
 
-@ Well, I'm interested in ................... English. 
-a. learn 
-b. to learn 
-c. learning 
-d. b & c are correct
-| c. learning
+@ Well, I'm interested in ................... English.
+A. learn
+B. to learn
+C. learning
+D. b & c are correct
+| C. learning
 
-@ Certainly, It's worth ........................... the thesis. 
-a. try to write 
-b. trying to write 
-c. trying writing 
-d. try writing
-| b. trying to write
+@ Certainly, It's worth ........................... the thesis.
+A. try to write
+B. trying to write
+C. trying writing
+D. try writing
+| B. trying to write
 
-@ Now, I think she is accustomed .................. eight hours a day. 
-a. work 
-b. to work 
-c. working 
-d. to working
-| d. to working
+@ Now, I think she is accustomed .................. eight hours a day.
+A. work
+B. to work
+C. working
+D. to working
+| D. to working
 
-@ The fabric is .................... a material which catch fire easily. 
-a. made of 
-b. made from 
-c. made in 
-d. made
-| a. made of
+@ The fabric is .................... a material which catch fire easily.
+A. made of
+B. made from
+C. made in
+D. made
+| A. made of
 
-@ There were signs everywhere ............... people to keep out of the grass in the park. 
-a. to tell 
-b. tell 
-c. telling 
-d. to telling
-| c. telling
+@ There were signs everywhere ............... people to keep out of the grass in the park.
+A. to tell
+B. tell
+C. telling
+D. to telling
+| C. telling
 
-@ It is very difficult ................... a twin from the other. 
-a. tell 
-b. to tell 
-c. telling 
-d. to telling
-| b. to tell
+@ It is very difficult ................... a twin from the other.
+A. tell
+B. to tell
+C. telling
+D. to telling
+| B. to tell
 
-@ He is agreeable .................. to Nam’s proposal. 
-a. about 
-b. to 
-c. in 
-d. with
-| b. to
+@ He is agreeable .................. to Nam’s proposal.
+A. about
+B. to
+C. in
+D. with
+| B. to
 
 @ There are so many signs along that road.............................. down because that road is very
-slippery. 
-a. warning motorists to slow 
-b. warn motorists to slow
-c. warn motorists slowing 
-d. to warn motorists slowing
-| a. warning motorists to slow
+slippery.
+A. warning motorists to slow
+B. warn motorists to slow
+C. warn motorists slowing
+D. to warn motorists slowing
+| A. warning motorists to slow
 
-@ Each of these sounds ............... me sleepy. 
-a. make 
-b. made 
-c. makes 
-d. has make
-| c. makes 
+@ Each of these sounds ............... me sleepy.
+A. make
+B. made
+C. makes
+D. has make
+| C. makes
 
-@ Either Minh or his friends ............... going to the beach today. 
-a. is 
-b. are 
-c. was 
-d. were
-| b. are
+@ Either Minh or his friends ............... going to the beach today.
+A. is
+B. are
+C. was
+D. were
+| B. are
 
-@ Everyone in the class ................. the novel. 
-a. has read 
-b. have read 
-c. has red 
-d. have red
-| a. has read
+@ Everyone in the class ................. the novel.
+A. has read
+B. have read
+C. has red
+D. have red
+| A. has read
 
 @ He often ............ his dog when he comes home.
-a. whistles
-b. whistle 
-c. is whistling 
-d. are whistling
-| a. whistles
+A. whistles
+B. whistle
+C. is whistling
+D. are whistling
+| A. whistles
 
-@ One of the golf clubs ....................... in the corner of the room at this moment. 
-a. stand 
-b. stands 
-c. is standing 
-d. are standing
-| c. is standing
+@ One of the golf clubs ....................... in the corner of the room at this moment.
+A. stand
+B. stands
+C. is standing
+D. are standing
+| C. is standing
 
-@ One of the rooms .............. an air conditioner. 
-a. contain 
-b. contains 
-c. is containing 
-d. are containing
-| b. contains
+@ One of the rooms .............. an air conditioner.
+A. contain
+B. contains
+C. is containing
+D. are containing
+| B. contains
 
-@ Everyone of the clerks ................ punch the time clock. 
-a. has 
-b. have 
-c. has to 
-d. have to
-| c. has to
+@ Everyone of the clerks ................ punch the time clock.
+A. has
+B. have
+C. has to
+D. have to
+| C. has to
 
-@ Each of his assistants ................ the telephone. 
-a. answer 
-b. answers 
-c. is answering 
-d. are answering
-| b. answers 
+@ Each of his assistants ................ the telephone.
+A. answer
+B. answers
+C. is answering
+D. are answering
+| B. answers
 
-@ Each of the girls ........... the piano. 
-a. play 
-b. plays 
-c. is playing 
-d. are playing
-| b. plays 
+@ Each of the girls ........... the piano.
+A. play
+B. plays
+C. is playing
+D. are playing
+| B. plays
 
-@ I wonder why the English .............. on the left hand side of the road. 
-a. drive 
-b. drove 
-c. has driven 
-d. had driven
-| b. drove 
+@ I wonder why the English .............. on the left hand side of the road.
+A. drive
+B. drove
+C. has driven
+D. had driven
+| B. drove
 
-@ He .............. the custom was grounded in good sense. 
-a. say 
-b. said 
-c. has said 
-d. had said
-| b. said
+@ He .............. the custom was grounded in good sense.
+A. say
+B. said
+C. has said
+D. had said
+| B. said
 
-@ A horse ............. always mounted from the left. 
-a. is 
-b. was 
-c. has been 
-d. had been
-| a. is 
+@ A horse ............. always mounted from the left.
+A. is
+B. was
+C. has been
+D. had been
+| A. is
 
-@ There ................... no rule about the movement of traffic before the Pope came to visit Paris. 
-a. is 
-b. are 
-c. was 
-d. were
-| c. was
+@ There ................... no rule about the movement of traffic before the Pope came to visit Paris.
+A. is
+B. are
+C. was
+D. were
+| C. was
 
-@ Thus a custom ............... born. 
-a. is 
-b. was 
-c. has been 
-d. had been
-| b. was
+@ Thus a custom ............... born.
+A. is
+B. was
+C. has been
+D. had been
+| B. was
 
 @  There ............. only one place in the whole of England where it ........... legal
-to drive on the right. 
-a. is / is 
-b. was / was 
-c. are / is 
-d. were / was
-| a. is / is 
+to drive on the right.
+A. is / is
+B. was / was
+C. are / is
+D. were / was
+| A. is / is
 
-@  The founders of the American nature ..................... the custom after the Revolution. 
-a. reverse 
-b. reversed 
-c. has reversed 
-d. had reversed
-| b. reversed
+@  The founders of the American nature ..................... the custom after the Revolution.
+A. reverse
+B. reversed
+C. has reversed
+D. had reversed
+| B. reversed
 
-@ When Bonaparte came along, he ................. it the law of the land. 
-a. makes 
-b. made 
-c. has made 
-d. had made
-| b. made
+@ When Bonaparte came along, he ................. it the law of the land.
+A. makes
+B. made
+C. has made
+D. had made
+| B. made
 
-@ The king just .............. here yesterday. 
-a. comes 
-b. came 
-c. has come 
-d. had come
-| b. came 
+@ The king just .............. here yesterday.
+A. comes
+B. came
+C. has come
+D. had come
+| B. came
 
 @ Many people ............ their jobs because of the firm's collapse.
-a. lose 
-b. lost 
-c. has lost 
-d. had lost
-| b. lost
+A. lose
+B. lost
+C. has lost
+D. had lost
+| B. lost
 
-@ I ......................... cleaning the floor, and now it's dirty again. 
-a. just finish 
-b. just finished 
-c. have just finished 
-d. had just finished
-| c. have just finished
+@ I ......................... cleaning the floor, and now it's dirty again.
+A. just finish
+B. just finished
+C. have just finished
+D. had just finished
+| C. have just finished
 
-@ I .................. a ghost in my life. 
-a. never see 
-b. never saw 
-c. have never seen 
-d. had never seen
-| c. have never seen
+@ I .................. a ghost in my life.
+A. never see
+B. never saw
+C. have never seen
+D. had never seen
+| C. have never seen
 
-@ They ............. dinner before coming here. 
-a. have 
-b. had 
-c. have had 
-d. had had
-| d. had had
+@ They ............. dinner before coming here.
+A. have
+B. had
+C. have had
+D. had had
+| D. had had
 
-@ He waked up and down until he .................. by the returning warmth. 
-a. is reassured 
-b. was reassured 
-c. has been reassured 
-d. have been reassured
-| b. was reassured 
+@ He waked up and down until he .................. by the returning warmth.
+A. is reassured
+B. was reassured
+C. has been reassured
+D. have been reassured
+| B. was reassured
 
-@ I will wait until you ............... back. 
-a. come 
-b. came 
-c. has came 
-d. will come
-| a. come 
+@ I will wait until you ............... back.
+A. come
+B. came
+C. has came
+D. will come
+| A. come
 
-@ We always take out umbrellas with us when it ............... 
-a. rains 
-b. rained 
-c. has rained 
-d. had rained
-| a. rains 
+@ We always take out umbrellas with us when it ...............
+A. rains
+B. rained
+C. has rained
+D. had rained
+| A. rains
 
-@ I sat near the window whenever I ............... a bus. 
-a. take 
-b. took 
-c. has taken 
-d. had taken
-| b. took
+@ I sat near the window whenever I ............... a bus.
+A. take
+B. took
+C. has taken
+D. had taken
+| B. took
 
-@ It was raining hard when I ............. there. 
-a. get 
-b. got 
-c. has got 
-d. had got
-| b. got
+@ It was raining hard when I ............. there.
+A. get
+B. got
+C. has got
+D. had got
+| B. got
 
-@ She ................the piano since she was a child. 
-a. plays 
-b. played 
-c. has played 
-d. had played
-| c. has played
+@ She ................the piano since she was a child.
+A. plays
+B. played
+C. has played
+D. had played
+| C. has played
 
-@ The sun ............ in the east. 
-a. rise 
-b. rose 
-c. rises 
-d. has risen
-| c. rises
+@ The sun ............ in the east.
+A. rise
+B. rose
+C. rises
+D. has risen
+| C. rises
 
 @ How long do you want me to heat the oil?
-- Heat it till it ............... to smoke. 
-a. begins 
-b. began 
-c. has begun 
-d. had begun
-| a. begins
+- Heat it till it ............... to smoke.
+A. begins
+B. began
+C. has begun
+D. had begun
+| A. begins
 
 @ How long are you going to stay here?
-- I'm going to stay here till my brother .............. his exams. 
-a. finishes 
-b. finished 
-c. would finish 
-d. will finish
-| a. finishes
+- I'm going to stay here till my brother .............. his exams.
+A. finishes
+B. finished
+C. would finish
+D. will finish
+| A. finishes
 
 @ When will you start the trip?
-- We'll leave as soon as we .............. our tickets. 
-a. get 
-b. got 
-c. will get 
-d. would get
-| a. get 
+- We'll leave as soon as we .............. our tickets.
+A. get
+B. got
+C. will get
+D. would get
+| A. get
 
 @ - I'm learning English.- Well, when we ............... English fluently, we may find a good job.
-a. speak 
-b. spoke 
-c. has spoken 
-d. will speak
-| a. speak 
+A. speak
+B. spoke
+C. has spoken
+D. will speak
+| A. speak
 
-@ - By the time you ............. this book, your meal will get cold. 
-- Oh, I only have a few pages left. 
-a. read 
-b. will read 
-c. have read 
-d. had read
-| c. have read
+@ - By the time you ............. this book, your meal will get cold.
+- Oh, I only have a few pages left.
+A. read
+B. will read
+C. have read
+D. had read
+| C. have read
 
 @ - Are you taking English courses?
-- Yes, and my teacher says that when I ................... five courses, I shall be able to speak it quite fluently. 
-a. have taken 
-b. took 
-c. has taken 
-d. will take
-| a. have taken
+- Yes, and my teacher says that when I ................... five courses, I shall be able to speak it quite fluently.
+A. have taken
+B. took
+C. has taken
+D. will take
+| A. have taken
 
 @ - Is your father at home?
 - No, he is away on business. If you have a message for him, I ................. it to him as soon as he ............ home.
-a. give / gets 
-b. give / will get 
-c. will give / get 
-d. will give / gets
-| d. will give / gets
+A. give / gets
+B. give / will get
+C. will give / get
+D. will give / gets
+| D. will give / gets
 
 @ - Please tell me how to get to the post office?
 - Go till you ................ to a square with a statue in the middle; then turn left and you .................. it on
-your right. 
-a. come / fine 
-b. come / will find 
-c. will come / find 
-d. will come / will find
-| b. come / will find
+your right.
+A. come / fine
+B. come / will find
+C. will come / find
+D. will come / will find
+| B. come / will find
 
 @ - What did he say before he left for Paris?
-- He said he would give me a ring as soon as he ............... Paris. 
-a. reaches 
-b. reached 
-c. will reach 
-d. would reach
-| b. reached 
+- He said he would give me a ring as soon as he ............... Paris.
+A. reaches
+B. reached
+C. will reach
+D. would reach
+| B. reached
 
-@ - I thought you were going to the concert. 
-- I was. But when I got there, the tickets ............... sold out. So I ........... go back home. 
-a. was / had to 
-b. had been / have to 
-c. had been / had to 
-d. were / had to
-| c. had been / had to 
+@ - I thought you were going to the concert.
+- I was. But when I got there, the tickets ............... sold out. So I ........... go back home.
+A. was / had to
+B. had been / have to
+C. had been / had to
+D. were / had to
+| C. had been / had to
 
 @ - How long have you been working in this firm?
-- I have been working here for five years. When I .............. here for fifteen years, I'll be able to get some pension. 
-a. work 
-b. will be working 
-c. has worked 
-d. has been working
-| a. work
+- I have been working here for five years. When I .............. here for fifteen years, I'll be able to get some pension.
+A. work
+B. will be working
+C. has worked
+D. has been working
+| A. work
 
 @ Tell us what ............... to you yesterday?
-a. happen 
-b. happened 
-c. had happened 
-d. has happened
-| b. happened
+A. happen
+B. happened
+C. had happened
+D. has happened
+| B. happened
 
-@ We ............ you a telegram as soon as we ............ in Chicago tomorrow. 
-a. will send / arrive 
-b. would send / arrived
-c. will send / will arrive 
-d. send / arrive
-| a. will send / arrive
+@ We ............ you a telegram as soon as we ............ in Chicago tomorrow.
+A. will send / arrive
+B. would send / arrived
+C. will send / will arrive
+D. send / arrive
+| A. will send / arrive
 
-@ The druggist .................. for home when we ............ to the store yesterday. 
-a. already left / got 
-b. had already left / got
-c. already left / had got 
-d. had already left / had got
-| b. had already left / got
+@ The druggist .................. for home when we ............ to the store yesterday.
+A. already left / got
+B. had already left / got
+C. already left / had got
+D. had already left / had got
+| B. had already left / got
 
-@ Mr. Carlson ................ to another man when I .......... him this morning. 
-a. is talking / see 
-b. was talking / saw 
-c. had talked / saw 
-d. has talked / saw
-| b. was talking / saw
+@ Mr. Carlson ................ to another man when I .......... him this morning.
+A. is talking / see
+B. was talking / saw
+C. had talked / saw
+D. has talked / saw
+| B. was talking / saw
 
-@ I .............. Mr. Harris your message when I see him tomorrow. 
-a. give 
-b. gave 
-c. will give 
-d. would give
-| d. would give
+@ I .............. Mr. Harris your message when I see him tomorrow.
+A. give
+B. gave
+C. will give
+D. would give
+| D. would give
 
-@ When George .............. this afternoon, he ................ his friends. 
-a. will come / will bring
-b. comes / will bring
-c. comes / brings 
-d. will come / brings
-| b. comes / will bring
+@ When George .............. this afternoon, he ................ his friends.
+A. will come / will bring
+B. comes / will bring
+C. comes / brings
+D. will come / brings
+| B. comes / will bring
 
-@ The Andersons .................. into their new apartment last week. 
-a. moves 
-b. move 
-c. moved 
-d. has moved
-| c. moved
+@ The Andersons .................. into their new apartment last week.
+A. moves
+B. move
+C. moved
+D. has moved
+| C. moved
 
-@ As I .............. the street, two cars ............... by me at full speed yesterday. 
-a. crossed / raced 
-b. crossed / was racing 
-c. crossed / had raced 
-d. crossed / were racing
-| a. crossed / raced 
+@ As I .............. the street, two cars ............... by me at full speed yesterday.
+A. crossed / raced
+B. crossed / was racing
+C. crossed / had raced
+D. crossed / were racing
+| A. crossed / raced
 
-@ Mr. Brink ................ the Atlantic by the time the news reaches him. 
-a. cross 
-b. are crossing 
-c. will be crossing 
-d. crosses
-| c. will be crossing
+@ Mr. Brink ................ the Atlantic by the time the news reaches him.
+A. cross
+B. are crossing
+C. will be crossing
+D. crosses
+| C. will be crossing
 
-@ If we ............... the news sooner, we would have written to John. 
-a. received 
-b. had received 
-c. receive 
-d. will receive
-| b. had received
+@ If we ............... the news sooner, we would have written to John.
+A. received
+B. had received
+C. receive
+D. will receive
+| B. had received
 
-@ I'm sure they .......... Ellen the information if they had it. 
-a. give 
-b. will give 
-c. gave 
-d. would give
-| d. would give
+@ I'm sure they .......... Ellen the information if they had it.
+A. give
+B. will give
+C. gave
+D. would give
+| D. would give
 
-@ If a policeman ........... an accident, he will take the driver's name. 
-a. see 
-b. will see
-c. would see 
-d. sees
-| d. sees
+@ If a policeman ........... an accident, he will take the driver's name.
+A. see
+B. will see
+C. would see
+D. sees
+| D. sees
 
-@ We are going to buy the furniture if we ............... some money. 
-a. borrow 
-b. borrowed 
-c. will borrow 
-d. would borrow
-| a. borrow
+@ We are going to buy the furniture if we ............... some money.
+A. borrow
+B. borrowed
+C. will borrow
+D. would borrow
+| A. borrow
 
 @ What ................. tomorrow if you ............... a millionaire?
-a. are you going to do / are 
-b. were you doing to do / was
-c. will you do / was 
-d. would you do / were
-| d. would you do / were
+A. are you going to do / are
+B. were you doing to do / was
+C. will you do / was
+D. would you do / were
+| D. would you do / were
 
-@ If Carl ................... so careless, he wouldn't lose his good job. 
-a. wasn't 
-b. weren't 
-c. hadn't been 
-d. wouldn't be
-| b. weren't 
+@ If Carl ................... so careless, he wouldn't lose his good job.
+A. wasn't
+B. weren't
+C. hadn't been
+D. wouldn't be
+| B. weren't
 
-@ If you ...................... the instruction, read them again. 
-a. don't understand
-b. didn't understand 
-c. hadn't understood 
-d. wouldn't understand
-| a. don't understand
+@ If you ...................... the instruction, read them again.
+A. don't understand
+B. didn't understand
+C. hadn't understood
+D. wouldn't understand
+| A. don't understand
 
-@ I .................. it unless I had seen it with my own eyes. 
-a. will not believe 
-b. would not believe
-c. would not have believed 
-d. would not have believe
-| c. would not have believed 
+@ I .................. it unless I had seen it with my own eyes.
+A. will not believe
+B. would not believe
+C. would not have believed
+D. would not have believe
+| C. would not have believed
 
-@ Fred ................ it unless he had your permission. 
-a. will not do 
-b. would not do 
-c. would do 
-d. wouldn't have done
-| b. would not do 
+@ Fred ................ it unless he had your permission.
+A. will not do
+B. would not do
+C. would do
+D. wouldn't have done
+| B. would not do
 
-@ I .................. that job even if the manager offers it to me. 
-a. don't accept 
-b. will not accept 
-c. would not accept 
-d. didn't accept
-| b. will not accept
+@ I .................. that job even if the manager offers it to me.
+A. don't accept
+B. will not accept
+C. would not accept
+D. didn't accept
+| B. will not accept
 
-@ I was reluctant ................. a decision without ................ all the facts. 
-a. to make / to know 
-b. to make / knowing
-c. making / to know 
-d. making / knowing
-| b. to make / knowing
+@ I was reluctant ................. a decision without ................ all the facts.
+A. to make / to know
+B. to make / knowing
+C. making / to know
+D. making / knowing
+| B. to make / knowing
 
-@ The man was accused of .................... private property. 
-a. to steal 
-b. stealing 
-c. stolen 
-d. b & c are correct
-| b. stealing
+@ The man was accused of .................... private property.
+A. to steal
+B. stealing
+C. stolen
+D. b & c are correct
+| B. stealing
 
-@ After we .................. all our exercises, we went to the cinema. 
-a. completed 
-b. has completed 
-c. has been completing
-d. had completed
-| d. had completed
+@ After we .................. all our exercises, we went to the cinema.
+A. completed
+B. has completed
+C. has been completing
+D. had completed
+| D. had completed
 
-@ None of us ................. such a delicious meal like this. 
-a. taste 
-b. tastes 
-c. tasted 
-d. has tasted
-| b. tastes 
+@ None of us ................. such a delicious meal like this.
+A. taste
+B. tastes
+C. tasted
+D. has tasted
+| B. tastes
 
-@ The country is very .................., so travelling on the road is difficult. 
-a. mountain 
-b. mountain-high 
-c. mountain-side 
-d. mountainous
-| d. mountainous
+@ The country is very .................., so travelling on the road is difficult.
+A. mountain
+B. mountain-high
+C. mountain-side
+D. mountainous
+| D. mountainous
 
-@ The teacher streaked the need for regular ..................... 
-a. attend 
-b. attendant 
-c. attendance 
-d. attender
-| c. attendance 
+@ The teacher streaked the need for regular .....................
+A. attend
+B. attendant
+C. attendance
+D. attender
+| C. attendance
 
-@ John's ..................... improved at his new school. 
-a. behave 
-b. behavioral
-c. behavior 
-d. behaviorism
-| c. behavior
+@ John's ..................... improved at his new school.
+A. behave
+B. behavioral
+C. behavior
+D. behaviorism
+| C. behavior
 
-@ Jim always does what he says; he's a very .................... person. 
-a. rely 
-b. reliably 
-c. reliance 
-d. reliable
-| d. reliable
+@ Jim always does what he says; he's a very .................... person.
+A. rely
+B. reliably
+C. reliance
+D. reliable
+| D. reliable
 
-@ The company is very efficient and gives a ................... service. 
-a. speed 
-b. speeding 
-c. speedy 
-d. speediness
-| c. speedy 
+@ The company is very efficient and gives a ................... service.
+A. speed
+B. speeding
+C. speedy
+D. speediness
+| C. speedy
 
 @ Dogs are very ...................... pets.
-a. faith 
-b. faithful 
-c. faithfully 
-d. faithfulness
-| b. faithful
+A. faith
+B. faithful
+C. faithfully
+D. faithfulness
+| B. faithful
 
-@ Since ................ has been so poor, the class has to be closed. 
-a. attend 
-b. attendant 
-c. attendance 
-d. attendee
-| c. attendance
+@ Since ................ has been so poor, the class has to be closed.
+A. attend
+B. attendant
+C. attendance
+D. attendee
+| C. attendance
 
 @ Do you have a ................ costume in your country?
-a. national 
-b. nation 
-c. native 
-d. nationality
-| a. national 
+A. national
+B. nation
+C. native
+D. nationality
+| A. national
 
-@ The weather will be better with ................... showers. 
-a. occasion 
-b. occasional 
-c. occasionally 
-d. occasionality
-| b. occasional
+@ The weather will be better with ................... showers.
+A. occasion
+B. occasional
+C. occasionally
+D. occasionality
+| B. occasional
 
-@ I had no map. That's why I got lost. If I ................ a map, I ............ all right. 
-a. have / will be 
-b. had / would be
-c. had had / would have been 
-d. a & b are correct
-| c. had had / would have been
+@ I had no map. That's why I got lost. If I ................ a map, I ............ all right.
+A. have / will be
+B. had / would be
+C. had had / would have been
+D. a & b are correct
+| C. had had / would have been
 
-@ Most people ................. the Union meeting if they had had longer notice of it. 
-a. would have attended 
-b. would attend
-c. will attend 
-d. shall attend
-| a. would have attended
+@ Most people ................. the Union meeting if they had had longer notice of it.
+A. would have attended
+B. would attend
+C. will attend
+D. shall attend
+| A. would have attended
 
-@ The boy with his dog ............... here last night. 
-a. is 
-b. are 
-c. was 
-d. were
-| c. was
+@ The boy with his dog ............... here last night.
+A. is
+B. are
+C. was
+D. were
+| C. was
 
-@ Each of the boy ................ won a prize. 
-a. have 
-b. has 
-c. was 
-d. were
-| b. has 
+@ Each of the boy ................ won a prize.
+A. have
+B. has
+C. was
+D. were
+| B. has
 
-@ He's got a lot of books ............... 
-a. read 
-b. to read 
-c. reading 
-d. for read
-| b. to read
+@ He's got a lot of books ...............
+A. read
+B. to read
+C. reading
+D. for read
+| B. to read
 
-@ I heard the door .............. 
-a. open 
-b. to open 
-c. opening 
-d. a & c are correct
-| d. a & c are correct
+@ I heard the door ..............
+A. open
+B. to open
+C. opening
+D. a & c are correct
+| D. a & c are correct
 
 @ In your office, who is responsible for ............... the mail?
-a. take care of 
-b. caring of 
-c. taking of 
-d. taking care of
-| d. taking care of
+A. take care of
+B. caring of
+C. taking of
+D. taking care of
+| D. taking care of
 
-@ There is ................... to believe that he is not prepared for his future work. 
-a. reason 
-b. reasonable 
-c. reasonably 
-d. a reason
-| d. a reason
+@ There is ................... to believe that he is not prepared for his future work.
+A. reason
+B. reasonable
+C. reasonably
+D. a reason
+| D. a reason
 
-@ This company offers a lot of ................. jobs. 
-a. attractive 
-b. attracted 
-c. attraction 
-d. attract
-| a. attractive 
+@ This company offers a lot of ................. jobs.
+A. attractive
+B. attracted
+C. attraction
+D. attract
+| A. attractive
 
-@ The farmers need ................ their crops. 
-a. rotate 
-b. to rotate 
-c. rotating 
-d. a & b are correct
-| d. a & b are correct
+@ The farmers need ................ their crops.
+A. rotate
+B. to rotate
+C. rotating
+D. a & b are correct
+| D. a & b are correct
 
-@ A new road is being ................ in my village. 
-a. build 
-b. built 
-c. to build 
-d. building
-| b. built 
+@ A new road is being ................ in my village.
+A. build
+B. built
+C. to build
+D. building
+| B. built
 
-@ When the wastes are poured into the atmosphere, the air ............... unpleasant to breathe. 
-a. become 
-b. becomes 
-c. became 
-d. has become
-| c. became 
+@ When the wastes are poured into the atmosphere, the air ............... unpleasant to breathe.
+A. become
+B. becomes
+C. became
+D. has become
+| C. became
 
-@ Now farmers are accustomed ................. this fertilizer to their fields. 
-a. apply 
-b. applying 
-c. to apply 
-d. to applying
-| d. to applying
+@ Now farmers are accustomed ................. this fertilizer to their fields.
+A. apply
+B. applying
+C. to apply
+D. to applying
+| D. to applying
 
-@ Well, I think that the prices here are ....................... 
-a. reason 
-b. reasonable
-c. reasonably 
-d. a reason
-| b. reasonable
+@ Well, I think that the prices here are .......................
+A. reason
+B. reasonable
+C. reasonably
+D. a reason
+| B. reasonable
 
 @ Do you feel .................. to this kind of job?
-a. attractive 
-b. attracted 
-c. attraction 
-d. attract
-| b. attracted
+A. attractive
+B. attracted
+C. attraction
+D. attract
+| B. attracted
 
-@ American women ...................... independent. 
-a. are used to be 
-b. are used to being 
-c. is used to being 
-d. is used to be
-| b. are used to being 
+@ American women ...................... independent.
+A. are used to be
+B. are used to being
+C. is used to being
+D. is used to be
+| B. are used to being
 
 @ Which would you ................., tea or coffee?
-a. preference 
-b. preferential 
-c. prefer 
-d. preferable
-| c. prefer 
+A. preference
+B. preferential
+C. prefer
+D. preferable
+| C. prefer
 
-@ They are ................. doing the same thing every day. 
-a. bored with 
-b. fond of 
-c. afraid of 
-d. like
-| a. bored with 
+@ They are ................. doing the same thing every day.
+A. bored with
+B. fond of
+C. afraid of
+D. like
+| A. bored with
 
-@ Ask the shop ..................... where the washing powder is. 
-a. nurse 
-b. assistant 
-c. barber 
-d. conductor
-| b. assistant
+@ Ask the shop ..................... where the washing powder is.
+A. nurse
+B. assistant
+C. barber
+D. conductor
+| B. assistant
 
-@ That ................... sells very good meat. 
-a. baker 
-b. dentist 
-c. architect 
-d. butcher
-|d. butcher
+@ That ................... sells very good meat.
+A. baker
+B. dentist
+C. architect
+D. butcher
+|D. butcher
 
-@ If my tooth doesn't stop hurting. I'll go and see my ..................... 
-a. actor 
-b. dentist 
-c. writer 
-d. jockey
-| b. dentist
+@ If my tooth doesn't stop hurting. I'll go and see my .....................
+A. actor
+B. dentist
+C. writer
+D. jockey
+| B. dentist
 
-@ Not many buses have a ................ You usually pay the driver. 
-a. manager 
-b. farmer 
-c. conductor 
-d. porter
-| c. conductor
+@ Not many buses have a ................ You usually pay the driver.
+A. manager
+B. farmer
+C. conductor
+D. porter
+| C. conductor
 
 @ Look! The ............... is feeding the lions.
-a. keeper 
-b. pianist 
-c. postman 
-d. engineer
-| a. keeper
+A. keeper
+B. pianist
+C. postman
+D. engineer
+| A. keeper
 
-@ She is an .................... girl. 
-a. attractive 
-b. attracted 
-c. attraction 
-d. attract
-| a. attractive 
+@ She is an .................... girl.
+A. attractive
+B. attracted
+C. attraction
+D. attract
+| A. attractive
 
-@ After your eye test, the .................. will tell you if you need glasses. 
-a. dentist 
-b. doctor 
-c. surgeon 
-d. optician
-| d. optician
+@ After your eye test, the .................. will tell you if you need glasses.
+A. dentist
+B. doctor
+C. surgeon
+D. optician
+| D. optician
 
-@ The .............. wanted to write an article about me in the paper. 
-a. agent 
-b. musician 
-c. journalist 
-d. announcer
-| c. journalist
+@ The .............. wanted to write an article about me in the paper.
+A. agent
+B. musician
+C. journalist
+D. announcer
+| C. journalist
 
 @ I hope the ................. can repair our car quickly.
-a. mechanic 
-b. reporter 
-c. surgeon 
-d. engineer
-| a. mechanic
+A. mechanic
+B. reporter
+C. surgeon
+D. engineer
+| A. mechanic
 
-@ He got drunk after drinking some ................. drink. 
-a. rich 
-b. strong 
-c. clever 
-d. powerful
-| b. strong
+@ He got drunk after drinking some ................. drink.
+A. rich
+B. strong
+C. clever
+D. powerful
+| B. strong
 
-@ The ................ of the moon for the earth causes the tides. 
-a. attractive 
-b. attracted 
-c. attraction 
-d. attract
-| c. attraction 
+@ The ................ of the moon for the earth causes the tides.
+A. attractive
+B. attracted
+C. attraction
+D. attract
+| C. attraction
 
-@ He was ..................... right when he said that the man was guilty. 
-a. reason 
-b. reasonable 
-c. reasonably 
-d. a reason
-| c. reasonably
+@ He was ..................... right when he said that the man was guilty.
+A. reason
+B. reasonable
+C. reasonably
+D. a reason
+| C. reasonably
 
-@ Another word for "damage" is ........................... 
-a. wound 
-b. injury 
-c. destruction 
-d. destroy
-| c. destruction
+@ Another word for "damage" is ...........................
+A. wound
+B. injury
+C. destruction
+D. destroy
+| C. destruction
 
-@ “To employ” means to ........................ 
-a. borrow 
-b. buy 
-c. hire 
-d. work
-| c. hire
+@ “To employ” means to ........................
+A. borrow
+B. buy
+C. hire
+D. work
+| C. hire
 
-@ Another word for "entire" is ........................ 
-a. whole 
-b. part 
-c. strong 
-d. completed
-| a. whole 
+@ Another word for "entire" is ........................
+A. whole
+B. part
+C. strong
+D. completed
+| A. whole
 
 /** Câu hỏi từ vựng tiếng anh dễ.
 
 @ It took us almost four hours to ……….. too London.
-A. reach                       
-B. arrive                      
-C. get              
+A. reach
+B. arrive
+C. get
 D. approach
-| C. get 
+| C. get
 
 @ Some medicines are only available on ……….. .
-A. description             
-B. instruction              
-C. inscription   
+A. description
+B. instruction
+C. inscription
 D. prescription
 | D. prescription
 
 @ She had to pay the adult ……….. on the bus because she was 18.
-A. fare                         
-B. amount                   
-C. toll             
+A. fare
+B. amount
+C. toll
 D. fine
-| A. fare 
+| A. fare
 
 @ If you’re on a diet, you should ……….. honey for sugar in you tea.
-A. change                    
-B. replace                    
-C. substitute    
+A. change
+B. replace
+C. substitute
 D. convert
-| C. substitute 
+| C. substitute
 
 @ Be ……….., you can’t expect to learn a language in a week.
-A. just                         
-B. sane                                    
-C. fair             
+A. just
+B. sane
+C. fair
 D. reasonable
 | D. reasonable
 
 @ It’s difficult to ……….. the difference between margarine and butter.
-A. speak                      
-B. tell                          
-C. say              
+A. speak
+B. tell
+C. say
 D. look
-| B. tell 
+| B. tell
 
 @ Without her ……….. help they would never have survived the terrible  ordeal.
-A. priceless                  
-B. worthy                    
-C. invaluable   
+A. priceless
+B. worthy
+C. invaluable
 D. treasured
 | C. invaluable
 
 @ I remember seeing him on one other ……….. with his wife.
-A. incident                  
-B. moment                  
-C. occasion     
+A. incident
+B. moment
+C. occasion
 D. celebration
 | C. occasion
 
 @ The two small companies are going to ……….. at the end of the year.
-A. mix                         
-B. blend                      
-C. merge          
+A. mix
+B. blend
+C. merge
 D. meet
 | C. merge
 
 @ Be careful not to ……….. your finger with that needle.
-A. bite                         
-B. scratch                    
-C. prick           
+A. bite
+B. scratch
+C. prick
 D. sting
 | C. prick
 
 @ After you’ve eaten those sweets, make sure you throw the ……….. in the bin.
-A. waste                      
-B. junk                                    
-C. litter            
+A. waste
+B. junk
+C. litter
 D. debris
 | C. litter
 
 @ How can I ……….. you of her innocence?
-A. convince                 
-B. influence                 
-C. assume        
+A. convince
+B. influence
+C. assume
 D. prove
 | A. convince
 
 @ The general was found guilty of dishonourable conduct and ……….. of his rank.
-A. stolen                      
-B. robbed                    
-C. ripped         
+A. stolen
+B. robbed
+C. ripped
 D. stripped
 | D. stripped
 
 @ Every ……….. must take a drug test before the race.
-A. contestant               
-B. winner                   
-C. opponent    
+A. contestant
+B. winner
+C. opponent
 D. rival
-| A. contestant 
+| A. contestant
 
 @ Gavin was hired to……….. young police cadets in the art of self-defence.
-A. practice                   
-B. inform                    
-C. instruct       
+A. practice
+B. inform
+C. instruct
 D. rehearse
 | C. instruct
 
 @ My headmaster made a ……….. at his retirement party.
-A. lecture                    
-B. speech                     
-C. debate         
+A. lecture
+B. speech
+C. debate
 D. talk
-| B. speech 
+| B. speech
 
 @ Can you ……….. the children from school since you’re going out?
-A. take                                    
-B. bring                       
-C. carry           
+A. take
+B. bring
+C. carry
 D. fetch
 | D. fetch
 
 @ That coat is far too………..; I’ll never be able to afford it.
-A. rich                         
-B. reasonable               
-C. expensive    
+A. rich
+B. reasonable
+C. expensive
 D. precious
 | C. expensive
 
 @ She spends a great ……….. of her time in London.
-A. period                     
-B. number                   
-C. quantity      
+A. period
+B. number
+C. quantity
 D. deal
 | D. deal
 
 @ The scientists ……….. the behavior of the laboratory animals.
-A. observed                 
-B. recognized             
-C. uncovered   
+A. observed
+B. recognized
+C. uncovered
 D. discovered
 | A. observed
 
 @ She used the ……….. of the cloth to make a patchwork quilt.
-A. leftover                   
-B. rest                          
-C. ending        
+A. leftover
+B. rest
+C. ending
 D. remaining
 | D. remaining
 
 @ Many birds ……….. south during the winter months.
-A. emigrate                 
-B. originate                 
-C. immigrate   
+A. emigrate
+B. originate
+C. immigrate
 D. migrate
 | D. migrate
 
 @ Certain medicines can now help to ……….. life.
-A. delay                      
-B. prolong                   
-C. stretch        
+A. delay
+B. prolong
+C. stretch
 D. expand
-| B. prolong 
+| B. prolong
 
 @ Workers are paid money for their …………
-A. labour                     
-B.  duty                       
-C. job              
+A. labour
+B.  duty
+C. job
 D. career
 | A. labour
 
 @ When he is nervous, his hands …………
-A. shake                      
-B. vibrate                    
-C. shiver          
+A. shake
+B. vibrate
+C. shiver
 D. Shudder
 | A. shake
 
 @ He ……….. something under his breath
-A. shouted                  
-B. mentioned              
-C. muttered     
+A. shouted
+B. mentioned
+C. muttered
 D. told
-| C. muttered 
+| C. muttered
 
 @ He often gets lost because he never pays attention to the road ………..
-A. signals                    
-B. signs                      
-C. posts           
+A. signals
+B. signs
+C. posts
 D. symbols
-| B. signs 
+| B. signs
 
 @ If you ……….. your gloves there, you’ll never remember to pick them up.
-A. leave                       
-B. misplace                  
-C. forget          
+A. leave
+B. misplace
+C. forget
 D. lose
-| B. misplace 
+| B. misplace
 
 @ The baby tried to walk, but it kept falling ………..
-A. back                        
-B. off                          
-C. on               
+A. back
+B. off
+C. on
 D. over
 | D. over
 
 @ The sun is too hot – let’s sit in the ………..
-A. shadow                   
-B. darkness                 
-C. shade          
+A. shadow
+B. darkness
+C. shade
 D. cover
 | C. shade
 
 @  The Republican Party have been in ……….. in the U.S.A since 2000.
-A. force                       
-B. rule                         
-C. authority     
+A. force
+B. rule
+C. authority
 D. power
 | D. power
 
 @ He was so tired that he fell ……….. during the lecture.
-A. sleeping                  
-B. asleep                      
-C. sleepy        
+A. sleeping
+B. asleep
+C. sleepy
 D. sleepless
 | B. asleep
 
 @ A huge ……….. spread across her face when she saw her boyfriend.
-A. grin                         
-B. giggle                      
-C. chuckle       
+A. grin
+B. giggle
+C. chuckle
 D. laugh
 | A. grin
 
 @ The driver had to ……….. quickly to avoid hitting a tree.
-A. swing                      
-B. sway                       
-C. twist           
+A. swing
+B. sway
+C. twist
 D. swerve
 | D. swerve
 
 @ James won a ……….. to go and study in America.
-A. grant                       
-B. scholarship             
-C. donation     
+A. grant
+B. scholarship
+C. donation
 D. charity
 | B. scholarship
 
 @ Working in the bar at night provided another source of ……….. for Paul.
-A. wage                       
-B. pay                          
-C. salary          
+A. wage
+B. pay
+C. salary
 D. income
 | D. income
 
 @  The ……….. of the roses was beautiful.
-A. flavor                      
-B. savour                     
-C. odour          
+A. flavor
+B. savour
+C. odour
 D. scent
 | D. scent
 
 @ My friends and I are going to ……….. a house together.
-A. lend                                    
-B. hire                         
-C. rent             
+A. lend
+B. hire
+C. rent
 D. borrow
-| C. rent 
+| C. rent
 
 @ Be careful skating on that bond – the ice might ………..
-A. crash                       
-B. smash                      
-C. crack           
+A. crash
+B. smash
+C. crack
 D. tear
 | C. crack
 
 @ You need a ……….. to be able to park your car there.
-A. licence                    
-B. permit                     
-C. certificate   
+A. licence
+B. permit
+C. certificate
 D. diploma
 | B. permit
 
 @ I didn’t have time to read the newspaper but I had a quick ……….. at the headlines.
-A. glance                     
-B. gaze                        
-C. wink           
+A. glance
+B. gaze
+C. wink
 D. stare
-| A. glance 
+| A. glance
 
 @ I had to ……….. out of the window to shout to him.
-A. bend                       
-B. lean                         
-C. bow                        
+A. bend
+B. lean
+C. bow
 D. stick
 | B. lean
 
 @ Look in the telephone ……….. for his phone number.
-A. directory                 
-B. catalogue                
-C. leaflet         
+A. directory
+B. catalogue
+C. leaflet
 D. brochure
 | A. directory
 
 @ There was a long ……….. on his face.
-A. bruise                      
-B. blister                      
-C. scar             
+A. bruise
+B. blister
+C. scar
 D. bump
 | C. scar
 
 @ I remember the amazing mountain ……….. from my holiday in Australia,.
-A. display                    
-B. spectacle                 
-C. sight            
+A. display
+B. spectacle
+C. sight
 D. scenery
 | D. scenery
 
 @ Late arrivals to the theatre will be ……….. entry until the interval.
-A. neglected                
-B. refused                   
-C. ignored       
+A. neglected
+B. refused
+C. ignored
 D. rejected
-| B. refused 
+| B. refused
 
 @ The princess hoped one day to marry a ……….. prince.
-A. handsome               
-B. pretty                      
-C. beautiful     
+A. handsome
+B. pretty
+C. beautiful
 D. delightful
 | A. handsome
 
 @ Ruth is a very ……….. person who enjoys going to parties.
-A. solitary                   
-B. communal               
-C. bold                        
+A. solitary
+B. communal
+C. bold
 D. sociable
 | D. sociable
 
 @ It was a terrible accident, but fortunately there were very ……….. casualties.
-A. little                        
-B. small                       
-C. few             
+A. little
+B. small
+C. few
 D. less
-| C. few  
+| C. few
 
 @ She really should get a new coat because her old one is so ………..
-A. messy                     
-B. scruffy                    
-C. untidy         
+A. messy
+B. scruffy
+C. untidy
 D. careless
 | B. scruffy
 
 @ The murderer was ……….. to life imprisonment.
-A. accused                  
-B. sentenced               
-C. charged       
+A. accused
+B. sentenced
+C. charged
 D. tried
 | B. sentenced
 
 @ She ……….. herself with her new perfume.
-A. showered                
-B. sprinkled                 
-C. sprayed       
+A. showered
+B. sprinkled
+C. sprayed
 D. scattered
 | C. sprayed
 
 @ The school was very small, with a ……….. of only three teachers.
-A. team                       
-B. crew                        
-C. cast             
+A. team
+B. crew
+C. cast
 D. staff
 | D. staff
 
 @ Somebody’s loss is often somebody else’s ………..
-A. win                         
-B. achievement           
-C. gain             
+A. win
+B. achievement
+C. gain
 D. rise
 | C. gain
 
 @ The cinema is right on the corner – you can’t ……….. it.
-A. lose                         
-B. miss                       
-C. avoid          
+A. lose
+B. miss
+C. avoid
 D. drop
-| B. miss 
+| B. miss
 
 @ The cricket match was stopped early due to ……….. rain that lasted two hours.
-A. huge                       
-B. heavy                      
-C. big              
+A. huge
+B. heavy
+C. big
 D. powerful
 | B. heavy
 
 @ The jury ……….. their verdict of not guilty.
-A. mentioned              
-B. presented                
-C. announced  
+A. mentioned
+B. presented
+C. announced
 D. said
-| C. announced 
+| C. announced
 
 @ The  TV was very expensive so I’ve arranged to pay for it in ………..
-A. deposits                  
-B. sections                   
-C. instalments 
+A. deposits
+B. sections
+C. instalments
 D. portions
 | C. instalments
 
 @ We arrived early at the airport  and were able to check ……….. for our flight straight away.
-A. in                            
-B. out                          
-C. up               
+A. in
+B. out
+C. up
 D. off
-| A. in 
+| A. in
 
 @ I’m going to buy some ……….. in order to make myself a new dress.
-A. clothes                    
-B. cloth                       
-C. costumes     
+A. clothes
+B. cloth
+C. costumes
 D. clothing
 | B. cloth
 
 @  It took us ages to get here, but ……….. we’re home!
-A. lately                      
-B. eventually               
-C. at last          
+A. lately
+B. eventually
+C. at last
 D. in the end
 | C. at last
 
 @ Since I live on the ……….. of the city, I have a long drive into town every day.
-A. suburbs                   
-B. outside                    
-C. outskirts      
+A. suburbs
+B. outside
+C. outskirts
 D. border
 | C. outskirts
 
 @ Large companies sometimes try to take ……….. smaller companies by buying a majority of the shares.
-A. in                            
-B. after                                    
-C. down          
+A. in
+B. after
+C. down
 D. over
 | D. over
 
 @ The only tourist ……….. in the town was the medieval church.
-A. fascination              
-B. appeal                     
-C. charm          
+A. fascination
+B. appeal
+C. charm
 D. attraction
 | D. attraction
 
 @ Sally ……….. down on everyone who isn’t as clever as her.
-A. puts                                    
-B. pushes                    
-C. takes           
+A. puts
+B. pushes
+C. takes
 D. looks
 | D. looks
 
 @ John decided to ……….. his subcription to the magazine.
-A. delay                      
-B. undo                       
-C. cancel         
+A. delay
+B. undo
+C. cancel
 D. delete
-| C. cancel 
+| C. cancel
 
 @ His injuries seemed minor at first, but in the end they were ………..
-A. healthy                   
-B. lethal                       
-C. fatal                        
+A. healthy
+B. lethal
+C. fatal
 D. terminal
-| C. fatal 
+| C. fatal
 
 @ I grew up in a small town on the south ……….. of England.
-A. shore                       
-B. coast                       
-C. bank            
+A. shore
+B. coast
+C. bank
 D. side
 | B. coast
 
 @ Julie decided to break ……….. with her boyfriend after they’d been together for two years.
-A. down                      
-B. out                         
-C. up               
+A. down
+B. out
+C. up
 D. away
-| C. up 
+| C. up
 
 @To get the best view, we drove right to the ……….. of the cliff.
-A. border                     
-B. limit                        
-C. edge            
+A. border
+B. limit
+C. edge
 D. margin
-| C. edge 
+| C. edge
 
 @ The astronauts’ landing on the moon was a historic ……….. for the world.
-A. moment                  
-B. interval                   
-C. instant         
+A. moment
+B. interval
+C. instant
 D. period
 | A. moment
 
 @ I haven’t yet ……….. all my ambitions.
-A. managed                 
-B. achieved                 
-C. succeeded   
+A. managed
+B. achieved
+C. succeeded
 D. reached
 | B. achieved
 
 @ Bill managed to get ……….. a lot of paperwork today.
-A. along                      
-B. over                                    
-C. by               
+A. along
+B. over
+C. by
 D. through
-| B. over 
+| B. over
 
 @ He gave a ……….. of relief when the exam was over.
-A. yawn                      
-B. sigh                         
-C. cough          
+A. yawn
+B. sigh
+C. cough
 D. breath
 | D. breath
 
 @ It’s easier to ……….. a pill if you tak it with water.
-A. bite                         
-B. chew                       
-C. swallow                  
+A. bite
+B. chew
+C. swallow
 D. lick
 | B. chew
 
 @ I’ve just seen an interesting news ……….. about global warming.
-A. study                      
-B. account                   
-C. announcement        
+A. study
+B. account
+C. announcement
 D. report
 | D. report
 
 @ My rich uncle ……….. a large estate in England.
-A. belongs                   
-B. owns                       
-C. claims                     
+A. belongs
+B. owns
+C. claims
 D. holds
-| B. owns  
+| B. owns
 
 @ This brooch has been passed ……….. through three generations as a family heirloom.
-A. over                                    
-B. away                       
-C. down                      
+A. over
+B. away
+C. down
 D. off
-| C. down 
+| C. down
 
 @ I’m feeling quite ill and may not be ……….. such a long journey.
-A. in with                    
-B. in for                       
-C. up to                       
+A. in with
+B. in for
+C. up to
 D. over to
-| C. up to 
+| C. up to
 
 @ The lion gave such a ……….. that we all ran away.
-A. purr                         
-B. bark                                    
-C. grunt                       
+A. purr
+B. bark
+C. grunt
 D. roar
 | D. roar
 
 @ I’m quite good at golf but I need to ……….. my swing.
-A. train                        
-B. coach                      
-C. exercise                   
+A. train
+B. coach
+C. exercise
 D. practise
 | D. practise
 
 @ Jake got up early and left quietly without ……….. anyone.
-A. bothering                
-B. upsetting                 
-C. annoying                 
+A. bothering
+B. upsetting
+C. annoying
 D. disturbing
 | D. disturbing
 
 @ Tom bougt a ……….. of bananas at the supermarket yesterday.
-A. group                      
-B. pile                          
-C. stack                       
+A. group
+B. pile
+C. stack
 D. bunch
 | D. bunch
 
 @ It was rather childish of her to ……….. into tears when you corrected her mistake.
-A. fall                          
-B. melt                                    
-C. burst                       
+A. fall
+B. melt
+C. burst
 D. break
 | C. burst
 
 @ Donna kew that she was right and was determined to ……….. up for herself.
-A. stay                         
-B. shout                       
-C. stand                       
+A. stay
+B. shout
+C. stand
 D. support
 | C. stand
 
 @ Plumber changed into his ……….. before he started work.
-A. suit                         
-B. uniform                  
-C. overalls                   
+A. suit
+B. uniform
+C. overalls
 D. costume
 | C. overalls
 
 @ Her diamond necklace ……….. in the sunlight.
-A. polished                  
-B. sparkled                  
-C. brightened              
+A. polished
+B. sparkled
+C. brightened
 D. lightened
-| B. sparkled 
+| B. sparkled
 
 @ I’ve left you a ……….. on the table.
-A. note                                    
-B. sign                         
-c. mark                       
+A. note
+B. sign
+C. mark
 D. notice
 | A. note 
 
@@ -3047,8 +3045,3 @@ B. eyesight
 C. sight                        
 D. site
 | B. eyesight
-
-
-
-
-
