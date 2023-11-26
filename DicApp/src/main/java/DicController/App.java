@@ -5,6 +5,7 @@ import App.DicCommandLine.DictionaryManagement;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.LoadException;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
@@ -12,6 +13,8 @@ import java.io.IOException;
 import java.util.Objects;
 
 public class App extends Application {
+    private Stage primaryStage;
+    private Parent root;
     protected static DictionaryManagement dic = new DictionaryManagement();
 
     @Override

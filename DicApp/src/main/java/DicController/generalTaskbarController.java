@@ -58,29 +58,6 @@ public class generalTaskbarController implements Initializable {
         mainView.setCenter(view);
     }
 
-    @FXML
-    void info(ActionEvent event) {
-        System.out.println("You choice home");
-        loader obj = new loader();
-        Pane view = obj.getPane("homeTemplate");
-        for(JFXButton i:taskGroup) {
-            i.setStyle("");
-        }
-        infobut.setStyle(isSelected);
-        mainView.setCenter(view);
-    }
-
-    @FXML
-    void love(ActionEvent event) {
-        System.out.println("You choice home");
-        loader obj = new loader();
-        Pane view = obj.getPane("homeTemplate");
-        for(JFXButton i:taskGroup) {
-            i.setStyle("");
-        }
-        lovebut.setStyle(isSelected);
-        mainView.setCenter(view);
-    }
 
     @FXML
     void search(ActionEvent event) {
@@ -122,7 +99,7 @@ public class generalTaskbarController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        taskGroup = new JFXButton[]{homebut, infobut, lovebut, searchbut, transbut, addbut, gamebut, eqbut};
+        taskGroup = new JFXButton[]{homebut,searchbut, transbut, addbut, gamebut, eqbut};
         home(new ActionEvent());
     }
 }

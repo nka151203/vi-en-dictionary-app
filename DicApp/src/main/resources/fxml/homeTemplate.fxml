@@ -54,7 +54,7 @@
                                     <Font size="20.0" />
                                  </font>
                               </Label>
-                              <Label layoutX="189.0" layoutY="43.0" text="256 từ">
+                              <Label fx:id="solve" layoutX="189.0" layoutY="43.0" text="256 từ">
                                  <font>
                                     <Font name="System Bold" size="40.0" />
                                  </font>
@@ -72,7 +72,7 @@
                                     <Font size="20.0" />
                                  </font>
                               </Label>
-                              <Label layoutX="189.0" layoutY="44.0" text="99 từ">
+                              <Label fx:id="contribute" layoutX="189.0" layoutY="44.0" text="99 từ">
                                  <font>
                                     <Font name="System Bold" size="40.0" />
                                  </font>

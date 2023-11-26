@@ -1,5 +1,6 @@
 package DicController;
 
+import App.DicCommandLine.DictionaryManagement;
 import App.DicCommandLine.Word;
 import javafx.animation.Timeline;
 import javafx.animation.KeyFrame;
@@ -37,9 +38,15 @@ public class homeController implements Initializable {
     private Label helloView;
     @FXML
     private ImageView helloIMG;
+    @FXML
+    private Label contribute;
+    @FXML
+    private Label solve;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        contribute.setText(DictionaryManagement.contributedWord+" từ");
+        solve.setText(DictionaryManagement.lookupedWord+" từ");
         Random random = new Random();
         int randomIndex = random.nextInt(0,App.dic.getWords().size());
         System.out.println(randomIndex);

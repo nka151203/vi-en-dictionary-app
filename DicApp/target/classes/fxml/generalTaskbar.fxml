@@ -91,31 +91,7 @@
                               <Insets bottom="5.0" top="5.0" />
                            </VBox.margin>
                         </JFXButton>
-                        <JFXButton fx:id="lovebut" minHeight="50.0" minWidth="50.0" onAction="#love" prefHeight="35.0" prefWidth="35.0" styleClass="buttonTaskbar" stylesheets="@../css/buttonCollections.css">
-                           <graphic>
-                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../icon/likesave.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <VBox.margin>
-                              <Insets bottom="5.0" top="5.0" />
-                           </VBox.margin>
-                        </JFXButton>
                         <Pane prefHeight="192.0" prefWidth="50.0" />
-                        <JFXButton fx:id="infobut" minHeight="50.0" minWidth="50.0" onAction="#info" prefHeight="63.0" prefWidth="50.0" styleClass="buttonTaskbar" stylesheets="@../css/generalStyle.css">
-                           <graphic>
-                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../icon/info.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                           <VBox.margin>
-                              <Insets bottom="5.0" top="5.0" />
-                           </VBox.margin>
-                        </JFXButton>
                      </children>
                   </VBox>
                </children>

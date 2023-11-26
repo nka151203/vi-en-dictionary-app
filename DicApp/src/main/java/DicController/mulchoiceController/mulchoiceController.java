@@ -45,7 +45,7 @@ public class mulchoiceController implements Initializable {
     @FXML
     private Label question;
     @FXML
-    private Label timeLabel;
+    private Label timeLabel = new Label();
     @FXML
     private Label trueCurr;
 
@@ -167,6 +167,7 @@ public class mulchoiceController implements Initializable {
         listQuiz = new ArrayList<>();
         runQuiz = new MultipleChoices();
         runQuiz.insertFromFile();
+
         ArrayList<Integer> answerSheet = new ArrayList<Integer>();
         for(int i=0;i<10;i++){
             answerSheet.add(0);
@@ -176,7 +177,8 @@ public class mulchoiceController implements Initializable {
             Quiz add = runQuiz.randomQuiz(this.level);
             listQuiz.add(new quizManager(add));
         }
-        listQuizNumber[0].fire();
+        ////
+        ////
         for(int k =0; k<10; k++) {
             int finalK = k;
             //go to each question

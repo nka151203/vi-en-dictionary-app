@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
-<?import com.jfoenix.controls.JFXToggleButton?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -19,15 +18,6 @@
          <children>
             <Pane prefHeight="200.0" prefWidth="200.0">
                <children>
-                  <JFXButton contentDisplay="CENTER" layoutX="666.0" layoutY="76.0" minHeight="50.0" minWidth="50.0" onAction="#editAction" prefHeight="50.0" prefWidth="43.0" styleClass="outlineEdit" stylesheets="@../css/buttonCollections.css">
-                     <graphic>
-                        <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../icon/edit.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </JFXButton>
                   <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutX="739.0" layoutY="75.0" minHeight="50.0" minWidth="50.0" onAction="#removeAction" prefHeight="25.0" prefWidth="43.0" styleClass="outlineRemove" stylesheets="@../css/buttonCollections.css">
                      <graphic>
                         <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
@@ -37,7 +27,7 @@
                         </ImageView>
                      </graphic>
                   </JFXButton>
-                  <JFXButton fx:id="pronunBut" contentDisplay="CENTER" layoutX="597.0" layoutY="76.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="43.0" styleClass="outlineSound" stylesheets="@../css/buttonCollections.css">
+                  <JFXButton fx:id="pronunBut" contentDisplay="CENTER" layoutX="659.0" layoutY="75.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="43.0" styleClass="outlineSound" stylesheets="@../css/buttonCollections.css">
                      <graphic>
                         <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -56,7 +46,6 @@
                         <Font size="30.0" />
                      </font>
                   </Text>
-                  <JFXToggleButton fx:id="loveBut" layoutX="806.0" layoutY="76.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="63.0" styleClass="outlineLove" stylesheets="@../css/buttonCollections.css" toggleColor="RED" toggleLineColor="#ff00006e" />
                   <SVGPath fill="#070000" layoutX="380.0" layoutY="83.0" />
                </children>
             </Pane>

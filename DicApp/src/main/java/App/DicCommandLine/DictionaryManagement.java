@@ -14,8 +14,8 @@ public class DictionaryManagement extends Dictionary {
 
     public List<String> listInterestedWord = new ArrayList<>();
 
-    public static int lookupedWord;
-    public static int contributedWord;
+    public static int lookupedWord=0;
+    public static int contributedWord=0;
 
     private final int indexSepate = 58105;
 
