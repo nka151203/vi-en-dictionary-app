@@ -1,6 +1,7 @@
 package App.DicCommandLine;
 
 import DicGame.HangmanCommandLine;
+import DicGame.MultipleChoicesCommandLine;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -62,6 +63,7 @@ public class DictionaryCommandline extends DictionaryManagement {
                 scanner.nextLine();
                 switch (choice) {
                     case 0:
+                        dictionaryExportToFile();
                         System.out.println("Goodbye!");
                         exit = true;
                         break;
@@ -113,8 +115,38 @@ public class DictionaryCommandline extends DictionaryManagement {
                         dictionarySearcher(prefix);
                         break;
                     case 7:
-                        HangmanCommandLine hangman = new HangmanCommandLine();
-                        hangman.playGame();
+                        boolean release = false;
+                        while (!release) {
+                            System.out.println("Welcome to Game!");
+                            System.out.println("[0] Exit");
+                            System.out.println("[1] Hangman");
+                            System.out.println("[2] MultipleChoices");
+
+                            try {
+                                int choose = scanner.nextInt();
+                                scanner.nextLine();
+                                switch (choose) {
+                                    case 0 -> {
+                                        System.out.println("Goodbye!");
+                                        release = true;
+                                    }
+                                    case 1 -> {
+                                        HangmanCommandLine hangman = new HangmanCommandLine();
+                                        hangman.playGame();
+                                    }
+                                    case 2 -> {
+                                        MultipleChoicesCommandLine mc = new MultipleChoicesCommandLine();
+                                        mc.playGame();
+                                    }
+
+                                    default -> throw new IllegalStateException("Unexpected value: " + choose);
+                                }
+                            }
+                            catch (Exception e) {
+                                System.out.println("Action not supported.");
+                                scanner.nextLine();
+                            }
+                        }
                         break;
                     case 8:
                         break;

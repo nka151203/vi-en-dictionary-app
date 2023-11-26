@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="800.0" prefWidth="1230.0" styleClass="hangmanBack" stylesheets="@../css/gameHome.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DicController.hangman">
+<AnchorPane prefHeight="800.0" prefWidth="1230.0" styleClass="hangmanBack" stylesheets="@../css/gameHome.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DicController.hangmanController.hangmanController">
    <children>
       <Label fx:id="time" layoutX="824.0" layoutY="164.0" prefHeight="49.0" prefWidth="128.0" text="0:24" textFill="WHITE">
          <font>

@@ -14,14 +14,13 @@ import javazoom.jl.player.advanced.AdvancedPlayer;
  *
  */
 public class textToSpeechGoogleAPI {
-
     //Create a Synthesizer instance
     SynthesiserV2 synthesizer = new SynthesiserV2("AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw");
 
     /**
      * Constructor
      */
-    public textToSpeechGoogleAPI() {
+    public textToSpeechGoogleAPI() throws IOException {
 
         //Let's speak in English
 

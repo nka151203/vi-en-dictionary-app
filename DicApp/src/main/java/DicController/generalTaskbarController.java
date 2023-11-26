@@ -18,7 +18,7 @@ public class generalTaskbarController implements Initializable {
     String isSelected="-fx-border-width: 0 0 0 3; -fx-border-color: #5bf3e8;";
 
     @FXML
-    private JFXButton homebut, infobut, lovebut, searchbut, transbut, addbut, gamebut;
+    private JFXButton homebut, infobut, lovebut, searchbut, transbut, addbut, gamebut, eqbut;
     @FXML
     private JFXButton[] taskGroup;
 
@@ -35,10 +35,10 @@ public class generalTaskbarController implements Initializable {
     }
 
     @FXML
-    void game(ActionEvent event) {
+    public void game(ActionEvent event) {
         System.out.println("You choice home");
         loader obj = new loader();
-        Pane view = obj.getPane("homeTemplate");
+        Pane view = obj.getPane("gameListTemplate");
         for(JFXButton i:taskGroup) {
             i.setStyle("");
         }
@@ -105,10 +105,24 @@ public class generalTaskbarController implements Initializable {
         transbut.setStyle(isSelected);
         mainView.setCenter(view);
     }
+    @FXML
+    void eqordif(ActionEvent event) {
+        loader obj = new loader();
+        Pane view = obj.getPane("eqOrDifTemplate");
+        for(JFXButton i:taskGroup) {
+            i.setStyle("");
+        }
+        eqbut.setStyle(isSelected);
+        mainView.setCenter(view);
+    }
+
+    public void setCenter(Pane node) {
+        mainView.setCenter(node);
+    }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        taskGroup = new JFXButton[]{homebut, infobut, lovebut, searchbut, transbut, addbut, gamebut};
+        taskGroup = new JFXButton[]{homebut, infobut, lovebut, searchbut, transbut, addbut, gamebut, eqbut};
         home(new ActionEvent());
     }
 }

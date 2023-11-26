@@ -26,45 +26,44 @@ public class searchController implements Initializable {
 
     @FXML
     private TextField searchBox;
+
     @FXML
     private Label needWord;
 
-    wordController setWordTemplate = new wordController();
-
-
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        //App.dic.insertFromFile();
-        listWord.getItems().addAll(App.dic.trie.searchWordsWithPrefix(""));
+        if (App.dic != null && App.dic.trie != null) {
+            listWord.getItems().addAll(App.dic.trie.searchWordsWithPrefix(""));
 
-        //show selected word by type
-        searchBox.textProperty().addListener(new ChangeListener<String>() {
-            @Override
-            public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
-                if(newValue != oldValue){
-                    listWord.getItems().clear();
-                    listWord.getItems().addAll(App.dic.trie.searchWordsWithPrefix(newValue));
+            searchBox.textProperty().addListener(new ChangeListener<String>() {
+                @Override
+                public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
+                    if (!newValue.equals(oldValue)) {
+                        listWord.getItems().clear();
+                        listWord.getItems().addAll(App.dic.trie.searchWordsWithPrefix(newValue));
+                    }
                 }
-            }
-        });
+            });
 
-        //show selected word in list
-        listWord.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
-            @Override
-            public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
-                System.out.println("You choice");
-                Word selectedWord = App.dic.dictionaryLookup(newValue);
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/wordTemplate.fxml"));
-                Pane view = null;
-                try {
-                    view = loader.load();
-                } catch (IOException e) {
-                    throw new RuntimeException(e);
+            listWord.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
+                @Override
+                public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
+                    if (newValue != null && !newValue.isEmpty()) {
+                        Word selectedWord = App.dic.dictionaryLookup(newValue);
+                        if (selectedWord != null) {
+                            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/wordTemplate.fxml"));
+                            try {
+                                Pane view = loader.load();
+                                wordController wc = loader.getController();
+                                wc.initialize(selectedWord.getWordTarget(), selectedWord.getPronunciation(), selectedWord.getWordExplain());
+                                searchPane.setCenter(view);
+                            } catch (IOException e) {
+                                throw new RuntimeException(e);
+                            }
+                        }
+                    }
                 }
-                wordController wc = loader.getController();
-                wc.initialize(selectedWord.getWordTarget(),selectedWord.getPronunciation(),selectedWord.getWordExplain());
-                searchPane.setCenter(view);
-            }
-        });
+            });
+        }
     }
 }

@@ -1,0 +1,40 @@
+.parent{
+    -fx-background-color: #e1e1e1;
+}
+.slider{
+    -fx-background-color: white;
+}
+.buttonTaskbar:hover{
+    -fx-background-color: rgba(91, 243, 232, 0.4);
+    -fx-border-width: 0 0 0 3;
+    -fx-border-color: #5bf3e8;
+}
+.word{
+    -fx-font-size: 20;
+}
+.buttonTaskbar:selected{
+    -fx-border-width: 0 0 0 3;
+    -fx-border-color: #5bf3e8;
+}
+.lineTextBox{
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 3 0;
+    -fx-border-color: black;
+    -fx-caret-color:black;
+}
+.lineTextBoxWhite{
+    -fx-font-size: 21;
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 3 0;
+    -fx-text-fill: white;
+    -fx-border-color: #ffffff;
+    -fx-caret-color: #ffffff;
+}
+.scoreMulchoice{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+.meaning{
+    font-family: 'Segoe UI, sans-serif';
+    font-size: 21px;
+}

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
-<?import com.jfoenix.controls.JFXTextArea?>
 <?import com.jfoenix.controls.JFXToggleButton?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.image.Image?>
@@ -12,6 +11,7 @@
 <?import javafx.scene.shape.SVGPath?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
+<?import javafx.scene.web.WebView?>
 
 <AnchorPane prefHeight="800.0" prefWidth="920.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DicController.wordController">
    <children>
@@ -19,7 +19,7 @@
          <children>
             <Pane prefHeight="200.0" prefWidth="200.0">
                <children>
-                  <JFXButton fx:id="editBut" contentDisplay="CENTER" layoutX="666.0" layoutY="76.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="43.0" styleClass="outlineEdit" stylesheets="@../css/buttonCollections.css">
+                  <JFXButton contentDisplay="CENTER" layoutX="666.0" layoutY="76.0" minHeight="50.0" minWidth="50.0" onAction="#editAction" prefHeight="50.0" prefWidth="43.0" styleClass="outlineEdit" stylesheets="@../css/buttonCollections.css">
                      <graphic>
                         <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -28,7 +28,7 @@
                         </ImageView>
                      </graphic>
                   </JFXButton>
-                  <JFXButton fx:id="removeBut" alignment="CENTER" contentDisplay="CENTER" layoutX="739.0" layoutY="75.0" minHeight="50.0" minWidth="50.0" prefHeight="25.0" prefWidth="43.0" styleClass="outlineRemove" stylesheets="@../css/buttonCollections.css">
+                  <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutX="739.0" layoutY="75.0" minHeight="50.0" minWidth="50.0" onAction="#removeAction" prefHeight="25.0" prefWidth="43.0" styleClass="outlineRemove" stylesheets="@../css/buttonCollections.css">
                      <graphic>
                         <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -63,11 +63,7 @@
             <Separator prefHeight="12.0" prefWidth="672.0" />
             <Pane prefHeight="599.0" prefWidth="930.0">
                <children>
-                  <JFXTextArea fx:id="wordMeaning" layoutX="73.0" layoutY="2.0" prefHeight="592.0" prefWidth="850.0" styleClass="word" stylesheets="@../css/generalStyle.css" text="* (halloa) /hə'lou/, (hello) /'he'lou/&#10;*  thán từ&#10;- chào anh!, chào chị!&#10;- này, này&#10;- ô này! (tỏ ý ngạc nhiên)&#10;*  Noun&#10;- tiếng chào&#10;- tiếng gọi &quot;này, này&quot; !&#10;- tiếng kêu ô này &quot;! (tỏ ý ngạc nhiên)&#10;*  Intransitive verb&#10;- chào&#10;- gọi &quot;này, này&quot; &#10;- kêu &quot;ô này&quot; (tỏ ý ngạc nhiên)&#10;* (halloa) /hə'lou/, (hello) /'he'lou/&#10;*  thán từ&#10;- chào anh!, chào chị!&#10;- này, này&#10;- ô này! (tỏ ý ngạc nhiên)&#10;*  Noun&#10;- tiếng chào&#10;- tiếng gọi &quot;này, này&quot; !&#10;- tiếng kêu ô này &quot;! (tỏ ý ngạc nhiên)&#10;*  Intransitive verb&#10;- chào&#10;- gọi &quot;này, này&quot; &#10;- kêu &quot;ô này&quot; (tỏ ý ngạc nhiên)&#10;* (halloa) /hə'lou/, (hello) /'he'lou/&#10;*  thán từ&#10;- chào anh!, chào chị!&#10;- này, này&#10;- ô này! (tỏ ý ngạc nhiên)&#10;*  Noun&#10;- tiếng chào&#10;- tiếng gọi &quot;này, này&quot; !&#10;- tiếng kêu ô này &quot;! (tỏ ý ngạc nhiên)&#10;*  Intransitive verb&#10;- chào&#10;- gọi &quot;này, này&quot; &#10;- kêu &quot;ô này&quot; (tỏ ý ngạc nhiên)&#10;* (halloa) /hə'lou/, (hello) /'he'lou/&#10;*  thán từ&#10;- chào anh!, chào chị!&#10;- này, này&#10;- ô này! (tỏ ý ngạc nhiên)&#10;*  Noun&#10;- tiếng chào&#10;- tiếng gọi &quot;này, này&quot; !&#10;- tiếng kêu ô này &quot;! (tỏ ý ngạc nhiên)&#10;*  Intransitive verb&#10;- chào&#10;- gọi &quot;này, này&quot; &#10;- kêu &quot;ô này&quot; (tỏ ý ngạc nhiên)&#10;* (halloa) /hə'lou/, (hello) /'he'lou/&#10;*  thán từ&#10;- chào anh!, chào chị!&#10;- này, này&#10;- ô này! (tỏ ý ngạc nhiên)&#10;*  Noun&#10;- tiếng chào&#10;- tiếng gọi &quot;này, này&quot; !&#10;- tiếng kêu ô này &quot;! (tỏ ý ngạc nhiên)&#10;*  Intransitive verb&#10;- chào&#10;- gọi &quot;này, này&quot; &#10;- kêu &quot;ô này&quot; (tỏ ý ngạc nhiên)">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </JFXTextArea>
+                  <WebView fx:id="wordMeaning" layoutX="79.0" layoutY="14.0" prefHeight="576.0" prefWidth="832.0" stylesheets="@../css/generalStyle.css" />
                </children>
             </Pane>
          </children>

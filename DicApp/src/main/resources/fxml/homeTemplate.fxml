@@ -127,7 +127,7 @@
                               <Separator prefWidth="200.0" />
                               <Pane fx:id="quoteOfDay" prefHeight="410.0" prefWidth="460.0">
                                  <children>
-                                    <Label layoutX="36.0" layoutY="10.0" prefHeight="131.0" prefWidth="389.0" text="&quot;People often say that motivation doesn't last. Well, neither does bathing -- that's why we recommend it daily.&quot; -Zig Ziglar" textAlignment="CENTER" wrapText="true">
+                                    <Label fx:id="quoteLine" layoutX="36.0" layoutY="10.0" prefHeight="131.0" prefWidth="389.0" text="&quot;People often say that motivation doesn't last. Well, neither does bathing -- that's why we recommend it daily.&quot; -Zig Ziglar" textAlignment="CENTER" wrapText="true">
                                        <font>
                                           <Font size="20.0" />
                                        </font>

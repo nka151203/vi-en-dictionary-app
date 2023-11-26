@@ -3,10 +3,7 @@ package App.DicCommandLine;
 import Trie.Trie;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class DictionaryManagement extends Dictionary {
     public Trie trie;
@@ -120,7 +117,6 @@ public class DictionaryManagement extends Dictionary {
         trie.insertWord(wordTarget);
         contributedWord ++;
 
-        dictionaryExportToFile();
         System.out.println("Word added successfully.");
     }
 
@@ -137,7 +133,6 @@ public class DictionaryManagement extends Dictionary {
             removeWord(neededWord);
             trie.deleteWord(wordTarget);
 
-            dictionaryExportToFile();
             System.out.println("Word removed successfully.");
             return;
         }
@@ -164,7 +159,6 @@ public class DictionaryManagement extends Dictionary {
             trie.insertWord(newWordTarget);
             trie.deleteWord(wordTarget);
 
-            dictionaryExportToFile();
             System.out.println("Word updated successfully.");
             return;
         }
@@ -199,13 +193,13 @@ public class DictionaryManagement extends Dictionary {
         Word neededWord = binarySearchWord(words, wordTarget);
 
         if (neededWord != null) {
-                System.out.println("Word: " + neededWord.getWordTarget());
-                System.out.println("Pronunciation: " + neededWord.getPronunciation());
-                System.out.println("Meaning: " + neededWord.getWordExplain());
+            System.out.println("Word: " + neededWord.getWordTarget());
+            System.out.println("Pronunciation: " + neededWord.getPronunciation());
+            System.out.println("Meaning: " + neededWord.getWordExplain());
 
-                lookupedWord ++;
+            lookupedWord ++;
 
-                return new Word(neededWord.getWordTarget(),neededWord.getPronunciation(),neededWord.getWordExplain());
+            return new Word(neededWord.getWordTarget(),neededWord.getPronunciation(),neededWord.getWordExplain());
         }
         System.out.println("Word \"" + wordTarget + "\" not found in the dictionary.");
         return null;
@@ -313,7 +307,7 @@ public class DictionaryManagement extends Dictionary {
 
                 } catch (NumberFormatException e) {
                     e.printStackTrace();
-                 }
+                }
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -332,20 +326,25 @@ public class DictionaryManagement extends Dictionary {
     }
 
     /**
-     *
+     * Random Quote from file
      */
-    public List<String> readQuote() {
+    public String randomQuote() {
         List<String> quoteList = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader("DicApp\\src\\main\\resources\\Database\\Quote.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 quoteList.add(line);
             }
-
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return quoteList;
+        if (!quoteList.isEmpty()) {
+            Random random = new Random();
+            int index = random.nextInt(quoteList.size());
+            return quoteList.get(index);
+        } else {
+            return "No quotes available.";
+        }
     }
 }
 

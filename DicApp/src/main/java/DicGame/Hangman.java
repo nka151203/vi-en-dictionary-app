@@ -9,14 +9,13 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Hangman extends Game {
-    DictionaryManagement dictionary;
-    List<Word> words;
-    List<String> usedWord = new ArrayList<>();
-    Scanner scanner;
-    int numAttempt;
-    int time;
-    static int NUM_HINTS = 3;
-    static int score = 0;
+    public DictionaryManagement dictionary;
+    public List<Word> words;
+    public List<String> usedWord = new ArrayList<>();
+    public Scanner scanner;
+    public int numAttempt;
+    public static int NUM_HINTS = 3;
+    public static int score = 0;
 
     public Hangman() {
         dictionary = new DictionaryManagement();
@@ -27,7 +26,7 @@ public class Hangman extends Game {
             System.out.println("No words in the dictionary.");
             return;
         }
-        numAttempt = 0;
+        numAttempt = 7;
     }
 
     /**
@@ -49,7 +48,6 @@ public class Hangman extends Game {
      * Check randomWord valid
      */
     private boolean checkWord(String word) {
-        // isNotValidWord
         if (word.matches(".*[^a-zA-Z].*")) {
             return false;
         }
@@ -57,21 +55,20 @@ public class Hangman extends Game {
             return false;
         }
 
-        // isNotDuplicateWord
         for (String w : usedWord) {
             if (w.equalsIgnoreCase(word)) {
                 return false;
             }
         }
-
         return true;
     }
 
-    void showHidden(Word randomWord, StringBuilder hiddenWord) {
+    StringBuilder showHidden(Word randomWord, StringBuilder hiddenWord) {
         String targetWord = randomWord.getWordTarget();
         for (int i = 0; i < targetWord.length(); i++) {
             hiddenWord.append("_");
         }
+        return hiddenWord;
     }
 
     /**
@@ -116,12 +113,13 @@ public class Hangman extends Game {
         return hiddenWord;
     }
 
-    int checkWinOrLose(StringBuilder hiddenWord) {
+    int checkWinOrLose(StringBuilder hiddenWord, int time) {
         if (!hiddenWord.toString().contains("_")) {
             score += numAttempt * (time);
             return 1;
         }
-        if (numAttempt == 7) {
+        if (numAttempt == 0) {
+            score = 0;
             return -1;
         }
 
@@ -131,10 +129,4 @@ public class Hangman extends Game {
     public void playGame() {
     };
 
-    String getResultWord(Word randomWord) {
-        String result = randomWord.getWordTarget() + "\n";
-        result += randomWord.getPronunciation() + "\n";
-        result += randomWord.getWordExplain() + "\n";
-        return result;
-    }
 }

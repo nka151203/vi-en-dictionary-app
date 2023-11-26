@@ -10,6 +10,8 @@ public abstract class Game {
 
     static final int EASY_TIME_LIMIT = 120;
     static final int HARD_TIME_LIMIT = 90;
+    public static final int E_score = 10;
+    public static final int H_score = 20;
 
     void gameDisplay(String game) {
         System.out.println("Welcome to " + game + "!");

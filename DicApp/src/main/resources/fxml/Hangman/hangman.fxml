@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane fx:id="hangmanHome" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1230.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DicController.hangmanController.hangmanHomeController">
+   <center>
+      <AnchorPane prefHeight="800.0" prefWidth="1230.0" styleClass="hangmanHome" stylesheets="@../../css/gameHome.css" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton layoutX="515.0" layoutY="351.0" onAction="#startHangman" styleClass="fillCharacter" stylesheets="@../../css/buttonCollections.css" text="START" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="45.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,7 +1,5 @@
 package DicGame;
 
-import App.DicCommandLine.Word;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -10,22 +8,22 @@ import java.nio.file.Paths;
 import java.util.*;
 
 public class MultipleChoices extends Game {
-    private List<Quiz> quizList;
-    private Random random;
-    private Scanner scanner;
-    private Quiz yourQuiz;
-    private int score;
-    private int countQuiz;
+    public static int score = 0;
+    public static List<Quiz> quizList;
+    public static Set<String> checkQuiz;
+    public Random random;
+    public Quiz yourQuiz;
 
     public MultipleChoices() {
         quizList = new ArrayList<>();
         random = new Random();
-        scanner = new Scanner(System.in);
         yourQuiz = new Quiz();
-        score = 0;
-        countQuiz = 0;
+        checkQuiz = new HashSet<>();
     }
 
+    /**
+     * insert question data from file to quizList
+     */
     public void insertFromFile() {
         Path filePath = Paths.get("DicApp", "src", "main", "resources", "Database", "Questions.txt");
 
@@ -64,240 +62,62 @@ public class MultipleChoices extends Game {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
     }
 
-    public void playGame() {
-        insertFromFile();
-        boolean exit = false;
-        int choice;
-        while (!exit) {
-            gameDisplay("Multiple Choices");
-            try {
-                choice = scanner.nextInt();
-                scanner.nextLine();
-                switch (choice) {
-                    case 0:
-                        System.out.println("Goodbye!");
-                        exit = true;
-                        break;
-                    case 1:
-                        showPlayGame();
-                        int gameMode = scanner.nextInt();
-                        scanner.nextLine();
-                        List<Quiz> quizMode;
-                        boolean continueGame = true;
-                        Set<String> RQ_E = new HashSet<>();
-                        Set<String> RQ_H = new HashSet<>();
-                        while (continueGame) {
-                            int countScore;
-                            int timeLimit;
-                            if (gameMode == 1) {
-                                countScore = 10;
-                                timeLimit = EASY_TIME_LIMIT;
-                                quizMode = new ArrayList<>(quizList.subList(quizList.size() - 300, quizList.size()));
-                            } else {
-                                countScore = 30;
-                                timeLimit = HARD_TIME_LIMIT;
-                                quizMode = new ArrayList<>(quizList.subList(0, 300));
-                            }
-                            Quiz randomQuiz = quizMode.get(random.nextInt(quizMode.size()));
-                            int len = 0;
-                            if (gameMode == 1) {
-                                if (!RQ_E.isEmpty()) {
-                                    len = RQ_E.size();
-                                }
-                                RQ_E.add(randomQuiz.getQuestion());
-                                while (len == RQ_E.size()) {
-                                    randomQuiz = quizMode.get(random.nextInt(quizMode.size()));
-                                    RQ_E.add(randomQuiz.getQuestion());
-                                }
-                            } else {
-                                if (!RQ_H.isEmpty()) {
-                                    len = RQ_E.size();
-                                }
-                                RQ_H.add(randomQuiz.getQuestion());
-                                while (len == RQ_E.size()) {
-                                    randomQuiz = quizMode.get(random.nextInt(quizMode.size()));
-                                    RQ_H.add(randomQuiz.getQuestion());
-                                }
-                            }
-                            yourQuiz = randomQuiz;
-
-                            String yourAnswer = "";
-                            System.out.println("Your question is:\n");
-                            System.out.println(yourQuiz.getQuestion());
-                            yourQuiz.printfAnswer();
-                            System.out.println("\nEnter your answer: ");
-                            long startTime  = System.currentTimeMillis();
-                            yourAnswer = scanner.nextLine();
-                            long endTime = System.currentTimeMillis();
-                            if ((endTime - startTime) / 1000.0 >= timeLimit) {
-                                System.out.println("GAME OVER!");
-                                System.out.println("Time's up! You didn't answer this question in time.");
-                                System.out.println("The correct answer is: " + yourQuiz.getFullAnswer());
-                                System.out.println("Your score: " + score);
-                                yourQuiz.exportScore("multiple choices", score);
-                                score = 0;
-                            } else if (yourAnswer.equals(yourQuiz.getKey())) {
-                                System.out.println("You are correct!");
-                                score += countScore;
-                                System.out.println("Your score: " + score);
-                            } else {
-                                System.out.println("You are incorrect, GAME OVER!");
-                                System.out.println("The correct answer is: " + yourQuiz.getFullAnswer());
-                                System.out.println("Your score: " + score);
-                                yourQuiz.exportScore("multiple choices", score);
-                                score = 0;
-                            }
-
-                            if (gameMode == 1) {
-                                if (RQ_E.size() == quizMode.size()) {
-                                    System.out.println("[1] Do you want to play the easy level again?");
-                                    System.out.println("[2] Do you want to play harder?");
-                                    System.out.println("[3] Exit?");
-                                    System.out.println("Enter your choice: ");
-                                    int tmp = scanner.nextInt();
-                                    scanner.nextLine();
-                                    if (tmp == 1) {
-                                        gameMode = 1;
-                                        RQ_E.clear();
-                                        if (score != 0) {
-                                            yourQuiz.exportScore("multiple choices", score);
-                                            score = 0;
-                                        }
-                                    } else if (tmp == 2) {
-                                        if (RQ_H.size() < quizList.size() - quizMode.size()) {
-                                            gameMode = 2;
-                                        } else {
-                                            if (score != 0) {
-                                                yourQuiz.exportScore("multiple choices", score);
-                                                score = 0;
-                                            }
-                                            System.out.println("You have answered all the questions of this game");
-                                            System.out.println("Do you want to play again?");
-                                            System.out.println("[1] Easy");
-                                            System.out.println("[2] Hard");
-                                            System.out.println("[3] Exit?");
-                                            System.out.print("Enter your choice: ");
-                                            int yourChoice = scanner.nextInt();
-                                            scanner.nextLine();
-                                            if (yourChoice != 3) {
-                                                gameMode = yourChoice;
-                                            } else {
-                                                continueGame = false;
-                                            }
-                                        }
-                                    }
-                                } else {
-                                    System.out.println("[1] Do you want to continue playing?");
-                                    System.out.println("[2] Do you want to play harder?");
-                                    System.out.println("[3] Exit?");
-                                    System.out.println("Enter your choice: ");
-                                    int tmp = scanner.nextInt();
-                                    scanner.nextLine();
-                                    if (tmp != 3) {
-                                        gameMode = tmp;
-                                    } else {
-                                        continueGame = false;
-                                        if (score != 0) {
-                                            yourQuiz.exportScore("multiple choices", score);
-                                            score = 0;
-                                        }
-                                    }
-                                }
-                            } else {
-                                if (RQ_H.size() == quizMode.size()) {
-                                    System.out.println("[1] Do you want to play easier?");
-                                    System.out.println("[2] Do you want to play the hard level again?");
-                                    System.out.println("[3] Exit?");
-                                    System.out.println("Enter your choice: ");
-                                    int tmp = scanner.nextInt();
-                                    scanner.nextLine();
-                                    if (tmp == 2) {
-                                        gameMode = 2;
-                                        RQ_H.clear();
-                                        if (score != 0) {
-                                            yourQuiz.exportScore("multiple choices", score);
-                                            score = 0;
-                                        }
-                                    } else if (tmp == 1) {
-                                        if (RQ_E.size() < quizList.size() - quizMode.size()) {
-                                            gameMode = 1;
-                                        } else {
-                                            if (score != 0) {
-                                                yourQuiz.exportScore("multiple choices", score);
-                                                score = 0;
-                                            }
-                                            System.out.println("You have answered all the questions of this game");
-                                            System.out.println("Do you want to play again?");
-                                            System.out.println("[1] Easy");
-                                            System.out.println("[2] Hard");
-                                            System.out.println("[3] Exit?");
-                                            System.out.print("Enter your choice: ");
-                                            int yourChoice = scanner.nextInt();
-                                            scanner.nextLine();
-                                            if (yourChoice != 3) {
-                                                gameMode = yourChoice;
-                                            } else {
-                                                continueGame = false;
-                                            }
-                                        }
-                                    }
-                                } else {
-                                    System.out.println("[1] Do you want to play easier?");
-                                    System.out.println("[2] Do you want to continue playing?");
-                                    System.out.println("[3] Exit?");
-                                    System.out.println("Enter your choice: ");
-                                    int tmp = scanner.nextInt();
-                                    scanner.nextLine();
-                                    if (tmp != 3) {
-                                        gameMode = tmp;
-                                    } else {
-                                        continueGame = false;
-                                        if (score != 0) {
-                                            yourQuiz.exportScore("multiple choices", score);
-                                            score = 0;
-                                        }
-                                    }
-                                }
-                            }
-                            quizMode.clear();
-                        }
-                        break;
-                    case 2:
-                        yourQuiz.importScore("multiple choices");
-                        break;
-                }
-            } catch (Exception e) {
-                System.out.println("Action not supported.");
-                System.out.println(e.getMessage());
-                scanner.nextLine();
-            }
+    /**
+     * Random Quiz
+     * @int 0 is Ez, 1 is Hard
+     * @return randomQuiz
+     */
+    public Quiz randomQuiz(int mode) {
+        List<Quiz> listQuiz =  new ArrayList<>();
+        if (mode == 0) {
+            listQuiz = quizList.subList(quizList.size() - 300, quizList.size());
+        } else {
+            listQuiz = quizList.subList(0, 300);
         }
+        //if (checkEasyQuiz.size() == EasyQuiz.size()){
+          //  return null;
+        //}
+        //int len = 0;
+
+        Quiz randomQiz = listQuiz.get(random.nextInt(listQuiz.size()));
+
+        //if (!checkQuiz.isEmpty()) {
+            int len = checkQuiz.size();
+        //}
+        checkQuiz.add(randomQiz.getQuestion());
+        while (len == checkQuiz.size()) {
+            randomQiz = listQuiz.get(random.nextInt(listQuiz.size()));
+            checkQuiz.add(randomQiz.getQuestion());
+        }
+        return randomQiz;
+    }
+
+    /**
+     * check answer true or false
+     * @Quiz currentQuiz
+     * @String answer
+     * @return status
+     */
+    public boolean checkYourAnswer(Quiz newQuiz, String answer) {
+        return answer.equalsIgnoreCase(newQuiz.getKey());
+    }
+
+    /**
+     * Lose or reset your turn.
+     */
+    public void Lose() {
+        if (score != 0) {
+            exportScore("multiple choices", score);
+            score = 0;
+        }
+        checkQuiz.clear();
     }
 
     @Override
-    Word randomQuestion() {
-        return null;
-    }
+    void playGame() {
 
-    private void showQuizList() {
-        List<Quiz> quizs = quizList;
-        int cnt = 1;
-        for (Quiz i :  quizs) {
-            System.out.print(cnt + ". ");
-            System.out.println(i.getQuestion());
-            i.printfAnswer();
-            i.getFullAnswer();
-            i.getKey();
-            cnt++;
-        }
-        System.out.println(quizs.size());
-    }
-    public static void main(String []args) {
-        MultipleChoices mc = new MultipleChoices();
-        mc.insertFromFile();
-        //mc.showQuizList();
-        mc.playGame();
     }
 }

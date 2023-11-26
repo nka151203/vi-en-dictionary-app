@@ -26,6 +26,8 @@ public class homeController implements Initializable {
     @FXML
     private Pane quoteOfDay;
     @FXML
+    private Label quoteLine;
+    @FXML
     private Pane wordOfDay;
     @FXML
     private Label dateLabel;
@@ -51,7 +53,6 @@ public class homeController implements Initializable {
         }
         wordController wc = loader.getController();
         wc.initialize(selectedWord.getWordTarget(),selectedWord.getPronunciation(),selectedWord.getWordExplain());
-        wc.wordMeaning.setFont(new Font(7));
         Rectangle clip = new Rectangle (920, 500); // tạo một hình chữ nhật để làm clip
         view.setClip (clip); //cắt theo clip
         Scale scale = new Scale (0.7,0.7); // tạo một Scale transform với tỷ lệ 0.5
@@ -60,6 +61,9 @@ public class homeController implements Initializable {
         view.getTransforms ().add (scale);
         wordOfDay.getChildren().add(view);
         view.relocate (25, 0);
+
+        // Random quote
+        quoteLine.setText(App.dic.randomQuote());
 
         // Định dạng thời gian và ngày
         Date curr = new Date();
@@ -95,12 +99,9 @@ public class homeController implements Initializable {
         Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(1), event -> {
             // Lấy thời gian hiện tại
             Date now = new Date();
-
-
             // Định dạng thời gian và ngày
             SimpleDateFormat timeFormat = new SimpleDateFormat("HH:mm:ss");
             SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-
             // Đặt giá trị cho hai label
             Platform.runLater(() -> {
                 timeLabel.setText(timeFormat.format(now)+"");

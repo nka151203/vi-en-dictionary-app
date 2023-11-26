@@ -39,7 +39,7 @@
                         </Pane>
                         <Pane prefHeight="554.0" prefWidth="300.0" styleClass="rounder" stylesheets="@../css/generalStyle.css">
                            <children>
-                              <JFXListView fx:id="listWord" layoutX="-1.0" prefHeight="553.0" prefWidth="305.0" styleClass="word" stylesheets="@../css/generalStyle.css" />
+                              <JFXListView fx:id="listWord" layoutX="4.0" prefHeight="553.0" prefWidth="292.0" styleClass="word" stylesheets="@../css/generalStyle.css" />
                            </children>
                         </Pane>
                      </children>

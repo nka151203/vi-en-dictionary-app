@@ -23,7 +23,66 @@
     -fx-font-size: 14px;
 }
 /*---------------------------------------------------------------------------*/
+.chooseKey{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius: 20;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #fffdfd 0%, #fffdfd 100%),
+            radial-gradient(center 50% 50%, radius 100%, #94c5ff, #94c5ff);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-font-size: 21px;
+}
+.chooseKey:hover{
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #fffdfd 0%, #fffdfd 100%),
+            radial-gradient(center 50% 50%, radius 100%, #aed1fa, #aed1fa);
+    -fx-font-size: 21px;
+}
+.endBut{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius: 20;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #fffdfd 0%, #fffdfd 100%),
+            radial-gradient(center 50% 50%, radius 100%, #f14fa1, #f14fa1);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 21px;
+}
+.endBut:hover{
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #fffdfd 0%, #fffdfd 100%),
+            radial-gradient(center 50% 50%, radius 100%, rgba(241, 79, 161, 0.76), rgba(241, 79, 161, 0.76));
+    -fx-font-size: 21px;
+}
+.startBut{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius: 20;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #fffdfd 0%, #fffdfd 100%),
+            radial-gradient(center 50% 50%, radius 100%, #029e39, #029e39);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 21px;
+}
+.startBut:hover{
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #fffdfd 0%, #fffdfd 100%),
+            radial-gradient(center 50% 50%, radius 100%, rgba(2, 158, 57, 0.83), rgba(2, 158, 57, 0.83));
+    -fx-font-size: 21px;
+}
+.numberOFQuiz{
 
+}
+.numberOFQuiz:hover{
+
+}
 .green
 {
     -fx-background-color:
@@ -69,7 +128,6 @@
 
 .sale:hover
 {
-
     -fx-background-color:
             linear-gradient(from 0% 93% to 0% 100%,#a34313 0%,#903b12 100),
             #9d4024,
@@ -154,6 +212,17 @@
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------*/
+.thesaurus{
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-border-color: #000000;
+    -fx-background-color:null;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+}
+.thesaurus:hover{
+    -fx-background-color: rgba(155, 141, 141, 0.22);
+}
 .outline{
     -fx-text-fill: #2BC5D5;
     -fx-font-family: "Arial Narrow";
@@ -230,7 +299,6 @@
 .outlineLove{
     -fx-border-radius: 60;
     -fx-text-fill: #ff0000;
-    -fx-font-family: "Arial Narrow";
     -fx-font-weight: bold;
     -fx-border-color: #ff0000;
     -fx-background-color:null;

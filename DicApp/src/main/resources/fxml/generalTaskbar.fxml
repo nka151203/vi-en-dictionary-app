@@ -14,7 +14,7 @@
    <children>
       <BorderPane fx:id="mainView" prefHeight="200.0" prefWidth="200.0" styleClass="parent" stylesheets="@../css/generalStyle.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <left>
-            <AnchorPane prefHeight="800.0" prefWidth="50.0" styleClass="slider" stylesheets="@../css/generalStyle.css" BorderPane.alignment="CENTER">
+            <AnchorPane prefHeight="800.0" prefWidth="0.0" styleClass="slider" stylesheets="@../css/generalStyle.css" BorderPane.alignment="CENTER">
                <children>
                   <VBox alignment="CENTER" layoutY="197.0" prefHeight="595.0" prefWidth="50.0">
                      <children>
@@ -69,6 +69,15 @@
                            <VBox.margin>
                               <Insets bottom="5.0" top="5.0" />
                            </VBox.margin>
+                        </JFXButton>
+                        <JFXButton fx:id="eqbut" minHeight="50.0" minWidth="50.0" onAction="#eqordif" prefHeight="35.0" prefWidth="35.0" styleClass="buttonTaskbar" stylesheets="@../css/generalStyle.css">
+                           <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../icon/eqordif.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
                         </JFXButton>
                         <JFXButton fx:id="gamebut" minHeight="50.0" minWidth="50.0" onAction="#game" prefHeight="35.0" prefWidth="35.0" styleClass="buttonTaskbar" stylesheets="@../css/generalStyle.css">
                            <graphic>

@@ -12,6 +12,13 @@ public class HangmanCommandLine extends Hangman {
         scanner = new Scanner(System.in);
     }
 
+    String getResultWord(Word randomWord) {
+        String result = randomWord.getWordTarget() + "\n";
+        result += randomWord.getPronunciation() + "\n";
+        result += randomWord.getWordExplain() + "\n";
+        return result;
+    }
+
     String[] hangmanParts = {
             "   -------------    \n"
                     + "   |                \n"
@@ -157,7 +164,7 @@ public class HangmanCommandLine extends Hangman {
                                     hiddenWord = checkChar(randomWord,hiddenWord,guess);
                                     System.out.println(hangmanParts[7 - numAttempts]);
 
-                                    if (checkWinOrLose(hiddenWord) == 1) {
+                                    if (checkWinOrLose(hiddenWord, (int) elapsedTime) == 1) {
                                         System.out.println("Congratulations! You guessed the word: " + getResultWord(randomWord));
                                         break;
                                     }

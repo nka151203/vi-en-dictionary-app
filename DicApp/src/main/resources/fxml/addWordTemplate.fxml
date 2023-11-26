@@ -11,7 +11,6 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="800.0" prefWidth="1230.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DicController.addWordController">
@@ -20,16 +19,16 @@
          <left>
             <AnchorPane prefHeight="200.0" prefWidth="300.0" BorderPane.alignment="CENTER">
                <children>
-                  <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
                         <Pane prefHeight="248.0" prefWidth="300.0">
                            <children>
-                              <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="91.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+                              <ImageView fitHeight="125.0" fitWidth="125.0" layoutX="79.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
                                     <Image url="@../img/plus.png" />
                                  </image>
                               </ImageView>
-                              <Label layoutX="86.0" layoutY="218.0" text="THÊM TỪ">
+                              <Label layoutX="74.0" layoutY="218.0" prefHeight="45.0" prefWidth="147.0" text="THÊM TỪ">
                                  <font>
                                     <Font name="System Bold" size="30.0" />
                                  </font>
@@ -105,18 +104,16 @@
                               <Font name="System Bold" size="19.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="wordTarget" layoutX="228.0" layoutY="154.0" prefHeight="52.0" prefWidth="467.0" promptText="VD: abandon" style="-fx-background-color: transparent;">
+                        <TextField fx:id="wordTarget" layoutX="228.0" layoutY="154.0" prefHeight="52.0" prefWidth="467.0" promptText="VD: abandon" styleClass="lineTextBox" stylesheets="@../css/generalStyle.css">
                            <font>
                               <Font size="19.0" />
                            </font>
                         </TextField>
-                        <Line fx:id="wLine" endX="331.79998779296875" endY="1.52587890625E-5" layoutX="363.0" layoutY="196.0" startX="-130.06671142578125" startY="1.52587890625E-5" styleClass="-" />
-                        <TextField fx:id="pronun" layoutX="228.0" layoutY="224.0" prefHeight="52.0" prefWidth="191.0" promptText="VD: əˈbændən" style="-fx-background-color: transparent;">
+                        <TextField fx:id="pronun" layoutX="228.0" layoutY="224.0" prefHeight="52.0" prefWidth="191.0" promptText="VD: əˈbændən" styleClass="lineTextBox" stylesheets="@../css/generalStyle.css">
                            <font>
                               <Font size="19.0" />
                            </font>
                         </TextField>
-                        <Line fx:id="pLine" endX="13.53326416015625" layoutX="405.0" layoutY="266.0" startX="-173.0" styleClass="-" />
                         <TextArea fx:id="meaning" layoutX="232.0" layoutY="324.0" prefHeight="204.0" prefWidth="460.0" promptText="VD: dư thừa" wrapText="true">
                            <font>
                               <Font size="19.0" />

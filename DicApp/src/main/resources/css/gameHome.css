@@ -10,6 +10,22 @@
     -fx-background-image: url("../img/mulchoice/question.png");
     -fx-background-size: cover;
 }
+.mulchoiceHomeBack{
+    -fx-background-image: url("../img/mulchoice/quizHome.png");
+    -fx-background-size: cover;
+}
+.mulchoiceHomeEnd{
+    -fx-background-image: url("../img/mulchoice/quizEnd.png");
+    -fx-background-size: cover;
+}
+.hangmanHome{
+    -fx-background-image: url("../img/hangman/start.png");
+    -fx-background-size: cover;
+}
+.hangmanBack0{
+    -fx-background-image: url("../img/hangman/0.png");
+    -fx-background-size: cover;
+}
 .fillCharacter{
     -fx-text-fill:white;
     -fx-background-color: rgba(255, 255, 255, 0);
