@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane fx:id="gameHome" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1230.0" styleClass="parent" stylesheets="@../css/gameHome.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DicController.gameListController">
+   <center>
+      <AnchorPane prefHeight="800.0" prefWidth="1230.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton contentDisplay="TOP" layoutX="339.0" layoutY="346.0" onAction="#mul" styleClass="sale" stylesheets="@../css/buttonCollections.css" text="Multiple Choice">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/mulchoice256.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton contentDisplay="TOP" layoutX="684.0" layoutY="346.0" onAction="#hm" styleClass="sale" stylesheets="@../css/buttonCollections.css" text="Hangman">
+               <graphic>
+                  <ImageView fx:id="hm" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/hangman256.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

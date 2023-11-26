@@ -1,0 +1,45 @@
+.parent{
+    -fx-background-image: url("../img/gameback.png");
+    -fx-background-size: cover;
+}
+.hangmanBack{
+    -fx-background-image: url("../img/hangman/main.png");
+    -fx-background-size: cover;
+}
+.mulchoiceBack{
+    -fx-background-image: url("../img/mulchoice/question.png");
+    -fx-background-size: cover;
+}
+.mulchoiceHomeBack{
+    -fx-background-image: url("../img/mulchoice/quizHome.png");
+    -fx-background-size: cover;
+}
+.mulchoiceHomeEnd{
+    -fx-background-image: url("../img/mulchoice/quizEnd.png");
+    -fx-background-size: cover;
+}
+.hangmanHome{
+    -fx-background-image: url("../img/hangman/start.png");
+    -fx-background-size: cover;
+}
+.hangmanBack0{
+    -fx-background-image: url("../img/hangman/0.png");
+    -fx-background-size: cover;
+}
+.fillCharacter{
+    -fx-text-fill:white;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-border-radius: 0 0 3 0 ;
+    -fx-border-color: white;
+    -fx-caret-color:white;
+}
+.confirm{
+    -fx-border-color: white;
+}
+.confirm:hover{
+    -fx-background-color: rgba(255, 255, 255, 0.13);
+}
+.title{
+    -fx-stroke: #a75605;
+    -fx-stroke-width: 2.0;
+}

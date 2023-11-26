@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane fx:id="mulHome" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DicController.mulchoiceController.mulhomeController">
+   <center>
+      <AnchorPane prefHeight="800.0" prefWidth="1200.0" styleClass="mulchoiceHomeBack" stylesheets="@../../css/gameHome.css">
+         <children>
+            <TextField fx:id="playerName" layoutX="406.0" layoutY="485.0" prefHeight="48.0" prefWidth="395.0" styleClass="lineTextBoxWhite" stylesheets="@../../css/generalStyle.css" />
+            <JFXRadioButton layoutX="406.0" layoutY="612.0" prefHeight="79.0" prefWidth="159.0" text="Easy" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="34.0" />
+               </font>
+               <unSelectedColor>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </unSelectedColor>
+               <toggleGroup>
+                  <ToggleGroup fx:id="level" />
+               </toggleGroup>
+               <selectedColor>
+                  <Color red="0.007843137718737125" green="0.6196078658103943" blue="0.2235294133424759" />
+               </selectedColor>
+            </JFXRadioButton>
+            <JFXRadioButton layoutX="685.0" layoutY="612.0" prefHeight="79.0" prefWidth="127.0" text="Hard" textFill="WHITE" toggleGroup="$level">
+               <font>
+                  <Font name="System Bold" size="34.0" />
+               </font>
+               <unSelectedColor>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </unSelectedColor>
+               <selectedColor>
+                  <Color red="0.007843137718737125" green="0.6196078658103943" blue="0.2235294133424759" />
+               </selectedColor>
+            </JFXRadioButton>
+            <JFXButton fx:id="cf" layoutX="565.0" layoutY="709.0" onAction="#start" styleClass="startBut" stylesheets="@../../css/buttonCollections.css" text="Confirm" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

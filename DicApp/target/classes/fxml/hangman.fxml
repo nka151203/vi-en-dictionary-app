@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1230.0" styleClass="hangmanBack" stylesheets="@../css/gameHome.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DicController.hangmanController.hangmanController">
+   <children>
+      <Label fx:id="time" layoutX="824.0" layoutY="164.0" prefHeight="49.0" prefWidth="128.0" text="0:24" textFill="WHITE">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="43.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ans" alignment="CENTER" layoutX="768.0" layoutY="558.0" prefHeight="40.0" prefWidth="128.0" style="-fx-background-color: transparent;" styleClass="fillCharacter" stylesheets="@../css/gameHome.css">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="49.0" />
+         </font>
+      </TextField>
+      <JFXButton alignment="CENTER" layoutX="929.0" layoutY="574.0" onAction="#okChar" prefHeight="65.0" prefWidth="108.0" styleClass="confirm" stylesheets="@../css/gameHome.css" text="OK" textFill="WHITE">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="34.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="word" layoutX="789.0" layoutY="356.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="60.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
