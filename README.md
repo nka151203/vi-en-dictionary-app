@@ -28,15 +28,19 @@ Modify options -> Add VM options
 
 •	IntelliJ IDEA Community Edition 2022.2.2
 
+•	IntelliJ IDEA Ultimate Edition 2023.2
+
 •	Scene Builder 17
 
 •	JavaFX vesion 17.0.1
+
+•	JDK 17.0.9, SDK 17.0.9
 
 •	CSS
 
 •	Maven Framework
 
-•	API Google
+•	API Google (dịch và phát âm)
 
 •	API Ninjas: Thesaurus API
 
@@ -48,13 +52,13 @@ Dictionary:
 
 •	Dịch văn bản
 
-•	Thêm từ, sửa từ, xóa từ
+•	Thêm từ, sửa từ
 
-•	Từ điển cá nhân
+•	Tìm từ đồng/trái nghĩa
 
 Game:
 
-•	Hangman: Ôn tập từ vựng
+•	Hangman: Ôn tập từ vựng (đang phát triển)
 
 •	Multiple Choices: Ôn tập ngữ pháp + Từ vựng
 
