@@ -65,6 +65,7 @@ Game:
 # Preview
 # Cài đặt môi trường phù hợp
 • Link tải môi trường: https://bit.ly/41YAtvy
-• Nếu bạn biết cài đặt, liên hệ mình để mình có thể giúp bạn: https://bit.ly/fbcuatoiii
+
+• Nếu bạn không biết cách cài đặt, liên hệ mình để mình có thể giúp bạn: https://bit.ly/fbcuatoiii
 
 
