@@ -52,7 +52,7 @@ Dictionary:
 
 •	Dịch văn bản
 
-•	Thêm từ, sửa từ
+•	Thêm từ, sửa từ, xóa từ
 
 •	Tìm từ đồng/trái nghĩa
 
@@ -63,4 +63,8 @@ Game:
 •	Multiple Choices: Ôn tập ngữ pháp + Từ vựng
 
 # Preview
+# Cài đặt môi trường phù hợp
+• Link tải môi trường: https://bit.ly/41YAtvy
+• Nếu bạn biết cài đặt, liên hệ mình để mình có thể giúp bạn: https://bit.ly/fbcuatoiii
+
 
