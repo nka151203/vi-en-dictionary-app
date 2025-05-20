@@ -1,4 +1,4 @@
-# TDA Dictionary Application
+# Eng-Viet Dictionary for Vietnamese learner
 
 # Contributors
 
